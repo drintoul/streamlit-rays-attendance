@@ -21,11 +21,9 @@ nl_teams = ['Atlanta Braves', 'Miami Marlins', 'New York Mets', 'Philadelphia Ph
             'Chicago Cubs', 'Cincinnati Reds', 'Milwaukee Brewers', 'Pittsburgh Pirates', 'St. Louis Cardinals',
             'Arizona Diamond Backs', 'Coloroado Rockies', 'Los Angeles Dodgers', 'San Diego Padres', 'San Francisco Giants']
 
-champs = ['Texas Rangers', 'Houston Astros', 'Atlanta Braves', 'Los Angeles Dodgers', 'Washington Nationals',
-          'Chicago Cubs', 'Kansas City Royals', 'Boston Red Sox', 'Philadelphia Phillies', 'San Francisco Giants',
-          'St. Louis Cardinals', 'New York Yankees']
-
-st.write(champs)
+champions = ['Texas Rangers', 'Houston Astros', 'Atlanta Braves', 'Los Angeles Dodgers', 'Washington Nationals',
+             'Chicago Cubs', 'Kansas City Royals', 'Boston Red Sox', 'Philadelphia Phillies', 'San Francisco Giants',
+             'St. Louis Cardinals', 'New York Yankees']
 
 # remember to take Tampa Bay Rays out of list of opponents
 all_teams = sorted(al_east_teams[:-1] + al_other_teams + nl_teams)
@@ -56,7 +54,7 @@ def user_input_features():
   else:
     nl = False
 
-  if opponent in champs:
+  if opponent in champions:
     champs = True
   else:
     champs = False

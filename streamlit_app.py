@@ -98,3 +98,5 @@ st.write(df.head())
 st.write("""
 # Predicted Attendance
 """)
+
+st.write(df.describe())

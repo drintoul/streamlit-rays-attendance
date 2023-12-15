@@ -13,8 +13,10 @@ st.write("""
 capacity = 31042
 
 al_east_teams = ['Baltimore Orioles', 'Boston Red Sox', 'New York Yankees', 'Toronto Blue Jays', 'Tampa Bay Rays']
+
 al_other_teams = ['Chicago White Sox', 'Cleveland Guardians', 'Detroit Tigers', 'Kansas City Royals', 'Minnesota Twins',
                   'Houston Astros', 'Los Angeles Angels', 'Oakland Athletics', 'Seattle Mariners', 'Texas Rangers']
+
 nl_teams = ['Atlanta Braves', 'Miami Marlins', 'New York Mets', 'Philadelphia Phillies', 'Washington Nationals',
             'Chicago Cubs', 'Cincinnati Reds', 'Milwaukee Brewers', 'Pittsburgh Pirates', 'St. Louis Cardinals',
             'Arizona Diamond Backs', 'Coloroado Rockies', 'Los Angeles Dodgers', 'San Diego Padres', 'San Francisco Giants']
@@ -22,6 +24,8 @@ nl_teams = ['Atlanta Braves', 'Miami Marlins', 'New York Mets', 'Philadelphia Ph
 champs = ['Texas Rangers', 'Houston Astros', 'Atlanta Braves', 'Los Angeles Dodgers', 'Washington Nationals',
           'Chicago Cubs', 'Kansas City Royals', 'Boston Red Sox', 'Philadelphia Phillies', 'San Francisco Giants',
           'St. Louis Cardinals', 'New York Yankees']
+
+st.write(champs)
 
 # remember to take Tampa Bay Rays out of list of opponents
 all_teams = sorted(al_east_teams[:-1] + al_other_teams + nl_teams)

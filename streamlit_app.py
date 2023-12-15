@@ -64,4 +64,5 @@ st.write("""
 # Predicted Attendance
 """)
 
-st.write(1000)
+st.write(10000)
+st.write('+/- ', 500)

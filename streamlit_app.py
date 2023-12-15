@@ -81,23 +81,16 @@ st.write("""
 # Predicted Attendance
 """)
 
-history = pd.read_csv('rays_attendance.csv')
+df = pd.read_csv('rays_attendance.csv')
 
-#scaler = StandardScaler()
-#scaler.fit_transform(history)
-"""
-regr = LinearRegression()
-y = history[['attendance']]
-X = history.drop(columns=['attendance'], axis=1)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30)
+df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)
+df['al_other'] = df['Opponent'].apply(lambda x: True if x in al_other_teams else False)
+df['nl'] = df['Opponent'].apply(lambda x: True if x in nl_teams else False)
 
-regr.fit(X_train, y_train)
+df = df[df['H/A'].isnull()]
+df = df.reindex()
+df = df[['Rank', 'GB', 'D/N', 'al_east', 'al_other', 'nl', 'Attendance']]
+df.columns = ['div_rank', 'games_behind', 'daygame', 'al_east', 'al_other', 'nl', 'attendance']
+df['daygame'] = df['daygame'] == 'D'
 
-y_pred = regr.predict(X_test)
-
-prediction = regr.predict(df.values)
-st.write('Prediction:', prediction)
-
-#st.write("Estimated Error: +/- ", int(np.round(np.sqrt(mean_absolute_error(y_test, y_pred)),-2)))
-"""
-st.write('Uh oh, it\'s $100M', size=10)
+st.write(df.head())

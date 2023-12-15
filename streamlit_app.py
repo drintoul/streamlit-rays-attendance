@@ -10,10 +10,10 @@ st.sidebar.header('User Input Parameters')
 def user_input_features():
 
   day = st.sidebar.toggle('Day Game')
-  opp = st.sidebar.dropdown()
+  opponent = st.sidebar.selectbox('Opponent', ('BOS', 'NYY', 'TOR'))
 
   data = {'day': day,
-          'opp': opp}
+          'opponent': opponent}
 
   features = pd.DataFrame(data, index=[0])
   return features

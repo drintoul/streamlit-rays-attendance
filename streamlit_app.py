@@ -121,8 +121,9 @@ from sklearn.metrics import mean_absolute_error
 
 X = df.iloc[:,:-1]
 y = df.iloc[:,-1]
-scaler = StandardScaler().fit(X)
-X = scaler.transform(X)
+scaler = StandardScaler().fit_transform(X)
+X = scaler
+
 st.write(X)
 
 model = LinearRegression().fit(X, y)

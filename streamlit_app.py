@@ -91,7 +91,7 @@ df = pd.read_csv('rays_attendance.csv')
 minimum = df[df['H/A'].isnull()][['Attendance']].min().values
 maximum = df[df['H/A'].isnull()][['Attendance']].max().values
 
-mm_df[(mm_df['Attendance'] == minimum) | (mm_df['Attendance'] == maximum)]
+mm_df = [(df['Attendance'] == minimum) | (df['Attendance'] == maximum)]
 mm_df = mm_df.drop(columns=['H/A'])
 
 df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)

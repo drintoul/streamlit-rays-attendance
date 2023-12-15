@@ -123,6 +123,7 @@ error = mean_absolute_error(y_pred, y)
 # Apply Model to User Input
 
 features = pd.DataFrame(data, index=[0])
+competitor = features['opponent'].values[0]
 features.drop(columns=['opponent'], inplace=True)
 X1 = np.array(features)
 scaler.transform(X1)
@@ -145,6 +146,7 @@ st.write("""
 # Predicted Attendance
 """)
 
+st.write(competitor, features['Rank'], features['GB'])
 st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{round(prediction,-2):,.0f} +/- {round(error,-3):,.0f}</h3>', unsafe_allow_html=True)
 
 st.write('Some combinations don\'t make \'sense\' - the Rays can\'t be in first place but 10 games behind. This happens when a model is used outside of its regular context.')

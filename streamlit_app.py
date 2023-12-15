@@ -92,6 +92,7 @@ df = df.reindex()
 df = df[['Rank', 'GB', 'D/N', 'al_east', 'al_other', 'nl', 'Attendance']]
 df.columns = ['div_rank', 'games_behind', 'daygame', 'al_east', 'al_other', 'nl', 'attendance']
 df['daygame'] = df['daygame'] == 'D'
+df = df.reset_index(drop=True)
 
 st.write(df.head())
 st.write(df.describe())

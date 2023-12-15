@@ -136,7 +136,7 @@ With crowds as small as {minimum:,} and as large as {maximum:,}, it\'s important
 Machine Learning model based on 2008-2023 inclusive regular season home games (not including Pandemic year of 2020 when games were played without fans in attendance).
 """, unsafe_allow_html=True)
 
-st.info('Select input parameters using sidebar to activate prediction', icon="ℹ️")
+st.info('Select input parameters using sidebar to activate prediction', icon='ℹ️')
 
 st.subheader('User Input Parameters')
 st.write(data)
@@ -145,8 +145,8 @@ st.write("""
 # Predicted Attendance
 """)
 
-st.markdown(f"playing {data['opponent']} while ranked #{data['div_rank']} in AL East & being {data['games_behind']} games behind division lead.", unsafe_allow_html=True)
+st.markdown(f"hosting {data['opponent']} while ranked #{data['div_rank']} in AL East & being {data['games_behind']} games behind division lead.", unsafe_allow_html=True)
 
 st.markdown(f"<h3 class='big-font' color='green' font-weight='bold'>{round(prediction,-2):,.0f} +/- {round(error,-3):,.0f}</h3>", unsafe_allow_html=True)
 
-st.warning('Some combinations don\'t make \'sense\' - the Rays can\'t be in first place but 10 games behind. This happens when a model is used outside of its regular context.')
+st.warning('Some combinations don\'t make \'sense\' - the Rays can\'t be in first place but 10 games behind. This happens when a model is used outside of its regular context.', icon='⚠️')

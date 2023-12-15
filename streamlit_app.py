@@ -70,11 +70,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 
 scaler = StandardScaler()
-scaler.fit_transform(hist)
+scaler.fit_transform(history)
 
 regr = LinearRegression()
-y = hist[['attendance']]
-X = hist.drop(columns=['attendance'], axis=1)
+y = history[['attendance']]
+X = history.drop(columns=['attendance'], axis=1)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30)
 
 import numpy as np

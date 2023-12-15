@@ -56,13 +56,14 @@ def user_input_features():
           'al_other': al_other,
           'nl': nl}
 
-  features = pd.DataFrame(data, index=[0])
-  return features
+  features_df = pd.DataFrame(data, index=[0])
+  return data, features_df
 
-df = user_input_features()
+data, df = user_input_features()
 
 st.subheader('User Input Parameters')
-st.write(features)
+st.write(data)
+st.write(df)
 
 st.write("""
 # Predicted Attendance

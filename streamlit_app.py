@@ -14,9 +14,7 @@ nl = ['Atlanta Braves', 'Miami Marlins', 'New York Mets', 'Philadelphia Phillies
       'Chicago Cubs', 'Cincinnati Reds', 'Milwaukee Brewers', 'Pittsburgh Pirates', 'St. Louis Cardinals',
       'Arizona Diamond Backs', 'Coloroado Rockies', 'Los Angeles Dodgers', 'San Diego Padres', 'San Francisco Giants']
 
-all = al_east + al_other + nl
-
-st.write(all)
+all = sorted(al_east + al_other + nl - 'Tampa Bay Rays')
 
 st.sidebar.header('User Input Parameters')
 

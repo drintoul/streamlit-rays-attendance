@@ -128,11 +128,12 @@ model = LinearRegression().fit(X, y)
 y_pred = model.predict(X)
 error = mean_absolute_error(y_pred, y)
 
-X = scaler.transform(features)
-prediction = model.predict(X)
+#X = scaler.transform(features)
+#prediction = model.predict(X)
 
 st.write("""
 # Predicted Attendance
 """)
 
+prediction = None
 st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:,} +/- {error:,}</h3>', unsafe_allow_html=True)

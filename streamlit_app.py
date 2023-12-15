@@ -62,7 +62,7 @@ def user_input_features():
   else:
     yankees = False
 
-  if opponent == 'Boston Redsox':
+  if opponent == 'Boston Red Sox':
     redsox = True
   else:
     redsox = False

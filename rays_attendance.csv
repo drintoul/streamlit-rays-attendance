@@ -65,18 +65,18 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 66,"Monday, Jun 9",2008,Los Angeles Angels,@,2,1.0,N,42019
 67,"Tuesday, Jun 10",2008,Los Angeles Angels,@,2,1.0,N,37610
 68,"Wednesday, Jun 11",2008,Los Angeles Angels,@,2,2.0,D,36622
-69,"Friday, Jun 13",2008,,,2,1.5,N,19312
-70,"Saturday, Jun 14",2008,,,2,1.5,N,31195
-71,"Sunday, Jun 15",2008,,,2,2.5,D,28886
+69,"Friday, Jun 13",2008,Miami Marlins,,2,1.5,N,19312
+70,"Saturday, Jun 14",2008,Miami Marlins,,2,1.5,N,31195
+71,"Sunday, Jun 15",2008,Miami Marlins,,2,2.5,D,28886
 72,"Tuesday, Jun 17",2008,Chicago Cubs,,2,2.0,N,31607
 73,"Wednesday, Jun 18",2008,Chicago Cubs,,2,2.0,N,31496
 74,"Thursday, Jun 19",2008,Chicago Cubs,,2,1.5,N,34441
 75,"Friday, Jun 20",2008,Houston Astros,,2,1.5,N,14741
 76,"Saturday, Jun 21",2008,Houston Astros,,2,0.5,N,29953
 77,"Sunday, Jun 22",2008,Houston Astros,,2,1.5,D,19778
-78,"Tuesday, Jun 24",2008,,@,2,1.0,N,12352
-79,"Wednesday, Jun 25",2008,,@,2,1.0,N,13165
-80,"Thursday, Jun 26",2008,,@,2,0.5,D,17107
+78,"Tuesday, Jun 24",2008,Miami Marlins,@,2,1.0,N,12352
+79,"Wednesday, Jun 25",2008,Miami Marlins,@,2,1.0,N,13165
+80,"Thursday, Jun 26",2008,Miami Marlins,@,2,0.5,D,17107
 81,"Friday, Jun 27",2008,Pittsburg Pirates,@,2,0.5,N,19970
 82,"Saturday, Jun 28",2008,Pittsburg Pirates,@,2,0.5,N,17970
 83,"Sunday, Jun 29",2008,Pittsburg Pirates,@,1,-0.5,D,15828
@@ -204,9 +204,9 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 41,"Tuesday, May 19",2009,Oakland Athletics,,4,6.5,N,12842
 42,"Wednesday, May 20",2009,Oakland Athletics,,4,6.5,N,13721
 43,"Thursday, May 21",2009,Oakland Athletics,,4,5.5,D,14374
-44,"Friday, May 22",2009,,@,4,4.5,N,16226
-45,"Saturday, May 23",2009,,@,4,3.5,N,20253
-46,"Sunday, May 24",2009,,@,4,4.0,D,12839
+44,"Friday, May 22",2009,Miami Marlins,@,4,4.5,N,16226
+45,"Saturday, May 23",2009,Miami Marlins,@,4,3.5,N,20253
+46,"Sunday, May 24",2009,Miami Marlins,@,4,4.0,D,12839
 47,"Monday, May 25",2009,Cleveland Guardians,@,4,5.0,N,20929
 48,"Tuesday, May 26",2009,Cleveland Guardians,@,4,5.0,N,18754
 49,"Wednesday, May 27",2009,Cleveland Guardians,@,4,5.0,N,19335
@@ -235,9 +235,9 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 73,"Tuesday, Jun 23",2009,Phildelphia Phillies,,4,7.0,N,19608
 74,"Wednesday, Jun 24",2009,Phildelphia Phillies,,4,7.0,N,18862
 75,"Thursday, Jun 25",2009,Phildelphia Phillies,,4,6.0,N,20141
-76,"Friday, Jun 26",2009,,,4,6.0,N,20972
-77,"Saturday, Jun 27",2009,,,3,6.0,N,35790
-78,"Sunday, Jun 28",2009,,,3,5.0,D,29459
+76,"Friday, Jun 26",2009,Miami Marlins,,4,6.0,N,20972
+77,"Saturday, Jun 27",2009,Miami Marlins,,3,6.0,N,35790
+78,"Sunday, Jun 28",2009,Miami Marlins,,3,5.0,D,29459
 79,"Monday, Jun 29",2009,Toronto Blue Jays,@,3,5.0,N,15665
 80,"Tuesday, Jun 30",2009,Toronto Blue Jays,@,3,4.0,N,15477
 82,"Wednesday, Jul 1",2009,Toronto Blue Jays,@,3,5.0,D,30533
@@ -383,15 +383,15 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 59,"Tuesday, Jun 8",2010,Toronto Blue Jays,,1,-2.0,N,12937
 60,"Wednesday, Jun 9",2010,Toronto Blue Jays,,1,-2.0,N,15886
 61,"Thursday, Jun 10",2010,Toronto Blue Jays,,1,-2.0,N,13675
-62,"Friday, Jun 11",2010,,,1,-1.0,N,19338
-63,"Saturday, Jun 12",2010,,,1,-1.0,N,29963
-64,"Sunday, Jun 13",2010,,,1,0.0,D,25442
+62,"Friday, Jun 11",2010,Miami Marlins,,1,-1.0,N,19338
+63,"Saturday, Jun 12",2010,Miami Marlins,,1,-1.0,N,29963
+64,"Sunday, Jun 13",2010,Miami Marlins,,1,0.0,D,25442
 65,"Tuesday, Jun 15",2010,Atlanta Braves,@,1,0.0,N,30448
 66,"Wednesday, Jun 16",2010,Atlanta Braves,@,1,0.0,N,26807
 67,"Thursday, Jun 17",2010,Atlanta Braves,@,1,0.0,N,30427
-68,"Friday, Jun 18",2010,,@,1,0.0,N,17310
-69,"Saturday, Jun 19",2010,,@,1,0.0,N,23242
-70,"Sunday, Jun 20",2010,,@,2,1.0,D,15374
+68,"Friday, Jun 18",2010,Miami Marlins,@,1,0.0,N,17310
+69,"Saturday, Jun 19",2010,Miami Marlins,@,1,0.0,N,23242
+70,"Sunday, Jun 20",2010,Miami Marlins,@,2,1.0,D,15374
 71,"Tuesday, Jun 22",2010,San Diego Padres,,2,1.5,N,14650
 72,"Wednesday, Jun 23",2010,San Diego Padres,,2,2.5,N,15809
 73,"Thursday, Jun 24",2010,San Diego Padres,,2,2.0,D,21877
@@ -529,9 +529,9 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 42,"Tuesday, May 17",2011,New York Yankees,,1,-2.0,N,27123
 43,"Wednesday, May 18",2011,Toronto Blue Jays,@,1,-2.0,N,14415
 44,"Thursday, May 19",2011,Toronto Blue Jays,@,1,-1.0,N,12590
-45,"Friday, May 20",2011,,@,1,-0.5,N,18111
-46,"Saturday, May 21",2011,,@,1,0.0,D,21814
-47,"Sunday, May 22",2011,,@,1,0.0,D,15432
+45,"Friday, May 20",2011,Miami Marlins,@,1,-0.5,N,18111
+46,"Saturday, May 21",2011,Miami Marlins,@,1,0.0,D,21814
+47,"Sunday, May 22",2011,Miami Marlins,@,1,0.0,D,15432
 48,"Monday, May 23",2011,Detroit Tigers,@,1,0.0,N,21550
 49,"Tuesday, May 24",2011,Detroit Tigers,@,3,1.0,N,24133
 50,"Friday, May 27",2011,Cleveland Guardians,,3,1.5,N,16800
@@ -554,9 +554,9 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 68,"Tuesday, Jun 14",2011,Boston Red Sox,,3,3.5,N,20972
 69,"Wednesday, Jun 15",2011,Boston Red Sox,,3,4.5,N,19388
 70,"Thursday, Jun 16",2011,Boston Red Sox,,3,5.5,N,23495
-71,"Friday, Jun 17",2011,,,3,5.5,N,15708
-72,"Saturday, Jun 18",2011,,,3,4.5,N,20495
-73,"Sunday, Jun 19",2011,,,3,4.5,D,26761
+71,"Friday, Jun 17",2011,Miami Marlins,,3,5.5,N,15708
+72,"Saturday, Jun 18",2011,Miami Marlins,,3,4.5,N,20495
+73,"Sunday, Jun 19",2011,Miami Marlins,,3,4.5,D,26761
 74,"Monday, Jun 20",2011,Milwaukee Brewers,@,3,4.5,N,35495
 75,"Tuesday, Jun 21",2011,Milwaukee Brewers,@,3,4.5,N,40079
 76,"Wednesday, Jun 22",2011,Milwaukee Brewers,@,3,3.5,D,39632

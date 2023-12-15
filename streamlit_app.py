@@ -86,7 +86,7 @@ data, features = user_input_features()
 
 # Train Model
 
-df = pd.read_csv('rays_attendance.csv')
+df = pd.read_csv('rays_attendance.csv', dtype={'Year': str})
 
 minimum = df[df['H/A'].isnull()][['Attendance']].min().values[0]
 maximum = df[df['H/A'].isnull()][['Attendance']].max().values[0]

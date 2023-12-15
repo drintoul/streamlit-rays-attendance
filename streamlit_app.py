@@ -31,9 +31,6 @@ def user_input_features():
 
 df = user_input_features()
 
-st.subheader('User Input Parameters')
-st.write(df)
-
 if df['opponent'][0] in al_east_teams:
   df['AL East'] = True
 else:
@@ -48,3 +45,6 @@ if df['opponent'][0] in nl_teams:
   df['NL'] = True
 else:
   df['NL'] = False
+
+st.subheader('User Input Parameters')
+st.write(df)

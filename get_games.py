@@ -1,4 +1,6 @@
 def get_games(**kwargs):
+    """Get and format MLB games from baseball-reference.com
+    """
     
     import pandas as pd
     

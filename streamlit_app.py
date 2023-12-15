@@ -99,7 +99,7 @@ df = pd.read_csv('rays_attendance.csv')
 df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)
 df['al_other'] = df['Opponent'].apply(lambda x: True if x in al_other_teams else False)
 df['nl'] = df['Opponent'].apply(lambda x: True if x in nl_teams else False)
-df['champs'] = df['Opponent'].apply(lambda x: True if x in champs else False)
+df['champs'] = df['Opponent'].apply(lambda x: True if x in champions else False)
 df['yankees'] = df['Opponent'].apply(lambda x: True if x == 'New York Yankees' else False)
 df['redsox'] = df['Opponent'].apply(lambda x: True if x == 'Boston Red Sox' else False)
 

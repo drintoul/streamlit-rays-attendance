@@ -73,7 +73,7 @@ history = pd.read_csv('rays_attendance.csv')
 
 #scaler = StandardScaler()
 #scaler.fit_transform(history)
-
+"""
 regr = LinearRegression()
 y = history[['attendance']]
 X = history.drop(columns=['attendance'], axis=1)
@@ -87,5 +87,5 @@ prediction = regr.predict(df.values)
 st.write('Prediction:', prediction)
 
 #st.write("Estimated Error: +/- ", int(np.round(np.sqrt(mean_absolute_error(y_test, y_pred)),-2)))
-
+"""
 st.write('Uh oh, it\'s $100M', size=10)

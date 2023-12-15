@@ -71,7 +71,7 @@ st.write("""
 
 history = pd.read_csv('rays_attendance.csv')
 
-scaler = StandardScaler()
+#scaler = StandardScaler()
 #scaler.fit_transform(history)
 
 regr = LinearRegression()

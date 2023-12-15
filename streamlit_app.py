@@ -80,10 +80,10 @@ def user_input_features():
           'yankees': yankees,
           'redsox': redsox}
 
-  features_df = pd.DataFrame(data, index=[0])
-  return data, features_df
+  features = pd.DataFrame(data, index=[0])
+  return data, features
 
-data, df = user_input_features()
+data, features = user_input_features()
 
 st.subheader('Machine Learning model based on 2008-2023 inclusive home games (not including 2020)')
 
@@ -115,10 +115,27 @@ df = df.reset_index(drop=True)
 #st.dataframe(df.head(), hide_index=True, use_container_width=True)
 #st.write(df.describe())
 
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import mean_absolute_error
+
+X = df.iloc[:,:-1]
+y = df.iloc[:,-1]
+scaler = StandardScaler().fit(X)
+X = scaler.transform(X)
+
+model = LinearRegression().fit(X, y)
+y_pred = model.predict(X)
+error = mean_absolute_error(y_pred, y)
+
+X = features
+X = scaler.transform(X)
+prediction = model.predict(X)
+
 st.write("""
 # Predicted Attendance
 """)
 
 prediction = 74567
-st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:,}</h3>', unsafe_allow_html=True)
+st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:,} +/- {error:,}</h3>', unsafe_allow_html=True)
 st.write('just kidding - model still under development')

@@ -112,7 +112,7 @@ df['daygame'] = df['daygame'] == 'D'
 df = df.sample(frac=1)
 df = df.reset_index(drop=True)
 
-st.dataframe(df.head(), hide_index=True, use_container_width=True)
+#st.dataframe(df.head(), hide_index=True, use_container_width=True)
 st.write(df.describe())
 
 st.write("""

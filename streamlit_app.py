@@ -136,7 +136,7 @@ With crowds as small as {minimum:,} and as large as {maximum:,}, it\'s important
 Machine Learning model based on 2008-2023 inclusive regular season home games (not including Pandemic year of 2020 when games were played without fans in attendance).
 """, unsafe_allow_html=True)
 
-st.write('Select input parameters using sidebar')
+st.info('Select input parameters using sidebar', icon="ℹ️")
 
 st.subheader('User Input Parameters')
 st.write(data)

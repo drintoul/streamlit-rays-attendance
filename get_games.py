@@ -7,15 +7,15 @@ def get_games(**kwargs):
     import re
     
     names = {'HOU': 'Houston Astros', 'COL': 'Colorado Rockies', 'SFG': 'San Francisco Giants', 
-         'CHW': 'Chicago White Sox', 'TOR': 'Toronto Blue Jays', 'BAL': 'Baltimore Orioles', 
-         'BOS': 'Boston Red Sox', 'KCR': 'Kansas City Royals', 'ARI': 'Arizona Diamondbacks',
-         'NYY': 'New York Yankees', 'MIA': 'Miami Marlins', 'LAD': 'Los Angeles Dodgers', 
-         'CLE': 'Cleveland Guardians', 'MIN': 'Minnesota Twins', 'DET': 'Detroit Tigers', 
-         'OAK': 'Oakland Athletics', 'LAA': 'Los Angeles Angels', 'TEX': 'Texas Rangers',
-         'SEA': 'Seattle Mariners', 'SDP': 'San Diego Padres', 'WSN': 'Washington Nationals',
-         'NYM': 'New York Mets', 'CHC': 'Chicago Cubs', 'ATL': 'Atlanta Braves',
-         'PHI': 'Phildelphia Phillies', 'CIN': 'Cincinnati Reds', 'STL': 'St. Louis Cardinals',
-         'MIL': 'Milwaukee Brewers', 'PIT': 'Pittsburg Pirates'}
+             'CHW': 'Chicago White Sox', 'TOR': 'Toronto Blue Jays', 'BAL': 'Baltimore Orioles', 
+             'BOS': 'Boston Red Sox', 'KCR': 'Kansas City Royals', 'ARI': 'Arizona Diamondbacks',
+             'NYY': 'New York Yankees', 'MIA': 'Miami Marlins', 'LAD': 'Los Angeles Dodgers', 
+             'CLE': 'Cleveland Guardians', 'MIN': 'Minnesota Twins', 'DET': 'Detroit Tigers', 
+             'OAK': 'Oakland Athletics', 'LAA': 'Los Angeles Angels', 'TEX': 'Texas Rangers',
+             'SEA': 'Seattle Mariners', 'SDP': 'San Diego Padres', 'WSN': 'Washington Nationals',
+             'NYM': 'New York Mets', 'CHC': 'Chicago Cubs', 'ATL': 'Atlanta Braves',
+             'PHI': 'Phildelphia Phillies', 'CIN': 'Cincinnati Reds', 'STL': 'St. Louis Cardinals',
+             'MIL': 'Milwaukee Brewers', 'PIT': 'Pittsburg Pirates'}
     
     df = pd.DataFrame()
     year = kwargs.get('year')
@@ -26,7 +26,7 @@ def get_games(**kwargs):
 
     # format
     df.drop(columns=['Gm#', 'Unnamed: 2', 'Tm', 'W/L', 'R', 'RA', 'Inn', 'W-L', 'Win', 'Loss', 'Save', 
-                 'Time', 'cLI', 'Streak', 'Orig. Scheduled'], inplace=True)
+                     'Time', 'cLI', 'Streak', 'Orig. Scheduled'], inplace=True)
     df = df[df['Rank'] != 'Rank']
     df['GB'] = df['GB'].apply(lambda x: x.replace('Tied', '0.0').replace('up ', ''))
     df['Opp'] = df['Opp'].map(names)

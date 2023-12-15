@@ -22,6 +22,7 @@ def user_input_features():
 #st.slider(label, min_value=None, max_value=None, value=None, step=None, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, *, disabled=False, label_visibility="visible")  
 
   daygame = st.sidebar.toggle('Day Game')
+  weekend = st.sidebar.toggle('Weekend Game')
   opponent = st.sidebar.selectbox('Opponent', all_teams)
   div_rank = st.sidebar.slider('Division Rank', min_value=1, max_value=5, value=1, step=1)
   gb = st.sidebar.slider('Games Behind', min_value=-5.0, max_value=5.0, value=0.0, step=0.50)
@@ -43,6 +44,7 @@ def user_input_features():
     nl = False
   
   data = {'daygame': daygame,
+          'weekend': weekend,
           'opponent': opponent,
           'div_rank': div_rank,
           'games_behind': gb,

@@ -23,17 +23,17 @@ def user_input_features():
   daygame = st.sidebar.toggle('Day Game')
   opponent = st.sidebar.selectbox('Opponent', all_teams)
 
-  if df['opponent'].value in al_east_teams:
+  if opponent in al_east_teams:
     al_east = True
   else:
     al_east = False
 
-  if df['opponent'].value in al_other_teams:
+  if opponent in al_other_teams:
     al_other = True
   else:
     al_other = False
 
-  if df['opponent'][0] in nl_teams:
+  if opponent in nl_teams:
     nl = True
   else:
     nl = False

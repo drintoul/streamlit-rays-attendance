@@ -126,7 +126,7 @@ scaler.transform(X1)
 prediction = model.predict(X1)[0]
 
 st.subheader('Machine Learning model based on 2008-2023 inclusive home games (not including 2020)')
-st.markdown(f'<h3 class="big-font">With a capacity of {capacity:,} and crowds as small as {min:,} and as large as {max:,}, it\'s important to be able to predict attendance', unsafe_allow_html=True)
+st.markdown(f'<h3 class="big-font">With crowds as small as {min:,} and as large as {max:,}, it\'s important to be able to predict attendance to plan promotions and giveaways', unsafe_allow_html=True)
 
 st.subheader('User Input Parameters')
 st.write(data)

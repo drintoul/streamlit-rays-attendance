@@ -91,8 +91,9 @@ df = pd.read_csv('rays_attendance.csv')
 min = df[df['H/A'].isnull()][['Attendance']].min()
 max = df[df['H/A'].isnull()][['Attendance']].max()
 
-mm_df = df[df['H/A'].isnull()].loc[df['Attendance'].agg(['idxmin','idxmax'])]
-mm_df = mm_df.drop(columns=['H/A'])
+mm_df = df
+#mm_df = df[df['H/A'].isnull()].loc[df['Attendance'].agg(['idxmin','idxmax'])]
+#mm_df = mm_df.drop(columns=['H/A'])
 
 df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)
 df['al_other'] = df['Opponent'].apply(lambda x: True if x in al_other_teams else False)

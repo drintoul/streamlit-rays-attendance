@@ -123,6 +123,7 @@ X = df.iloc[:,:-1]
 y = df.iloc[:,-1]
 scaler = StandardScaler().fit(X)
 X = scaler.transform(X)
+st.write(X)
 
 model = LinearRegression().fit(X, y)
 y_pred = model.predict(X)
@@ -131,6 +132,8 @@ error = mean_absolute_error(y_pred, y)
 st.write(features)
 X = scaler.transform(features)
 prediction = model.predict(X)
+
+st.write(prediction)
 
 st.write("""
 # Predicted Attendance

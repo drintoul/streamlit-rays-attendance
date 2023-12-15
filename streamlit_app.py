@@ -59,3 +59,9 @@ df = user_input_features()
 
 st.subheader('User Input Parameters')
 st.write(df)
+
+st.write("""
+# Predicted Attendance
+""")
+
+st.write(1000)

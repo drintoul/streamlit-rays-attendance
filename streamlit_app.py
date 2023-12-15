@@ -94,9 +94,10 @@ df.columns = ['div_rank', 'games_behind', 'daygame', 'al_east', 'al_other', 'nl'
 df['daygame'] = df['daygame'] == 'D'
 
 st.write(df.head())
+st.write(df.describe())
 
 st.write("""
 # Predicted Attendance
 """)
 
-st.write(df.describe())
+

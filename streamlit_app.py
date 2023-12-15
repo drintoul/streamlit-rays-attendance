@@ -119,4 +119,5 @@ st.write("""
 # Predicted Attendance
 """)
 
-st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{7456:,}</h3>', unsafe_allow_html=True)
+prediction = 74567
+st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:,}</h3>', unsafe_allow_html=True)

@@ -35,20 +35,16 @@ st.subheader('User Input Parameters')
 st.write(df)
 
 if df['opponent'][0] in al_east_teams:
-  al_east = True
+  df['AL East'] = True
 else:
-  al_east = False
+  df['AL East'] = False
 
 if df['opponent'][0] in al_other_teams:
-  al_other = True
+  df['AL Other'] = True
 else:
-  al_other = False
+  df['AL Other'] = False
 
 if df['opponent'][0] in nl_teams:
-  nl = True
+  df['NL'] = True
 else:
-  nl = False
-
-st.write(al_east)
-st.write(al_other)
-st.write(nl)
+  df['NL'] = False

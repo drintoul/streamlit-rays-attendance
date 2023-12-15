@@ -123,7 +123,7 @@ error = mean_absolute_error(y_pred, y)
 X1 = np.array(features).reshape(1,-1)
 #scaler.transform(X1)
 
-prediction = None
+prediction = 123456
 #prediction = model.predict(X1)
 
 st.write("""

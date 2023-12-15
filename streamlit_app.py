@@ -72,7 +72,7 @@ def user_input_features():
 
 data, df = user_input_features()
 
-st.subheader('Machine Learning model based on 2018-2023 inclusive home games')
+st.subheader('Machine Learning model based on 2008-2023 inclusive home games (not including 2020)')
 
 st.subheader('User Input Parameters')
 st.write(data)

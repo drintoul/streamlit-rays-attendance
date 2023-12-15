@@ -120,11 +120,12 @@ error = mean_absolute_error(y_pred, y)
 
 # Apply Model to User Input
 
-X1 = np.array(features).reshape(1,-1)
-#scaler.transform(X1)
+features = pd.DataFrame(data, index=[0])
+features.drop(columns=['opponent'], inplace=True)
+X1 = np.array(features)
+scaler.transform(X1)
 
-prediction = 123456.78833
-#prediction = model.predict(X1)
+prediction = model.predict(X1)
 
 st.write("""
 # Predicted Attendance

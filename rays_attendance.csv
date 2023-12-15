@@ -1,480 +1,1622 @@
-div_rank,games_behind,daygame,attendance,al_east,al_other,nl
-1,0.0,True,20204,False,True,False
-1,-1.0,True,19425,False,True,False
-1,-2.0,False,15980,False,True,False
-1,-2.5,True,15880,False,True,False
-1,-3.0,True,11159,False,True,False
-1,-3.0,False,13470,True,False,False
-1,-4.0,False,12649,True,False,False
-1,-4.0,False,17136,True,False,False
-1,-4.0,True,21175,True,False,False
-1,-4.5,False,17973,False,True,False
-1,-4.5,True,22333,False,True,False
-1,-4.5,True,22702,False,True,False
-1,-4.5,False,10611,False,True,False
-1,-4.5,False,9916,False,True,False
-1,-4.5,False,14168,False,True,False
-1,-3.5,False,10325,False,False,True
-1,-3.5,False,15247,False,False,True
-1,-4.5,True,12418,False,False,True
-1,-4.5,False,25007,True,False,False
-1,-4.5,True,27078,True,False,False
-1,-4.5,True,32142,True,False,False
-1,-3.5,False,18961,False,False,True
-1,-3.5,True,19954,False,False,True
-1,-3.5,True,20193,False,False,True
-1,-2.5,False,8857,True,False,False
-1,-3.0,False,11906,True,False,False
-1,-3.0,False,8699,True,False,False
-1,-3.0,True,10736,True,False,False
-1,-3.0,False,19715,False,False,True
-1,-4.0,True,23443,False,False,True
-1,-4.0,True,21043,False,False,True
-1,-4.5,False,14689,False,True,False
-1,-5.5,False,10846,False,True,False
-1,-6.5,True,12584,False,True,False
-1,-6.5,False,17447,False,True,False
-1,-6.5,True,18932,False,True,False
-1,-5.5,True,23069,False,True,False
-1,-5.0,False,20906,True,False,False
-1,-4.0,True,19493,True,False,False
-1,-5.0,False,10436,False,True,False
-1,-4.5,False,16189,False,True,False
-1,-5.5,True,20884,False,True,False
-1,-4.5,True,18442,False,True,False
-1,-5.5,True,22665,False,False,True
-1,-6.0,False,18208,False,False,True
-1,-5.0,False,17060,False,False,True
-1,-4.0,False,25025,False,False,True
-1,-3.0,False,25025,False,False,True
-1,-2.0,True,25025,False,False,True
-1,0.0,False,20203,True,False,False
-2,1.0,False,19703,True,False,False
-1,0.0,True,25025,True,False,False
-2,1.0,True,23440,True,False,False
-2,2.0,False,20508,False,False,True
-2,1.5,True,20971,False,False,True
-2,3.0,False,15522,False,False,True
-2,2.0,False,11203,False,False,True
-2,2.0,False,11990,False,False,True
-2,3.0,False,19625,False,True,False
-2,2.0,True,25025,False,True,False
-2,2.0,True,22163,False,True,False
-2,2.5,False,10235,False,False,False
-2,2.0,False,12001,False,False,False
-2,2.0,True,9972,False,False,False
-2,2.0,False,22679,True,False,False
-2,3.0,True,22943,True,False,False
-2,3.0,True,22624,True,False,False
-2,2.5,True,18302,True,False,False
-2,3.5,False,9119,True,False,False
-2,3.5,False,10100,True,False,False
-2,3.5,False,10060,False,True,False
-2,4.0,False,21243,False,True,False
-2,4.0,True,18008,False,True,False
-2,4.0,True,18230,False,True,False
-2,2.0,False,15176,False,True,False
-2,2.5,False,15145,False,True,False
-2,2.5,True,12966,False,True,False
-2,1.5,False,18538,True,False,False
-2,1.5,True,22655,True,False,False
-2,1.5,True,22472,True,False,False
-2,1.0,False,13059,False,True,False
-2,0.5,False,16010,False,True,False
-1,0.0,True,18473,False,True,False
-1,-0.5,False,10860,False,False,False
-1,-0.5,False,10933,False,False,False
-1,-0.5,True,11093,False,False,False
-1,-5.5,False,9842,True,False,False
-1,-5.5,False,9028,True,False,False
-1,-5.5,False,9081,True,False,False
-1,-5.5,False,21343,True,False,False
-1,-4.5,False,22940,True,False,False
-1,-3.5,True,18740,True,False,False
-1,-2.5,False,9914,False,True,False
-1,-2.5,False,8298,False,True,False
-1,-2.5,True,9502,False,True,False
-1,-2.5,False,8124,False,False,False
-1,-2.0,False,8059,False,False,False
-1,-2.0,True,8663,False,False,False
-1,-2.0,False,20846,True,False,False
-1,-0.5,False,25025,True,False,False
-1,-1.5,True,25025,True,False,False
-2,0.5,False,15862,False,False,True
-2,2.0,False,12826,False,False,True
-2,2.0,True,15883,True,False,False
-2,2.0,False,5786,True,False,False
-2,1.0,False,6166,True,False,False
-2,1.0,False,8076,False,True,False
-2,0.5,False,14375,False,True,False
-2,1.5,True,14381,False,True,False
-2,2.5,True,14616,False,True,False
-1,0.0,False,16091,False,True,False
-1,-0.5,False,11132,False,True,False
-1,0.0,True,17946,False,True,False
-2,0.5,False,15291,False,True,False
-2,0.5,False,21598,False,True,False
-1,-0.5,True,22320,False,True,False
-2,0.5,True,20508,False,True,False
-2,6.5,False,13955,False,True,False
-2,7.0,True,16655,False,True,False
-2,7.0,True,11234,False,True,False
-2,7.0,False,20441,True,False,False
-2,6.5,False,20925,True,False,False
-2,5.5,False,21545,True,False,False
-2,6.5,False,21974,True,False,False
-2,7.5,False,22182,True,False,False
-2,8.5,True,21477,True,False,False
-2,7.5,True,20091,True,False,False
-2,8.0,False,16971,False,True,False
-2,9.0,False,16338,False,True,False
-2,10.0,True,14987,False,True,False
-2,9.0,False,10966,True,False,False
-2,9.0,False,15876,True,False,False
-2,10.0,True,24161,True,False,False
-2,7.0,False,14092,False,False,True
-2,8.0,True,14819,False,False,True
-2,8.0,False,11948,True,False,False
-2,9.0,False,9434,True,False,False
-2,9.0,True,10299,True,False,False
-2,10.0,False,13717,False,True,False
-2,10.5,False,17228,False,True,False
-2,10.5,True,16634,False,True,False
-2,9.5,False,9152,False,True,False
-2,10.0,False,7455,False,True,False
-2,10.0,True,7827,False,True,False
-2,11.0,False,15294,False,True,False
-2,10.0,False,13327,False,True,False
-2,10.0,True,14922,False,True,False
-2,10.0,True,10566,True,False,False
-2,9.5,False,6844,True,False,False
-2,9.5,False,5962,True,False,False
-2,9.5,False,10853,True,False,False
-2,8.5,False,12663,True,False,False
-2,8.5,True,14071,True,False,False
-2,9.0,False,17117,True,False,False
-2,8.5,False,18179,True,False,False
-2,8.5,True,17946,True,False,False
-2,9.5,False,8779,True,False,False
-2,9.0,False,16699,True,False,False
-2,8.0,False,20390,True,False,False
-1,0.0,False,19203,True,False,False
-3,1.0,False,17838,True,False,False
-4,1.0,True,14256,True,False,False
-5,6.5,False,13372,False,False,True
-5,8.0,False,20934,False,False,True
-5,9.0,True,19841,False,False,True
-5,10.0,False,9363,False,True,False
-5,9.5,False,8972,False,True,False
-5,10.5,True,8657,False,True,False
-4,10.5,False,9786,False,True,False
-4,11.0,False,10106,False,True,False
-4,10.0,True,12515,False,True,False
-4,8.5,False,11117,True,False,False
-4,8.0,False,16297,True,False,False
-4,8.0,True,14032,True,False,False
-4,9.0,False,15382,False,False,True
-4,9.0,False,12082,False,False,True
-3,9.0,False,10642,True,False,False
-3,10.0,False,10194,True,False,False
-3,11.0,False,12468,True,False,False
-3,10.0,False,11354,True,False,False
-3,11.0,True,14744,True,False,False
-3,11.0,True,13311,True,False,False
-3,14.0,False,10342,False,True,False
-3,14.0,False,12435,False,True,False
-3,14.0,True,12258,False,True,False
-3,14.0,True,10512,False,True,False
-4,14.0,False,10769,True,False,False
-3,14.0,False,11162,True,False,False
-3,14.0,True,10847,True,False,False
-4,16.5,False,27252,True,False,False
-3,16.0,True,29831,True,False,False
-3,15.0,True,23667,True,False,False
-3,14.0,False,13624,False,False,True
-3,14.0,True,14289,False,False,True
-3,14.0,False,12305,False,True,False
-3,15.0,False,15797,False,True,False
-3,14.0,True,18378,False,True,False
-3,14.0,True,19334,False,True,False
-3,16.0,False,14229,False,True,False
-3,16.0,False,13478,False,True,False
-3,16.0,True,13922,False,True,False
-3,18.0,False,13248,False,False,True
-3,19.0,False,13808,False,False,True
-3,19.0,True,11828,False,False,True
-3,19.0,False,14670,True,False,False
-3,19.0,False,19579,True,False,False
-3,19.0,True,27372,True,False,False
-3,20.5,False,15858,False,True,False
-3,20.0,False,9132,False,True,False
-3,19.5,True,10988,False,True,False
-3,19.5,False,16144,False,True,False
-3,20.5,False,21214,False,True,False
-3,21.5,True,14379,False,True,False
-3,22.5,False,11734,True,False,False
-3,22.5,False,9474,True,False,False
-3,23.5,False,10254,True,False,False
-3,24.5,False,10036,False,True,False
-3,23.5,False,9402,False,True,False
-3,22.5,False,8686,False,True,False
-3,22.5,False,9088,False,True,False
-3,22.5,False,19723,True,False,False
-3,21.5,False,25695,True,False,False
-3,20.5,True,23448,True,False,False
-3,21.0,False,12436,True,False,False
-3,20.0,False,10275,True,False,False
-3,19.0,True,13632,True,False,False
-3,19.0,False,12724,False,True,False
-3,18.5,False,10599,False,True,False
-3,19.5,True,10654,False,True,False
-3,19.5,False,11549,False,True,False
-3,20.0,False,15154,False,True,False
-3,20.0,True,13197,False,True,False
-3,17.5,False,13832,True,False,False
-3,18.5,False,10953,True,False,False
-3,19.0,False,11325,True,False,False
-3,18.5,True,12349,True,False,False
-3,19.0,False,12061,True,False,False
-3,19.0,False,13221,True,False,False
-3,18.0,True,13313,True,False,False
-5,2.0,True,9021,True,False,False
-3,1.0,True,6270,True,False,False
-2,1.0,True,6965,True,False,False
-2,2.0,False,3627,False,True,False
-2,1.5,False,4753,False,True,False
-2,2.5,False,3021,False,True,False
-4,4.0,False,4217,False,True,False
-2,2.0,False,5564,True,False,False
-2,2.5,False,6688,True,False,False
-2,1.5,True,6372,True,False,False
-2,2.5,False,2981,False,True,False
-2,3.0,False,2924,False,True,False
-2,3.0,False,3374,False,True,False
-2,3.0,True,3737,False,True,False
-2,3.0,False,6169,False,True,False
-3,4.0,True,7335,False,True,False
-5,4.0,True,6933,False,True,False
-2,3.5,False,5441,True,False,False
-4,3.0,False,5668,True,False,False
-4,3.0,False,6229,True,False,False
-4,3.0,False,7123,False,False,True
-4,3.0,True,7536,False,False,True
-4,3.0,True,7355,False,False,True
-1,-0.5,False,4946,False,True,False
-1,-0.5,False,4973,False,True,False
-1,-0.5,True,5519,False,True,False
-1,-1.0,True,7316,False,False,True
-1,-0.5,True,7479,False,False,True
-1,-1.0,False,7173,False,False,True
-1,-1.5,False,7616,False,False,True
-1,-1.5,False,6211,True,False,False
-1,-1.0,True,9225,True,False,False
-1,-2.0,True,9101,True,False,False
-2,0.5,False,12994,True,False,False
-2,1.5,False,9088,True,False,False
-2,0.5,False,10961,True,False,False
-1,-0.5,False,7909,False,True,False
-1,-0.5,True,16699,False,True,False
-1,-0.5,True,12764,False,True,False
-2,4.5,False,8832,False,True,False
-2,2.5,True,10905,False,True,False
-2,2.5,False,8551,True,False,False
-2,2.5,True,9954,True,False,False
-2,1.5,True,11233,True,False,False
-2,0.5,False,9922,True,False,False
-2,1.5,False,10399,True,False,False
-2,1.0,True,8968,True,False,False
-2,1.0,False,12678,True,False,False
-2,2.0,False,11525,True,False,False
-2,2.5,True,14134,True,False,False
-2,1.5,False,11109,True,False,False
-2,0.5,False,20521,True,False,False
-1,-0.5,False,17816,True,False,False
-1,-1.5,False,5855,False,True,False
-1,-1.0,False,10071,False,True,False
-1,-1.0,True,9701,False,True,False
-1,-3.0,False,5460,True,False,False
-1,-3.5,False,4795,True,False,False
-1,-5.0,False,6673,True,False,False
-1,-5.0,True,5826,True,False,False
-1,-5.0,False,13178,False,True,False
-1,-4.0,True,22275,False,True,False
-1,-4.0,True,16696,False,True,False
-1,-6.0,False,6753,True,False,False
-1,-7.0,False,6868,True,False,False
-1,-8.0,False,7808,True,False,False
-1,-7.0,False,7923,True,False,False
-1,-6.5,False,8864,False,True,False
-1,-6.5,True,13861,False,True,False
-1,-7.5,True,14165,False,True,False
-1,-8.0,False,10206,False,True,False
-1,-8.5,False,16451,False,True,False
-1,-8.5,True,22921,False,True,False
-1,-7.5,True,17948,False,True,False
-1,-6.5,False,10119,True,False,False
-1,-7.0,False,9888,True,False,False
-1,-6.0,True,10994,True,False,False
-1,-6.0,False,15340,False,False,True
-1,-7.0,False,23783,False,False,True
-1,-8.0,True,20826,False,False,True
-1,0.0,True,20204,False,True,False
-1,-1.0,True,19425,False,True,False
-1,-2.0,False,15980,False,True,False
-1,-2.5,True,15880,False,True,False
-1,-3.0,True,11159,False,True,False
-1,-3.0,False,13470,True,False,False
-1,-4.0,False,12649,True,False,False
-1,-4.0,False,17136,True,False,False
-1,-4.0,True,21175,True,False,False
-1,-4.5,False,17973,False,True,False
-1,-4.5,True,22333,False,True,False
-1,-4.5,True,22702,False,True,False
-1,-4.5,False,10611,False,True,False
-1,-4.5,False,9916,False,True,False
-1,-4.5,False,14168,False,True,False
-1,-3.5,False,10325,False,False,True
-1,-3.5,False,15247,False,False,True
-1,-4.5,True,12418,False,False,True
-1,-4.5,False,25007,True,False,False
-1,-4.5,True,27078,True,False,False
-1,-4.5,True,32142,True,False,False
-1,-3.5,False,18961,False,False,True
-1,-3.5,True,19954,False,False,True
-1,-3.5,True,20193,False,False,True
-1,-2.5,False,8857,True,False,False
-1,-3.0,False,11906,True,False,False
-1,-3.0,False,8699,True,False,False
-1,-3.0,True,10736,True,False,False
-1,-3.0,False,19715,False,False,True
-1,-4.0,True,23443,False,False,True
-1,-4.0,True,21043,False,False,True
-1,-4.5,False,14689,False,True,False
-1,-5.5,False,10846,False,True,False
-1,-6.5,True,12584,False,True,False
-1,-6.5,False,17447,False,True,False
-1,-6.5,True,18932,False,True,False
-1,-5.5,True,23069,False,True,False
-1,-5.0,False,20906,True,False,False
-1,-4.0,True,19493,True,False,False
-1,-5.0,False,10436,False,True,False
-1,-4.5,False,16189,False,True,False
-1,-5.5,True,20884,False,True,False
-1,-4.5,True,18442,False,True,False
-1,-5.5,True,22665,False,False,True
-1,-6.0,False,18208,False,False,True
-1,-5.0,False,17060,False,False,True
-1,-4.0,False,25025,False,False,True
-1,-3.0,False,25025,False,False,True
-1,-2.0,True,25025,False,False,True
-1,0.0,False,20203,True,False,False
-2,1.0,False,19703,True,False,False
-1,0.0,True,25025,True,False,False
-2,1.0,True,23440,True,False,False
-2,2.0,False,20508,False,False,True
-2,1.5,True,20971,False,False,True
-2,3.0,False,15522,False,False,True
-2,2.0,False,11203,False,False,True
-2,2.0,False,11990,False,False,True
-2,3.0,False,19625,False,True,False
-2,2.0,True,25025,False,True,False
-2,2.0,True,22163,False,True,False
-2,2.5,False,10235,False,False,False
-2,2.0,False,12001,False,False,False
-2,2.0,True,9972,False,False,False
-2,2.0,False,22679,True,False,False
-2,3.0,True,22943,True,False,False
-2,3.0,True,22624,True,False,False
-2,2.5,True,18302,True,False,False
-2,3.5,False,9119,True,False,False
-2,3.5,False,10100,True,False,False
-2,3.5,False,10060,False,True,False
-2,4.0,False,21243,False,True,False
-2,4.0,True,18008,False,True,False
-2,4.0,True,18230,False,True,False
-2,2.0,False,15176,False,True,False
-2,2.5,False,15145,False,True,False
-2,2.5,True,12966,False,True,False
-2,1.5,False,18538,True,False,False
-2,1.5,True,22655,True,False,False
-2,1.5,True,22472,True,False,False
-1,0.0,True,15615,True,False,False
-1,0.0,True,14100,True,False,False
-1,-1.0,False,9139,False,True,False
-1,0.0,False,7588,False,True,False
-1,-1.0,False,8954,False,True,False
-1,0.0,True,8287,False,True,False
-3,0.5,False,16902,True,False,False
-3,2.0,False,19137,True,False,False
-3,2.0,True,20993,True,False,False
-3,1.0,False,9257,False,True,False
-3,2.5,False,7290,False,True,False
-3,2.0,True,6749,False,True,False
-3,2.0,False,9928,False,True,False
-3,2.0,True,18846,False,True,False
-3,3.0,True,14830,False,True,False
-2,4.0,False,10169,True,False,False
-2,4.5,False,15195,True,False,False
-2,4.5,True,20986,True,False,False
-2,4.5,False,11532,False,True,False
-2,5.5,False,8475,False,True,False
-2,5.5,True,9706,False,True,False
-2,5.0,False,9006,False,False,True
-2,4.5,False,7520,False,False,True
-2,4.5,False,14610,True,False,False
-2,5.5,False,19018,True,False,False
-2,6.5,True,25025,True,False,False
-2,5.5,True,25025,True,False,False
-3,6.0,False,8930,False,True,False
-2,6.0,True,19452,False,True,False
-3,7.0,True,11162,False,True,False
-3,8.0,False,10905,False,False,True
-3,8.0,False,12906,False,False,True
-2,7.0,True,14892,False,False,True
-3,13.0,False,16504,True,False,False
-4,14.0,False,20688,True,False,False
-4,13.0,False,12264,True,False,False
-4,14.0,False,10542,False,False,True
-4,13.5,True,15203,False,False,True
-4,12.5,True,13364,False,False,True
-3,12.5,False,13742,False,False,True
-4,14.0,True,15481,False,False,True
-3,15.5,False,10629,True,False,False
-3,15.0,False,10653,True,False,False
-2,14.0,False,10458,True,False,False
-2,14.0,False,11998,True,False,False
-2,13.0,False,13917,True,False,False
-2,12.0,True,19886,True,False,False
-2,13.0,True,13813,True,False,False
-3,13.5,False,14671,False,True,False
-3,14.5,True,22756,False,True,False
-3,14.5,True,18023,False,True,False
-3,14.5,False,16433,True,False,False
-3,15.0,True,14253,True,False,False
-3,12.0,False,12380,True,False,False
-4,12.0,True,16823,True,False,False
-3,12.0,True,18093,True,False,False
-2,10.0,False,8168,False,True,False
-2,9.0,False,10049,False,True,False
-3,9.0,True,19800,False,True,False
-3,8.0,True,12940,False,True,False
-2,8.0,False,9942,False,True,False
-2,8.0,False,8810,False,True,False
-2,8.0,False,9763,False,True,False
-2,7.5,True,10733,False,True,False
-2,6.0,False,17886,True,False,False
-2,5.0,False,21754,True,False,False
-2,4.0,True,25025,True,False,False
-2,5.0,True,12264,True,False,False
-2,5.0,False,8069,True,False,False
-2,4.5,False,8696,True,False,False
-3,7.0,False,14127,False,True,False
-3,7.0,False,14094,False,True,False
-3,6.0,True,12835,False,True,False
-3,6.0,False,10390,False,True,False
-3,6.5,False,8992,False,True,False
-3,7.5,False,9293,False,True,False
-3,8.5,False,8799,True,False,False
-3,8.5,False,17407,True,False,False
-2,8.5,False,22169,True,False,False
-3,9.5,True,16394,True,False,False
+Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
+"Tuesday, Apr 2",2013,Baltimore Orioles,,3,1.0,D,34078
+"Wednesday, Apr 3",2013,Baltimore Orioles,,2,1.0,N,15599
+"Thursday, Apr 4",2013,Baltimore Orioles,,3,1.0,D,17491
+"Friday, Apr 5",2013,Cleveland Guardians,,3,1.0,N,16019
+"Saturday, Apr 6",2013,Cleveland Guardians,,1,0.0,N,32217
+"Sunday, Apr 7",2013,Cleveland Guardians,,2,1.0,D,21629
+"Monday, Apr 8",2013,Texas Rangers,@,2,2.0,N,27355
+"Tuesday, Apr 9",2013,Texas Rangers,@,4,2.5,N,31398
+"Wednesday, Apr 10",2013,Texas Rangers,@,4,1.5,D,26643
+"Saturday, Apr 13",2013,Boston Red Sox,@,5,2.0,D,33039
+"Sunday, Apr 14",2013,Boston Red Sox,@,5,3.0,D,35198
+"Monday, Apr 15",2013,Boston Red Sox,@,5,4.0,D,37449
+"Tuesday, Apr 16",2013,Baltimore Orioles,@,5,5.0,N,14670
+"Wednesday, Apr 17",2013,Baltimore Orioles,@,5,5.0,N,13591
+"Thursday, Apr 18",2013,Baltimore Orioles,@,5,6.0,N,13986
+"Friday, Apr 19",2013,Oakland Athletics,,5,5.5,N,15115
+"Saturday, Apr 20",2013,Oakland Athletics,,4,5.5,N,25611
+"Sunday, Apr 21",2013,Oakland Athletics,,4,4.0,D,25954
+"Monday, Apr 22",2013,New York Yankees,,4,4.0,N,15331
+"Tuesday, Apr 23",2013,New York Yankees,,4,4.0,N,17644
+"Wednesday, Apr 24",2013,New York Yankees,,4,4.0,N,19177
+"Thursday, Apr 25",2013,Chicago White Sox,@,4,5.0,N,15056
+"Friday, Apr 26",2013,Chicago White Sox,@,4,6.0,N,20008
+"Saturday, Apr 27",2013,Chicago White Sox,@,4,6.0,N,25270
+"Sunday, Apr 28",2013,Chicago White Sox,@,4,6.0,D,22677
+"Tuesday, Apr 30",2013,Kansas City Royals,@,4,6.0,N,12738
+"Wednesday, May 1",2013,Kansas City Royals,@,4,7.0,N,11514
+"Friday, May 3",2013,Colorado Rockies,@,4,6.5,N,30255
+"Saturday, May 4",2013,Colorado Rockies,@,4,6.5,N,29099
+"Sunday, May 5",2013,Colorado Rockies,@,4,5.5,D,39220
+"Monday, May 6",2013,Toronto Blue Jays,,4,6.5,N,9952
+"Tuesday, May 7",2013,Toronto Blue Jays,,4,6.5,N,10273
+"Wednesday, May 8",2013,Toronto Blue Jays,,4,5.5,N,11075
+"Thursday, May 9",2013,Toronto Blue Jays,,4,4.5,N,11979
+"Friday, May 10",2013,San Diego Padres,,4,4.5,N,12424
+"Saturday, May 11",2013,San Diego Padres,,4,4.5,N,18587
+"Sunday, May 12",2013,San Diego Padres,,4,4.5,D,17396
+"Tuesday, May 14",2013,Boston Red Sox,,4,4.5,N,15227
+"Wednesday, May 15",2013,Boston Red Sox,,4,4.5,N,15767
+"Thursday, May 16",2013,Boston Red Sox,,4,4.5,N,16055
+"Friday, May 17",2013,Baltimore Orioles,@,4,4.5,N,38061
+"Saturday, May 18",2013,Baltimore Orioles,@,4,4.5,D,34685
+"Sunday, May 19",2013,Baltimore Orioles,@,3,4.0,D,37704
+"Monday, May 20",2013,Toronto Blue Jays,@,3,5.0,D,29885
+"Tuesday, May 21",2013,Toronto Blue Jays,@,3,4.0,N,15802
+"Wednesday, May 22",2013,Toronto Blue Jays,@,4,4.0,D,18771
+"Friday, May 24",2013,New York Yankees,,4,5.0,N,17825
+"Saturday, May 25",2013,New York Yankees,,4,6.0,D,25874
+"Sunday, May 26",2013,New York Yankees,,4,5.0,D,24159
+"Monday, May 27",2013,Miami Marlins,,4,5.0,D,13025
+"Tuesday, May 28",2013,Miami Marlins,,4,4.0,N,13876
+"Wednesday, May 29",2013,Miami Marlins,@,4,3.0,N,16671
+"Thursday, May 30",2013,Miami Marlins,@,4,3.0,N,23199
+"Friday, May 31",2013,Cleveland Guardians,@,4,2.0,N,29603
+"Saturday, Jun 1",2013,Cleveland Guardians,@,4,3.0,D,22748
+"Sunday, Jun 2",2013,Cleveland Guardians,@,3,3.0,D,18106
+"Tuesday, Jun 4",2013,Detroit Tigers,@,4,4.0,N,30569
+"Wednesday, Jun 5",2013,Detroit Tigers,@,4,3.0,N,30005
+"Thursday, Jun 6",2013,Detroit Tigers,@,4,4.0,D,36168
+"Friday, Jun 7",2013,Baltimore Orioles,,4,3.5,N,13256
+"Saturday, Jun 8",2013,Baltimore Orioles,,3,3.0,D,21834
+"Sunday, Jun 9",2013,Baltimore Orioles,,4,4.0,D,19921
+"Monday, Jun 10",2013,Boston Red Sox,,4,5.0,N,15477
+"Tuesday, Jun 11",2013,Boston Red Sox,,4,4.0,N,16870
+"Wednesday, Jun 12",2013,Boston Red Sox,,4,5.0,N,15091
+"Thursday, Jun 13",2013,Kansas City Royals,,4,5.0,N,11398
+"Friday, Jun 14",2013,Kansas City Royals,,4,5.0,N,13407
+"Saturday, Jun 15",2013,Kansas City Royals,,4,5.0,D,18593
+"Sunday, Jun 16",2013,Kansas City Royals,,4,5.0,D,27442
+"Tuesday, Jun 18 (1)",2013,Boston Red Sox,@,4,7.0,D,33430
+"Tuesday, Jun 18 (2)",2013,Boston Red Sox,@,4,7.0,N,32156
+"Wednesday, Jun 19",2013,Boston Red Sox,@,4,6.0,N,35710
+"Thursday, Jun 20",2013,New York Yankees,@,4,5.0,N,37649
+"Friday, Jun 21",2013,New York Yankees,@,4,6.0,N,41123
+"Saturday, Jun 22",2013,New York Yankees,@,4,6.0,D,46013
+"Sunday, Jun 23",2013,New York Yankees,@,4,5.0,D,46054
+"Monday, Jun 24",2013,Toronto Blue Jays,,4,4.5,N,11407
+"Tuesday, Jun 25",2013,Toronto Blue Jays,,4,4.5,N,12041
+"Wednesday, Jun 26",2013,Toronto Blue Jays,,4,5.5,D,21502
+"Friday, Jun 28",2013,Detroit Tigers,,4,7.0,N,17645
+"Saturday, Jun 29",2013,Detroit Tigers,,4,6.0,N,23809
+"Sunday, Jun 30",2013,Detroit Tigers,,3,6.0,D,23427
+"Monday, Jul 1",2013,Houston Astros,@,3,5.5,N,12722
+"Tuesday, Jul 2",2013,Houston Astros,@,3,5.5,N,19631
+"Wednesday, Jul 3",2013,Houston Astros,@,4,6.5,N,14143
+"Thursday, Jul 4",2013,Houston Astros,@,4,6.5,D,20470
+"Friday, Jul 5",2013,Chicago White Sox,,4,6.5,N,15825
+"Saturday, Jul 6",2013,Chicago White Sox,,3,5.5,N,21047
+"Sunday, Jul 7",2013,Chicago White Sox,,2,4.5,D,16832
+"Monday, Jul 8",2013,Minnesota Twins,,2,3.5,N,11516
+"Tuesday, Jul 9",2013,Minnesota Twins,,2,3.5,N,12777
+"Wednesday, Jul 10",2013,Minnesota Twins,,2,3.5,N,12757
+"Thursday, Jul 11",2013,Minnesota Twins,,2,3.5,D,24751
+"Friday, Jul 12",2013,Houston Astros,,2,4.5,N,13347
+"Saturday, Jul 13",2013,Houston Astros,,2,3.5,D,20409
+"Sunday, Jul 14",2013,Houston Astros,,2,2.5,D,21180
+"Friday, Jul 19",2013,Toronto Blue Jays,@,2,2.5,N,33266
+"Saturday, Jul 20",2013,Toronto Blue Jays,@,2,1.5,D,42639
+"Sunday, Jul 21",2013,Toronto Blue Jays,@,2,1.5,D,41247
+"Monday, Jul 22",2013,Boston Red Sox,@,2,0.5,N,35016
+"Tuesday, Jul 23",2013,Boston Red Sox,@,2,1.5,N,34609
+"Wednesday, Jul 24",2013,Boston Red Sox,@,2,0.5,N,36514
+"Friday, Jul 26",2013,New York Yankees,@,1,0.5,N,44486
+"Saturday, Jul 27",2013,New York Yankees,@,1,0.5,D,43424
+"Sunday, Jul 28",2013,New York Yankees,@,2,0.5,D,47714
+"Monday, Jul 29",2013,Boston Red Sox,@,1,0.5,N,37242
+"Tuesday, Jul 30",2013,Arizona Diamondbacks,,1,0.5,N,17402
+"Wednesday, Jul 31",2013,Arizona Diamondbacks,,2,0.5,N,25095
+"Friday, Aug 2",2013,San Francisco Giants,,2,1.0,N,20144
+"Saturday, Aug 3",2013,San Francisco Giants,,2,1.0,N,31969
+"Sunday, Aug 4",2013,San Francisco Giants,,2,1.0,D,34078
+"Tuesday, Aug 6",2013,Arizona Diamondbacks,@,2,1.5,N,19458
+"Wednesday, Aug 7",2013,Arizona Diamondbacks,@,2,2.5,N,18733
+"Friday, Aug 9",2013,Los Angeles Dodgers,@,2,2.0,N,51083
+"Saturday, Aug 10",2013,Los Angeles Dodgers,@,2,3.0,D,52619
+"Sunday, Aug 11",2013,Los Angeles Dodgers,@,2,3.0,N,52248
+"Tuesday, Aug 13",2013,Seattle Mariners,,2,4.0,N,13294
+"Wednesday, Aug 14",2013,Seattle Mariners,,2,3.0,N,14910
+"Thursday, Aug 15",2013,Seattle Mariners,,2,2.0,N,13299
+"Friday, Aug 16",2013,Toronto Blue Jays,,2,1.0,N,15433
+"Saturday, Aug 17",2013,Toronto Blue Jays,,2,2.0,N,25036
+"Sunday, Aug 18",2013,Toronto Blue Jays,,2,1.0,D,23373
+"Monday, Aug 19",2013,Baltimore Orioles,@,2,1.0,N,25044
+"Tuesday, Aug 20",2013,Baltimore Orioles,@,1,0.0,N,26158
+"Wednesday, Aug 21",2013,Baltimore Orioles,@,2,1.0,N,28323
+"Friday, Aug 23",2013,New York Yankees,,1,0.0,N,24239
+"Saturday, Aug 24",2013,New York Yankees,,1,0.0,N,32862
+"Sunday, Aug 25",2013,New York Yankees,,2,1.0,D,34078
+"Monday, Aug 26",2013,Kansas City Royals,@,2,1.5,D,20546
+"Tuesday, Aug 27",2013,Los Angeles Angels,,2,2.5,N,12939
+"Wednesday, Aug 28",2013,Los Angeles Angels,,2,2.5,N,13535
+"Thursday, Aug 29",2013,Los Angeles Angels,,2,2.5,D,15741
+"Friday, Aug 30",2013,Oakland Athletics,@,2,3.5,N,15603
+"Saturday, Aug 31",2013,Oakland Athletics,@,2,4.5,N,35067
+"Sunday, Sep 1",2013,Oakland Athletics,@,2,5.5,D,18639
+"Monday, Sep 2",2013,Los Angeles Angels,@,2,5.5,N,37557
+"Tuesday, Sep 3",2013,Los Angeles Angels,@,2,5.5,N,34332
+"Wednesday, Sep 4",2013,Los Angeles Angels,@,2,5.5,N,34025
+"Thursday, Sep 5",2013,Los Angeles Angels,@,2,6.5,N,34623
+"Friday, Sep 6",2013,Seattle Mariners,@,2,7.5,N,14796
+"Saturday, Sep 7",2013,Seattle Mariners,@,2,8.5,N,17773
+"Sunday, Sep 8",2013,Seattle Mariners,@,2,7.5,D,18645
+"Tuesday, Sep 10",2013,Boston Red Sox,,2,8.5,N,18605
+"Wednesday, Sep 11",2013,Boston Red Sox,,2,9.5,N,19215
+"Thursday, Sep 12",2013,Boston Red Sox,,2,8.5,N,20360
+"Friday, Sep 13",2013,Minnesota Twins,@,2,8.5,N,27292
+"Saturday, Sep 14",2013,Minnesota Twins,@,2,8.5,N,28541
+"Sunday, Sep 15",2013,Minnesota Twins,@,2,9.5,D,27988
+"Monday, Sep 16",2013,Texas Rangers,,2,9.0,N,10724
+"Tuesday, Sep 17",2013,Texas Rangers,,2,9.0,N,10786
+"Wednesday, Sep 18",2013,Texas Rangers,,2,8.0,N,14827
+"Thursday, Sep 19",2013,Texas Rangers,,2,9.0,N,13550
+"Friday, Sep 20",2013,Baltimore Orioles,,2,9.0,N,21247
+"Saturday, Sep 21",2013,Baltimore Orioles,,2,8.0,D,23835
+"Sunday, Sep 22",2013,Baltimore Orioles,,2,8.0,D,28974
+"Monday, Sep 23",2013,Baltimore Orioles,,2,7.5,D,17830
+"Tuesday, Sep 24",2013,New York Yankees,@,2,6.5,N,43407
+"Wednesday, Sep 25",2013,New York Yankees,@,2,6.5,N,37260
+"Thursday, Sep 26",2013,New York Yankees,@,2,6.0,N,48675
+"Friday, Sep 27",2013,Toronto Blue Jays,@,2,7.0,N,27288
+"Saturday, Sep 28",2013,Toronto Blue Jays,@,2,7.0,D,33232
+"Sunday, Sep 29",2013,Toronto Blue Jays,@,2,6.0,D,44551
+"Monday, Sep 30",2013,Texas Rangers,@,2,5.5,N,42796
+"Monday, Mar 31",2014,Toronto Blue Jays,,1,0.0,D,31042
+"Tuesday, Apr 1",2014,Toronto Blue Jays,,2,0.5,N,11113
+"Wednesday, Apr 2",2014,Toronto Blue Jays,,4,1.0,N,10808
+"Thursday, Apr 3",2014,Toronto Blue Jays,,2,0.5,N,9571
+"Friday, Apr 4",2014,Texas Rangers,,1,0.5,N,14304
+"Saturday, Apr 5",2014,Texas Rangers,,1,1.0,N,30364
+"Sunday, Apr 6",2014,Texas Rangers,,1,0.5,D,22569
+"Monday, Apr 7",2014,Kansas City Royals,@,2,0.5,N,12087
+"Tuesday, Apr 8",2014,Kansas City Royals,@,1,0.5,N,13905
+"Wednesday, Apr 9",2014,Kansas City Royals,@,2,0.5,D,13612
+"Friday, Apr 11",2014,Cincinnati Reds,@,1,0.0,N,30502
+"Saturday, Apr 12",2014,Cincinnati Reds,@,1,1.0,D,35356
+"Sunday, Apr 13",2014,Cincinnati Reds,@,1,0.0,D,34307
+"Monday, Apr 14",2014,Baltimore Orioles,@,3,0.5,N,15799
+"Wednesday, Apr 16",2014,Baltimore Orioles,@,4,2.0,D,22611
+"Thursday, Apr 17",2014,New York Yankees,,4,3.0,N,28085
+"Friday, Apr 18",2014,New York Yankees,,4,2.0,N,26079
+"Saturday, Apr 19",2014,New York Yankees,,3,1.0,N,30159
+"Sunday, Apr 20",2014,New York Yankees,,3,2.0,D,26462
+"Tuesday, Apr 22",2014,Minnesota Twins,,3,2.0,N,11785
+"Wednesday, Apr 23",2014,Minnesota Twins,,4,2.0,N,11993
+"Thursday, Apr 24",2014,Minnesota Twins,,4,3.0,D,13177
+"Friday, Apr 25",2014,Chicago White Sox,@,5,3.0,N,17210
+"Saturday, Apr 26",2014,Chicago White Sox,@,4,3.0,N,22412
+"Sunday, Apr 27",2014,Chicago White Sox,@,5,4.0,D,17313
+"Monday, Apr 28",2014,Chicago White Sox,@,5,4.5,N,11268
+"Tuesday, Apr 29",2014,Boston Red Sox,@,5,4.5,N,34794
+"Thursday, May 1 (1)",2014,Boston Red Sox,@,4,3.0,D,35621
+"Thursday, May 1 (2)",2014,Boston Red Sox,@,4,3.0,N,33465
+"Friday, May 2",2014,New York Yankees,@,3,2.5,N,33580
+"Saturday, May 3",2014,New York Yankees,@,4,3.0,D,43325
+"Sunday, May 4",2014,New York Yankees,@,3,2.0,D,41122
+"Tuesday, May 6",2014,Baltimore Orioles,,5,2.5,N,11855
+"Wednesday, May 7",2014,Baltimore Orioles,,5,3.5,N,11282
+"Thursday, May 8",2014,Baltimore Orioles,,5,4.5,N,11076
+"Friday, May 9",2014,Cleveland Guardians,,5,5.5,N,17541
+"Saturday, May 10",2014,Cleveland Guardians,,5,5.5,N,29212
+"Sunday, May 11",2014,Cleveland Guardians,,5,5.5,D,23679
+"Monday, May 12",2014,Seattle Mariners,@,5,5.5,N,12392
+"Tuesday, May 13",2014,Seattle Mariners,@,5,4.5,N,13446
+"Wednesday, May 14",2014,Seattle Mariners,@,5,3.5,D,20951
+"Thursday, May 15",2014,Los Angeles Angels,@,5,4.5,N,34441
+"Friday, May 16",2014,Los Angeles Angels,@,5,4.5,N,38796
+"Saturday, May 17",2014,Los Angeles Angels,@,5,4.5,N,42224
+"Sunday, May 18",2014,Los Angeles Angels,@,5,5.0,D,36655
+"Tuesday, May 20",2014,Oakland Athletics,,5,5.5,N,11369
+"Wednesday, May 21",2014,Oakland Athletics,,5,6.0,N,10555
+"Thursday, May 22",2014,Oakland Athletics,,5,6.0,D,11257
+"Friday, May 23",2014,Boston Red Sox,,4,6.0,N,20898
+"Saturday, May 24",2014,Boston Red Sox,,4,6.0,D,23569
+"Sunday, May 25",2014,Boston Red Sox,,4,6.0,D,26199
+"Monday, May 26",2014,Toronto Blue Jays,@,4,7.0,N,15616
+"Tuesday, May 27",2014,Toronto Blue Jays,@,4,8.0,N,15993
+"Wednesday, May 28",2014,Toronto Blue Jays,@,5,9.0,N,17309
+"Friday, May 30",2014,Boston Red Sox,@,5,8.5,N,35820
+"Saturday, May 31",2014,Boston Red Sox,@,5,9.5,N,37076
+"Sunday, Jun 1",2014,Boston Red Sox,@,5,10.5,D,37688
+"Monday, Jun 2",2014,Miami Marlins,@,5,11.0,N,18155
+"Tuesday, Jun 3",2014,Miami Marlins,@,5,12.0,N,21303
+"Wednesday, Jun 4",2014,Miami Marlins,,5,13.0,N,10897
+"Thursday, Jun 5",2014,Miami Marlins,,5,14.0,D,10442
+"Friday, Jun 6",2014,Seattle Mariners,,5,14.0,N,14577
+"Saturday, Jun 7",2014,Seattle Mariners,,5,14.0,D,23996
+"Sunday, Jun 8",2014,Seattle Mariners,,5,14.0,D,18158
+"Monday, Jun 9",2014,Seattle Mariners,,5,15.0,D,10400
+"Tuesday, Jun 10",2014,St. Louis Cardinals,,5,15.0,N,17226
+"Wednesday, Jun 11",2014,St. Louis Cardinals,,5,14.0,N,15930
+"Friday, Jun 13",2014,Houston Astros,@,5,13.5,N,26829
+"Saturday, Jun 14",2014,Houston Astros,@,5,13.5,D,26264
+"Sunday, Jun 15",2014,Houston Astros,@,5,13.5,D,25526
+"Monday, Jun 16",2014,Baltimore Orioles,,5,13.0,N,10576
+"Tuesday, Jun 17",2014,Baltimore Orioles,,5,13.0,N,10803
+"Wednesday, Jun 18",2014,Baltimore Orioles,,5,13.0,D,12448
+"Thursday, Jun 19",2014,Houston Astros,,5,12.0,N,10880
+"Friday, Jun 20",2014,Houston Astros,,5,13.0,N,13961
+"Saturday, Jun 21",2014,Houston Astros,,5,12.0,D,17551
+"Sunday, Jun 22",2014,Houston Astros,,5,11.0,D,13841
+"Monday, Jun 23",2014,Pittsburg Pirates,,5,12.0,N,13175
+"Tuesday, Jun 24",2014,Pittsburg Pirates,,5,13.0,N,14684
+"Wednesday, Jun 25",2014,Pittsburg Pirates,,5,12.0,D,23761
+"Friday, Jun 27 (1)",2014,Baltimore Orioles,@,5,12.0,D,15614
+"Friday, Jun 27 (2)",2014,Baltimore Orioles,@,5,12.0,N,34895
+"Saturday, Jun 28",2014,Baltimore Orioles,@,5,11.0,D,36387
+"Sunday, Jun 29",2014,Baltimore Orioles,@,5,10.0,D,32665
+"Monday, Jun 30",2014,New York Yankees,@,5,9.5,N,36052
+"Tuesday, Jul 1",2014,New York Yankees,@,5,9.5,N,35866
+"Wednesday, Jul 2",2014,New York Yankees,@,5,9.5,D,42343
+"Thursday, Jul 3",2014,Detroit Tigers,@,5,9.5,N,33908
+"Friday, Jul 4",2014,Detroit Tigers,@,5,9.0,N,40657
+"Saturday, Jul 5",2014,Detroit Tigers,@,5,8.5,D,38087
+"Sunday, Jul 6",2014,Detroit Tigers,@,4,8.5,N,31917
+"Monday, Jul 7",2014,Kansas City Royals,,4,9.5,N,13406
+"Tuesday, Jul 8",2014,Kansas City Royals,,4,9.0,N,12818
+"Wednesday, Jul 9",2014,Kansas City Royals,,4,9.0,N,12150
+"Friday, Jul 11",2014,Toronto Blue Jays,,5,10.5,N,17533
+"Saturday, Jul 12",2014,Toronto Blue Jays,,4,9.5,D,22693
+"Sunday, Jul 13",2014,Toronto Blue Jays,,4,9.5,D,17187
+"Friday, Jul 18",2014,Minnesota Twins,@,4,8.5,N,31058
+"Saturday, Jul 19",2014,Minnesota Twins,@,4,8.5,N,36117
+"Sunday, Jul 20",2014,Minnesota Twins,@,4,7.5,D,26821
+"Tuesday, Jul 22",2014,St. Louis Cardinals,@,4,8.0,N,43623
+"Wednesday, Jul 23",2014,St. Louis Cardinals,@,4,7.0,N,43564
+"Friday, Jul 25",2014,Boston Red Sox,,4,7.5,N,23136
+"Saturday, Jul 26",2014,Boston Red Sox,,4,6.5,N,26659
+"Sunday, Jul 27",2014,Boston Red Sox,,4,7.5,D,25221
+"Monday, Jul 28",2014,Milwaukee Brewers,,4,7.0,N,12660
+"Tuesday, Jul 29",2014,Milwaukee Brewers,,4,7.0,N,16249
+"Wednesday, Jul 30",2014,Milwaukee Brewers,,4,8.0,D,24809
+"Friday, Aug 1",2014,Los Angeles Angels,,4,8.5,N,20969
+"Saturday, Aug 2",2014,Los Angeles Angels,,4,7.5,N,23656
+"Sunday, Aug 3",2014,Los Angeles Angels,,4,8.5,D,25877
+"Monday, Aug 4",2014,Oakland Athletics,@,4,9.5,N,18479
+"Tuesday, Aug 5",2014,Oakland Athletics,@,4,10.5,N,16335
+"Wednesday, Aug 6",2014,Oakland Athletics,@,4,9.5,D,21513
+"Friday, Aug 8",2014,Chicago Cubs,@,4,10.0,D,34937
+"Saturday, Aug 9",2014,Chicago Cubs,@,4,10.0,D,36739
+"Sunday, Aug 10",2014,Chicago Cubs,@,4,10.0,D,33039
+"Monday, Aug 11",2014,Texas Rangers,@,4,10.0,N,28501
+"Tuesday, Aug 12",2014,Texas Rangers,@,4,10.5,N,35642
+"Wednesday, Aug 13",2014,Texas Rangers,@,4,10.5,N,29870
+"Thursday, Aug 14",2014,Texas Rangers,@,4,10.0,N,28904
+"Friday, Aug 15",2014,New York Yankees,,4,9.0,N,26535
+"Saturday, Aug 16",2014,New York Yankees,,4,9.0,D,31042
+"Sunday, Aug 17",2014,New York Yankees,,4,10.0,D,28812
+"Tuesday, Aug 19",2014,Detroit Tigers,,4,11.5,N,14331
+"Wednesday, Aug 20",2014,Detroit Tigers,,4,12.5,N,13575
+"Thursday, Aug 21",2014,Detroit Tigers,,4,12.0,D,19189
+"Friday, Aug 22",2014,Toronto Blue Jays,@,4,11.0,N,28506
+"Saturday, Aug 23",2014,Toronto Blue Jays,@,4,11.0,D,37451
+"Sunday, Aug 24",2014,Toronto Blue Jays,@,4,10.0,D,38869
+"Monday, Aug 25",2014,Baltimore Orioles,@,4,11.0,N,15516
+"Tuesday, Aug 26",2014,Baltimore Orioles,@,4,12.0,N,16406
+"Wednesday, Aug 27",2014,Baltimore Orioles,@,4,11.0,N,20762
+"Thursday, Aug 28",2014,Baltimore Orioles,@,4,12.0,N,16915
+"Friday, Aug 29",2014,Boston Red Sox,,4,13.0,N,16107
+"Saturday, Aug 30",2014,Boston Red Sox,,4,13.0,N,17463
+"Sunday, Aug 31",2014,Boston Red Sox,,4,14.0,D,16822
+"Monday, Sep 1",2014,Boston Red Sox,,4,13.0,D,10543
+"Tuesday, Sep 2",2014,Toronto Blue Jays,,4,14.0,N,10125
+"Wednesday, Sep 3",2014,Toronto Blue Jays,,4,15.0,N,10264
+"Thursday, Sep 4",2014,Toronto Blue Jays,,4,16.0,N,10392
+"Friday, Sep 5",2014,Baltimore Orioles,,4,15.0,N,14632
+"Saturday, Sep 6",2014,Baltimore Orioles,,4,14.0,D,17969
+"Sunday, Sep 7",2014,Baltimore Orioles,,4,15.0,D,19914
+"Tuesday, Sep 9",2014,New York Yankees,@,4,15.5,N,31188
+"Wednesday, Sep 10",2014,New York Yankees,@,4,16.5,N,31591
+"Thursday, Sep 11",2014,New York Yankees,@,4,17.0,N,32627
+"Friday, Sep 12",2014,Toronto Blue Jays,@,4,17.5,N,19909
+"Saturday, Sep 13",2014,Toronto Blue Jays,@,4,17.5,D,31368
+"Sunday, Sep 14",2014,Toronto Blue Jays,@,4,17.5,D,28633
+"Monday, Sep 15",2014,New York Yankees,,4,17.5,N,16058
+"Tuesday, Sep 16",2014,New York Yankees,,4,17.5,N,21387
+"Wednesday, Sep 17",2014,New York Yankees,,4,18.5,N,26332
+"Friday, Sep 19",2014,Chicago White Sox,,4,18.5,N,17540
+"Saturday, Sep 20",2014,Chicago White Sox,,4,18.5,N,21830
+"Sunday, Sep 21",2014,Chicago White Sox,,4,18.5,D,21270
+"Tuesday, Sep 23",2014,Boston Red Sox,@,4,18.0,N,35566
+"Wednesday, Sep 24",2014,Boston Red Sox,@,4,19.0,N,35741
+"Thursday, Sep 25",2014,Boston Red Sox,@,4,19.0,N,36590
+"Friday, Sep 26",2014,Cleveland Guardians,@,4,19.0,N,23131
+"Saturday, Sep 27",2014,Cleveland Guardians,@,4,18.0,N,33025
+"Sunday, Sep 28",2014,Cleveland Guardians,@,4,19.0,D,21400
+"Monday, Apr 6",2015,Baltimore Orioles,,4,1.0,D,31042
+"Tuesday, Apr 7",2015,Baltimore Orioles,,5,2.0,N,13906
+"Wednesday, Apr 8",2015,Baltimore Orioles,,5,1.0,N,13569
+"Friday, Apr 10",2015,Miami Marlins,@,4,2.0,N,17375
+"Saturday, Apr 11",2015,Miami Marlins,@,4,2.0,D,17830
+"Sunday, Apr 12",2015,Miami Marlins,@,3,1.0,D,20199
+"Monday, Apr 13",2015,Toronto Blue Jays,@,2,1.0,N,48414
+"Tuesday, Apr 14",2015,Toronto Blue Jays,@,2,1.0,N,17264
+"Wednesday, Apr 15",2015,Toronto Blue Jays,@,2,1.0,N,15086
+"Thursday, Apr 16",2015,Toronto Blue Jays,@,2,0.5,N,14433
+"Friday, Apr 17",2015,New York Yankees,,2,1.5,N,15752
+"Saturday, Apr 18",2015,New York Yankees,,3,1.5,N,20824
+"Sunday, Apr 19",2015,New York Yankees,,4,1.5,D,21791
+"Tuesday, Apr 21",2015,Boston Red Sox,,5,3.0,N,14307
+"Wednesday, Apr 22",2015,Boston Red Sox,,4,2.0,N,12733
+"Thursday, Apr 23",2015,Boston Red Sox,,4,1.0,N,13834
+"Friday, Apr 24",2015,Toronto Blue Jays,,3,1.0,N,11897
+"Saturday, Apr 25",2015,Toronto Blue Jays,,1,0.0,N,19772
+"Sunday, Apr 26",2015,Toronto Blue Jays,,1,0.0,D,21107
+"Monday, Apr 27",2015,New York Yankees,@,2,1.0,N,34590
+"Tuesday, Apr 28",2015,New York Yankees,@,2,2.0,N,36934
+"Wednesday, Apr 29",2015,New York Yankees,@,2,1.0,D,30055
+"Friday, May 1",2015,Baltimore Orioles,,2,1.0,N,9945
+"Saturday, May 2",2015,Baltimore Orioles,,2,2.0,N,12789
+"Sunday, May 3",2015,Baltimore Orioles,,2,3.0,D,16652
+"Monday, May 4",2015,Boston Red Sox,@,2,2.0,N,34541
+"Tuesday, May 5",2015,Boston Red Sox,@,2,3.0,N,33688
+"Wednesday, May 6",2015,Boston Red Sox,@,2,2.0,N,35060
+"Thursday, May 7",2015,Texas Rangers,,2,3.0,N,8701
+"Friday, May 8",2015,Texas Rangers,,2,3.0,N,11704
+"Saturday, May 9",2015,Texas Rangers,,2,2.0,N,20943
+"Sunday, May 10",2015,Texas Rangers,,2,3.0,D,14521
+"Monday, May 11",2015,New York Yankees,,2,4.0,N,10619
+"Tuesday, May 12",2015,New York Yankees,,2,3.0,N,10417
+"Wednesday, May 13",2015,New York Yankees,,2,2.0,N,11924
+"Thursday, May 14",2015,New York Yankees,,2,1.0,N,11977
+"Friday, May 15",2015,Minnesota Twins,@,2,1.0,N,24018
+"Saturday, May 16",2015,Minnesota Twins,@,2,2.0,D,27128
+"Sunday, May 17",2015,Minnesota Twins,@,2,1.0,D,23708
+"Tuesday, May 19",2015,Atlanta Braves,@,1,0.0,N,20120
+"Wednesday, May 20",2015,Atlanta Braves,@,1,0.0,N,24549
+"Thursday, May 21",2015,Oakland Athletics,,1,0.5,N,10605
+"Friday, May 22",2015,Oakland Athletics,,1,1.5,N,12329
+"Saturday, May 23",2015,Oakland Athletics,,1,1.5,D,15207
+"Sunday, May 24",2015,Oakland Athletics,,1,1.5,D,15692
+"Monday, May 25",2015,Seattle Mariners,,1,0.5,N,10401
+"Tuesday, May 26",2015,Seattle Mariners,,2,0.5,N,9628
+"Wednesday, May 27",2015,Seattle Mariners,,2,1.5,D,10365
+"Friday, May 29",2015,Baltimore Orioles,@,2,1.0,N,45505
+"Saturday, May 30",2015,Baltimore Orioles,@,2,1.0,D,38177
+"Sunday, May 31",2015,Baltimore Orioles,@,1,0.0,D,36945
+"Monday, Jun 1",2015,Los Angeles Angels,@,2,1.0,N,27078
+"Tuesday, Jun 2",2015,Los Angeles Angels,@,2,1.0,N,28771
+"Wednesday, Jun 3",2015,Los Angeles Angels,@,2,1.0,N,28245
+"Thursday, Jun 4",2015,Seattle Mariners,@,2,0.5,N,16096
+"Friday, Jun 5",2015,Seattle Mariners,@,2,0.5,N,20695
+"Saturday, Jun 6",2015,Seattle Mariners,@,2,1.5,N,31106
+"Sunday, Jun 7",2015,Seattle Mariners,@,2,1.5,D,27906
+"Tuesday, Jun 9",2015,Los Angeles Angels,,2,2.5,N,11617
+"Wednesday, Jun 10",2015,Los Angeles Angels,,2,1.5,N,10088
+"Thursday, Jun 11",2015,Los Angeles Angels,,2,2.0,N,10779
+"Friday, Jun 12",2015,Chicago White Sox,,2,1.0,N,13448
+"Saturday, Jun 13",2015,Chicago White Sox,,1,0.0,D,20248
+"Sunday, Jun 14",2015,Chicago White Sox,,1,0.0,D,17962
+"Monday, Jun 15",2015,Washington Nationals,,1,1.0,N,10216
+"Tuesday, Jun 16",2015,Washington Nationals,,1,1.0,N,11491
+"Wednesday, Jun 17",2015,Washington Nationals,@,1,1.0,N,28929
+"Thursday, Jun 18",2015,Washington Nationals,@,1,1.0,N,29242
+"Friday, Jun 19",2015,Cleveland Guardians,@,1,1.0,N,22811
+"Saturday, Jun 20",2015,Cleveland Guardians,@,1,1.0,N,24670
+"Sunday, Jun 21",2015,Cleveland Guardians,@,1,1.0,D,20847
+"Monday, Jun 22",2015,Toronto Blue Jays,,1,1.0,N,10324
+"Tuesday, Jun 23",2015,Toronto Blue Jays,,1,2.0,N,11474
+"Wednesday, Jun 24",2015,Toronto Blue Jays,,1,1.0,D,18469
+"Friday, Jun 26",2015,Boston Red Sox,,1,0.5,N,17508
+"Saturday, Jun 27",2015,Boston Red Sox,,1,0.5,D,23876
+"Sunday, Jun 28",2015,Boston Red Sox,,1,0.0,D,21963
+"Monday, Jun 29",2015,Cleveland Guardians,,1,0.0,N,11802
+"Tuesday, Jun 30",2015,Cleveland Guardians,,1,0.0,N,10437
+"Wednesday, Jul 1",2015,Cleveland Guardians,,3,1.0,N,11394
+"Thursday, Jul 2",2015,Cleveland Guardians,,3,1.0,D,16353
+"Friday, Jul 3",2015,New York Yankees,@,3,2.0,N,43141
+"Saturday, Jul 4",2015,New York Yankees,@,3,3.0,D,35508
+"Sunday, Jul 5",2015,New York Yankees,@,3,2.0,D,35050
+"Tuesday, Jul 7 (1)",2015,Kansas City Royals,@,4,2.5,D,22386
+"Tuesday, Jul 7 (2)",2015,Kansas City Royals,@,4,2.5,N,28119
+"Wednesday, Jul 8",2015,Kansas City Royals,@,4,3.5,N,28204
+"Thursday, Jul 9",2015,Kansas City Royals,@,4,4.5,D,32308
+"Friday, Jul 10",2015,Houston Astros,,3,4.5,N,17129
+"Saturday, Jul 11",2015,Houston Astros,,3,3.5,D,18479
+"Sunday, Jul 12",2015,Houston Astros,,2,3.5,D,16458
+"Friday, Jul 17",2015,Toronto Blue Jays,@,2,4.5,N,32908
+"Saturday, Jul 18",2015,Toronto Blue Jays,@,2,3.5,D,41583
+"Sunday, Jul 19",2015,Toronto Blue Jays,@,3,4.5,D,41683
+"Monday, Jul 20",2015,Phildelphia Phillies,@,4,5.0,N,20148
+"Tuesday, Jul 21",2015,Phildelphia Phillies,@,3,5.0,N,28703
+"Wednesday, Jul 22",2015,Phildelphia Phillies,@,3,6.0,D,22252
+"Friday, Jul 24",2015,Baltimore Orioles,,2,5.5,N,17838
+"Saturday, Jul 25",2015,Baltimore Orioles,,3,6.5,N,24327
+"Sunday, Jul 26",2015,Baltimore Orioles,,4,7.5,D,18613
+"Monday, Jul 27",2015,Detroit Tigers,,4,7.5,N,13348
+"Tuesday, Jul 28",2015,Detroit Tigers,,3,7.5,N,16326
+"Wednesday, Jul 29",2015,Detroit Tigers,,4,7.5,D,28057
+"Friday, Jul 31",2015,Boston Red Sox,@,4,8.0,N,36715
+"Saturday, Aug 1",2015,Boston Red Sox,@,4,8.0,D,35944
+"Sunday, Aug 2",2015,Boston Red Sox,@,4,8.0,D,35699
+"Monday, Aug 3",2015,Chicago White Sox,@,4,7.5,N,16496
+"Tuesday, Aug 4",2015,Chicago White Sox,@,4,7.5,N,18499
+"Wednesday, Aug 5",2015,Chicago White Sox,@,4,7.5,D,20028
+"Friday, Aug 7",2015,New York Mets,,4,8.0,N,23145
+"Saturday, Aug 8",2015,New York Mets,,4,7.0,N,31042
+"Sunday, Aug 9",2015,New York Mets,,4,6.0,D,26681
+"Tuesday, Aug 11",2015,Atlanta Braves,,4,5.0,N,15506
+"Wednesday, Aug 12",2015,Atlanta Braves,,3,4.5,N,16337
+"Friday, Aug 14",2015,Texas Rangers,@,4,5.5,N,32512
+"Saturday, Aug 15",2015,Texas Rangers,@,4,6.5,N,32351
+"Sunday, Aug 16",2015,Texas Rangers,@,4,6.5,D,29167
+"Monday, Aug 17",2015,Houston Astros,@,4,6.5,N,16256
+"Tuesday, Aug 18",2015,Houston Astros,@,4,7.5,N,17749
+"Wednesday, Aug 19",2015,Houston Astros,@,4,8.5,N,26001
+"Thursday, Aug 20",2015,Houston Astros,@,4,7.5,N,18177
+"Friday, Aug 21",2015,Oakland Athletics,@,4,6.5,N,20671
+"Saturday, Aug 22",2015,Oakland Athletics,@,4,6.5,N,35067
+"Sunday, Aug 23",2015,Oakland Athletics,@,4,7.0,D,19425
+"Tuesday, Aug 25",2015,Minnesota Twins,,3,8.0,N,9632
+"Wednesday, Aug 26",2015,Minnesota Twins,,4,9.0,N,9205
+"Thursday, Aug 27",2015,Minnesota Twins,,3,8.0,N,9375
+"Friday, Aug 28",2015,Kansas City Royals,,3,9.0,N,13622
+"Saturday, Aug 29",2015,Kansas City Royals,,3,10.0,N,24372
+"Sunday, Aug 30",2015,Kansas City Royals,,3,10.0,D,18634
+"Monday, Aug 31",2015,Baltimore Orioles,@,3,9.0,N,19841
+"Tuesday, Sep 1",2015,Baltimore Orioles,@,3,9.0,N,22987
+"Wednesday, Sep 2",2015,Baltimore Orioles,@,3,10.0,N,15963
+"Friday, Sep 4",2015,New York Yankees,@,3,10.0,N,32530
+"Saturday, Sep 5",2015,New York Yankees,@,3,10.0,D,35030
+"Sunday, Sep 6",2015,New York Yankees,@,3,11.0,D,35299
+"Monday, Sep 7",2015,Detroit Tigers,@,3,11.0,D,27958
+"Tuesday, Sep 8",2015,Detroit Tigers,@,3,12.0,N,26526
+"Wednesday, Sep 9",2015,Detroit Tigers,@,3,11.0,N,25932
+"Friday, Sep 11",2015,Boston Red Sox,,3,11.0,N,14796
+"Saturday, Sep 12",2015,Boston Red Sox,,3,12.5,N,20698
+"Sunday, Sep 13",2015,Boston Red Sox,,3,12.5,D,15402
+"Monday, Sep 14",2015,New York Yankees,,4,13.0,N,11940
+"Tuesday, Sep 15",2015,New York Yankees,,4,12.0,N,13539
+"Wednesday, Sep 16",2015,New York Yankees,,4,13.0,N,13299
+"Thursday, Sep 17",2015,Baltimore Orioles,,4,14.0,N,9617
+"Friday, Sep 18",2015,Baltimore Orioles,,4,14.0,N,10697
+"Saturday, Sep 19",2015,Baltimore Orioles,,4,14.0,N,17053
+"Sunday, Sep 20",2015,Baltimore Orioles,,4,13.0,D,17801
+"Monday, Sep 21",2015,Boston Red Sox,@,5,14.0,N,33673
+"Tuesday, Sep 22",2015,Boston Red Sox,@,4,13.0,N,33673
+"Wednesday, Sep 23",2015,Boston Red Sox,@,4,13.0,N,32753
+"Thursday, Sep 24",2015,Boston Red Sox,@,4,12.5,N,34916
+"Friday, Sep 25",2015,Toronto Blue Jays,@,4,13.5,N,47696
+"Saturday, Sep 26",2015,Toronto Blue Jays,@,4,14.5,D,47094
+"Sunday, Sep 27",2015,Toronto Blue Jays,@,5,15.5,D,47287
+"Tuesday, Sep 29",2015,Miami Marlins,,5,15.5,N,9150
+"Wednesday, Sep 30",2015,Miami Marlins,,4,15.0,N,9431
+"Thursday, Oct 1",2015,Miami Marlins,,3,14.0,N,9657
+"Friday, Oct 2",2015,Toronto Blue Jays,,4,15.0,N,13668
+"Saturday, Oct 3",2015,Toronto Blue Jays,,4,14.0,N,21963
+"Sunday, Oct 4",2015,Toronto Blue Jays,,4,13.0,D,15815
+"Sunday, Apr 3",2016,Toronto Blue Jays,,5,1.0,D,31042
+"Monday, Apr 4",2016,Toronto Blue Jays,,5,2.0,N,15116
+"Tuesday, Apr 5",2016,Toronto Blue Jays,,4,1.0,N,12757
+"Wednesday, Apr 6",2016,Toronto Blue Jays,,2,1.0,D,14257
+"Friday, Apr 8",2016,Baltimore Orioles,@,4,2.5,N,17304
+"Sunday, Apr 10",2016,Baltimore Orioles,@,5,3.5,D,23101
+"Tuesday, Apr 12",2016,Cleveland Guardians,,3,4.0,N,10283
+"Wednesday, Apr 13",2016,Cleveland Guardians,,5,4.0,N,10117
+"Thursday, Apr 14",2016,Cleveland Guardians,,5,4.0,D,10715
+"Friday, Apr 15",2016,Chicago White Sox,,5,5.0,N,16801
+"Saturday, Apr 16",2016,Chicago White Sox,,5,4.0,N,30451
+"Sunday, Apr 17",2016,Chicago White Sox,,5,3.5,D,21810
+"Tuesday, Apr 19",2016,Boston Red Sox,@,3,2.5,N,32061
+"Wednesday, Apr 20",2016,Boston Red Sox,@,4,3.5,N,31689
+"Thursday, Apr 21",2016,Boston Red Sox,@,2,3.5,D,37954
+"Friday, Apr 22",2016,New York Yankees,@,3,3.5,N,31843
+"Saturday, Apr 23",2016,New York Yankees,@,5,4.5,D,40714
+"Sunday, Apr 24",2016,New York Yankees,@,4,3.5,D,40981
+"Monday, Apr 25",2016,Baltimore Orioles,,3,2.5,N,12996
+"Tuesday, Apr 26",2016,Baltimore Orioles,,3,1.5,N,10988
+"Wednesday, Apr 27",2016,Baltimore Orioles,,3,2.5,N,11850
+"Friday, Apr 29",2016,Toronto Blue Jays,,3,4.0,N,13679
+"Saturday, Apr 30",2016,Toronto Blue Jays,,3,3.0,N,14948
+"Sunday, May 1",2016,Toronto Blue Jays,,3,3.5,D,27217
+"Tuesday, May 3",2016,Los Angeles Dodgers,,4,4.0,N,14116
+"Wednesday, May 4",2016,Los Angeles Dodgers,,4,3.5,N,13226
+"Friday, May 6",2016,Los Angeles Angels,@,4,3.0,N,41253
+"Saturday, May 7",2016,Los Angeles Angels,@,3,2.5,N,40142
+"Sunday, May 8",2016,Los Angeles Angels,@,3,2.5,D,41086
+"Monday, May 9",2016,Seattle Mariners,@,3,3.0,N,15230
+"Tuesday, May 10",2016,Seattle Mariners,@,4,4.0,N,16013
+"Wednesday, May 11",2016,Seattle Mariners,@,4,5.0,D,23000
+"Friday, May 13",2016,Oakland Athletics,,4,6.5,N,14604
+"Saturday, May 14",2016,Oakland Athletics,,4,6.5,N,28158
+"Sunday, May 15",2016,Oakland Athletics,,4,6.5,D,19545
+"Monday, May 16",2016,Toronto Blue Jays,@,3,6.0,N,26516
+"Tuesday, May 17",2016,Toronto Blue Jays,@,3,5.0,N,27321
+"Wednesday, May 18",2016,Toronto Blue Jays,@,3,5.0,N,29078
+"Friday, May 20",2016,Detroit Tigers,@,3,4.5,N,30304
+"Saturday, May 21",2016,Detroit Tigers,@,3,5.5,D,32316
+"Sunday, May 22",2016,Detroit Tigers,@,3,5.5,D,34758
+"Monday, May 23",2016,Miami Marlins,@,4,6.0,N,17969
+"Tuesday, May 24",2016,Miami Marlins,@,4,6.0,D,23709
+"Wednesday, May 25",2016,Miami Marlins,,4,7.0,N,13554
+"Thursday, May 26",2016,Miami Marlins,,5,7.0,D,11399
+"Friday, May 27",2016,New York Yankees,,5,7.0,N,14697
+"Saturday, May 28",2016,New York Yankees,,5,6.0,D,20188
+"Sunday, May 29",2016,New York Yankees,,5,7.0,D,19748
+"Monday, May 30",2016,Kansas City Royals,@,5,8.0,N,32018
+"Tuesday, May 31",2016,Kansas City Royals,@,5,9.0,N,26006
+"Wednesday, Jun 1",2016,Kansas City Royals,@,5,9.0,N,30554
+"Thursday, Jun 2",2016,Minnesota Twins,@,5,9.0,N,20193
+"Friday, Jun 3",2016,Minnesota Twins,@,5,8.0,N,21134
+"Saturday, Jun 4",2016,Minnesota Twins,@,5,8.0,D,26613
+"Sunday, Jun 5",2016,Minnesota Twins,@,5,7.0,D,25510
+"Monday, Jun 6",2016,Arizona Diamondbacks,@,5,7.0,N,17176
+"Tuesday, Jun 7",2016,Arizona Diamondbacks,@,5,8.0,N,17964
+"Wednesday, Jun 8",2016,Arizona Diamondbacks,@,5,8.0,D,16954
+"Friday, Jun 10",2016,Houston Astros,,5,7.5,N,13075
+"Saturday, Jun 11",2016,Houston Astros,,5,7.5,D,19658
+"Sunday, Jun 12",2016,Houston Astros,,5,6.5,D,11168
+"Tuesday, Jun 14",2016,Seattle Mariners,,4,6.5,N,11455
+"Wednesday, Jun 15",2016,Seattle Mariners,,4,5.5,N,12239
+"Thursday, Jun 16",2016,Seattle Mariners,,4,6.5,D,11331
+"Friday, Jun 17",2016,San Francisco Giants,,5,6.5,N,40135
+"Saturday, Jun 18",2016,San Francisco Giants,,5,7.5,D,23948
+"Sunday, Jun 19",2016,San Francisco Giants,,5,8.5,D,17361
+"Monday, Jun 20",2016,Cleveland Guardians,@,5,8.5,N,13811
+"Tuesday, Jun 21",2016,Cleveland Guardians,@,5,8.5,N,15629
+"Wednesday, Jun 22",2016,Cleveland Guardians,@,5,9.5,N,21216
+"Friday, Jun 24",2016,Baltimore Orioles,@,5,10.5,N,44956
+"Saturday, Jun 25 (1)",2016,Baltimore Orioles,@,5,12.5,D,18229
+"Saturday, Jun 25 (2)",2016,Baltimore Orioles,@,5,12.5,N,33040
+"Sunday, Jun 26",2016,Baltimore Orioles,@,5,13.5,D,38611
+"Monday, Jun 27",2016,Boston Red Sox,,5,13.0,N,18024
+"Tuesday, Jun 28",2016,Boston Red Sox,,5,14.0,N,16986
+"Wednesday, Jun 29",2016,Boston Red Sox,,5,14.0,D,24110
+"Thursday, Jun 30",2016,Detroit Tigers,,5,14.0,N,10729
+"Friday, Jul 1",2016,Detroit Tigers,,5,14.0,N,13537
+"Saturday, Jul 2",2016,Detroit Tigers,,5,14.0,D,17861
+"Sunday, Jul 3",2016,Detroit Tigers,,5,14.0,D,13126
+"Monday, Jul 4",2016,Los Angeles Angels,,5,13.0,D,14532
+"Tuesday, Jul 5",2016,Los Angeles Angels,,5,14.0,N,14896
+"Wednesday, Jul 6",2016,Los Angeles Angels,,5,15.0,N,11267
+"Thursday, Jul 7",2016,Los Angeles Angels,,5,15.5,D,14576
+"Friday, Jul 8",2016,Boston Red Sox,@,5,15.5,N,37739
+"Saturday, Jul 9",2016,Boston Red Sox,@,5,16.5,D,36900
+"Sunday, Jul 10",2016,Boston Red Sox,@,5,17.5,D,36669
+"Friday, Jul 15",2016,Baltimore Orioles,,5,18.5,N,17672
+"Saturday, Jul 16",2016,Baltimore Orioles,,5,19.5,N,18638
+"Sunday, Jul 17",2016,Baltimore Orioles,,5,18.5,D,16161
+"Monday, Jul 18",2016,Colorado Rockies,@,5,18.5,N,30601
+"Tuesday, Jul 19",2016,Colorado Rockies,@,5,17.5,N,33061
+"Wednesday, Jul 20",2016,Colorado Rockies,@,5,17.0,D,31456
+"Thursday, Jul 21",2016,Oakland Athletics,@,5,17.0,N,14412
+"Friday, Jul 22",2016,Oakland Athletics,@,5,17.5,N,15250
+"Saturday, Jul 23",2016,Oakland Athletics,@,5,18.5,N,30436
+"Sunday, Jul 24",2016,Oakland Athletics,@,5,19.5,D,17642
+"Tuesday, Jul 26",2016,Los Angeles Dodgers,@,5,20.0,N,46960
+"Wednesday, Jul 27",2016,Los Angeles Dodgers,@,5,19.0,D,43576
+"Friday, Jul 29",2016,New York Yankees,,5,17.5,N,17856
+"Saturday, Jul 30",2016,New York Yankees,,5,17.0,N,25883
+"Sunday, Jul 31",2016,New York Yankees,,5,16.5,D,18109
+"Monday, Aug 1",2016,Kansas City Royals,,5,17.0,N,13976
+"Tuesday, Aug 2",2016,Kansas City Royals,,5,18.0,N,12625
+"Wednesday, Aug 3",2016,Kansas City Royals,,5,18.0,N,11149
+"Thursday, Aug 4",2016,Kansas City Royals,,5,17.0,D,13120
+"Friday, Aug 5",2016,Minnesota Twins,,5,18.0,N,12161
+"Saturday, Aug 6",2016,Minnesota Twins,,5,17.0,N,15603
+"Sunday, Aug 7",2016,Minnesota Twins,,5,18.0,D,12649
+"Monday, Aug 8",2016,Toronto Blue Jays,@,5,18.0,N,43812
+"Tuesday, Aug 9",2016,Toronto Blue Jays,@,5,17.0,N,43134
+"Wednesday, Aug 10",2016,Toronto Blue Jays,@,5,18.0,N,45501
+"Friday, Aug 12",2016,New York Yankees,@,5,18.5,N,46459
+"Saturday, Aug 13",2016,New York Yankees,@,5,19.0,D,41682
+"Sunday, Aug 14",2016,New York Yankees,@,5,19.0,D,41473
+"Monday, Aug 15",2016,San Diego Padres,,5,18.0,N,10417
+"Tuesday, Aug 16",2016,San Diego Padres,,5,18.0,N,10793
+"Wednesday, Aug 17",2016,San Diego Padres,,5,18.0,D,10251
+"Friday, Aug 19",2016,Texas Rangers,,5,18.0,N,15109
+"Saturday, Aug 20",2016,Texas Rangers,,5,18.0,N,16505
+"Sunday, Aug 21",2016,Texas Rangers,,5,17.0,D,17685
+"Monday, Aug 22",2016,Boston Red Sox,,5,17.5,N,13576
+"Tuesday, Aug 23",2016,Boston Red Sox,,5,18.5,N,11249
+"Wednesday, Aug 24",2016,Boston Red Sox,,5,17.5,N,11896
+"Thursday, Aug 25",2016,Boston Red Sox,,5,16.5,D,12059
+"Friday, Aug 26",2016,Houston Astros,@,5,17.5,N,25852
+"Saturday, Aug 27",2016,Houston Astros,@,5,18.5,N,36544
+"Sunday, Aug 28",2016,Houston Astros,@,5,18.5,D,37484
+"Monday, Aug 29",2016,Boston Red Sox,@,5,19.5,N,36948
+"Tuesday, Aug 30",2016,Boston Red Sox,@,5,18.5,N,37083
+"Wednesday, Aug 31",2016,Boston Red Sox,@,5,19.5,D,36786
+"Friday, Sep 2",2016,Toronto Blue Jays,,5,18.5,N,12602
+"Saturday, Sep 3",2016,Toronto Blue Jays,,5,17.5,N,14353
+"Sunday, Sep 4",2016,Toronto Blue Jays,,5,18.5,D,13884
+"Monday, Sep 5",2016,Baltimore Orioles,,5,18.5,D,12256
+"Tuesday, Sep 6",2016,Baltimore Orioles,,5,18.5,N,12207
+"Wednesday, Sep 7",2016,Baltimore Orioles,,5,18.5,D,10537
+"Thursday, Sep 8",2016,New York Yankees,@,5,19.0,N,27631
+"Friday, Sep 9",2016,New York Yankees,@,5,20.0,N,30194
+"Saturday, Sep 10",2016,New York Yankees,@,5,20.0,D,33460
+"Sunday, Sep 11",2016,New York Yankees,@,5,20.0,D,33087
+"Monday, Sep 12",2016,Toronto Blue Jays,@,5,21.0,N,35333
+"Tuesday, Sep 13",2016,Toronto Blue Jays,@,5,20.0,N,38338
+"Wednesday, Sep 14",2016,Toronto Blue Jays,@,5,19.0,D,41001
+"Thursday, Sep 15",2016,Baltimore Orioles,@,5,19.0,N,19233
+"Friday, Sep 16",2016,Baltimore Orioles,@,5,20.0,N,30094
+"Saturday, Sep 17",2016,Baltimore Orioles,@,5,20.0,N,27823
+"Sunday, Sep 18",2016,Baltimore Orioles,@,5,21.0,D,28427
+"Tuesday, Sep 20",2016,New York Yankees,,5,22.5,N,12732
+"Wednesday, Sep 21",2016,New York Yankees,,5,23.5,N,12192
+"Thursday, Sep 22",2016,New York Yankees,,5,23.5,N,13355
+"Friday, Sep 23",2016,Boston Red Sox,,5,24.5,N,20543
+"Saturday, Sep 24",2016,Boston Red Sox,,5,25.5,N,25641
+"Sunday, Sep 25",2016,Boston Red Sox,,5,26.5,D,26443
+"Monday, Sep 26",2016,Chicago White Sox,@,5,27.0,N,13665
+"Tuesday, Sep 27",2016,Chicago White Sox,@,5,27.0,N,14798
+"Wednesday, Sep 28",2016,Chicago White Sox,@,5,27.0,N,12976
+"Thursday, Sep 29",2016,Chicago White Sox,@,5,26.0,N,14792
+"Friday, Sep 30",2016,Texas Rangers,@,5,27.0,N,35968
+"Saturday, Oct 1",2016,Texas Rangers,@,5,26.0,N,42093
+"Sunday, Oct 2",2016,Texas Rangers,@,5,25.0,D,37015
+"Sunday, Apr 2",2017,New York Yankees,,1,0.5,D,31042
+"Tuesday, Apr 4",2017,New York Yankees,,3,0.5,N,19366
+"Wednesday, Apr 5",2017,New York Yankees,,3,0.5,N,12737
+"Thursday, Apr 6",2017,Toronto Blue Jays,,3,1.0,N,12678
+"Friday, Apr 7",2017,Toronto Blue Jays,,2,1.0,N,12842
+"Saturday, Apr 8",2017,Toronto Blue Jays,,2,1.0,N,21838
+"Sunday, Apr 9",2017,Toronto Blue Jays,,1,0.0,D,15341
+"Monday, Apr 10",2017,New York Yankees,@,2,0.5,D,46955
+"Wednesday, Apr 12",2017,New York Yankees,@,2,1.0,D,38002
+"Thursday, Apr 13",2017,New York Yankees,@,4,2.0,N,34772
+"Friday, Apr 14",2017,Boston Red Sox,@,3,2.0,N,36813
+"Saturday, Apr 15",2017,Boston Red Sox,@,4,2.0,D,36686
+"Sunday, Apr 16",2017,Boston Red Sox,@,4,3.0,D,36209
+"Monday, Apr 17",2017,Boston Red Sox,@,4,3.5,D,37318
+"Tuesday, Apr 18",2017,Detroit Tigers,,4,2.5,N,16265
+"Wednesday, Apr 19",2017,Detroit Tigers,,4,2.5,N,12281
+"Thursday, Apr 20",2017,Detroit Tigers,,4,2.5,D,13267
+"Friday, Apr 21",2017,Houston Astros,,4,3.5,N,17683
+"Saturday, Apr 22",2017,Houston Astros,,4,3.5,N,17008
+"Sunday, Apr 23",2017,Houston Astros,,4,3.5,D,15548
+"Monday, Apr 24",2017,Baltimore Orioles,@,4,4.5,N,11142
+"Tuesday, Apr 25",2017,Baltimore Orioles,@,4,3.5,N,11472
+"Wednesday, Apr 26",2017,Baltimore Orioles,@,4,4.5,N,16289
+"Friday, Apr 28",2017,Toronto Blue Jays,@,4,3.5,N,36256
+"Saturday, Apr 29",2017,Toronto Blue Jays,@,4,4.5,D,42419
+"Sunday, Apr 30",2017,Toronto Blue Jays,@,4,4.5,D,42986
+"Monday, May 1",2017,Miami Marlins,@,4,4.5,N,16096
+"Tuesday, May 2",2017,Miami Marlins,@,4,3.5,N,16011
+"Wednesday, May 3",2017,Miami Marlins,,4,4.5,N,12285
+"Thursday, May 4",2017,Miami Marlins,,4,4.0,N,10118
+"Friday, May 5",2017,Toronto Blue Jays,,4,5.0,N,12461
+"Saturday, May 6",2017,Toronto Blue Jays,,4,5.0,D,12035
+"Sunday, May 7",2017,Toronto Blue Jays,,4,6.0,D,15068
+"Monday, May 8",2017,Kansas City Royals,,4,7.0,N,12826
+"Tuesday, May 9",2017,Kansas City Royals,,4,7.5,N,9921
+"Wednesday, May 10",2017,Kansas City Royals,,4,6.5,N,9320
+"Thursday, May 11",2017,Kansas City Royals,,4,7.0,D,9340
+"Friday, May 12",2017,Boston Red Sox,@,4,6.0,N,36496
+"Saturday, May 13",2017,Boston Red Sox,@,4,6.0,D,35447
+"Sunday, May 14",2017,Boston Red Sox,@,4,5.5,D,35080
+"Monday, May 15",2017,Cleveland Guardians,@,4,6.0,N,14613
+"Tuesday, May 16",2017,Cleveland Guardians,@,4,6.0,N,18238
+"Wednesday, May 17",2017,Cleveland Guardians,@,4,6.0,D,22104
+"Friday, May 19",2017,New York Yankees,,4,4.5,N,21146
+"Saturday, May 20",2017,New York Yankees,,3,4.0,D,22864
+"Sunday, May 21",2017,New York Yankees,,4,4.5,D,20873
+"Monday, May 22",2017,Los Angeles Angels,,4,5.5,N,12249
+"Tuesday, May 23",2017,Los Angeles Angels,,4,5.5,N,9014
+"Wednesday, May 24",2017,Los Angeles Angels,,4,5.5,N,9975
+"Thursday, May 25",2017,Los Angeles Angels,,4,5.0,D,9459
+"Friday, May 26",2017,Minnesota Twins,@,4,4.0,N,20949
+"Saturday, May 27",2017,Minnesota Twins,@,4,5.0,D,27531
+"Sunday, May 28",2017,Minnesota Twins,@,4,5.0,D,28951
+"Monday, May 29",2017,Texas Rangers,@,4,4.0,N,35914
+"Tuesday, May 30",2017,Texas Rangers,@,4,5.0,N,22942
+"Wednesday, May 31",2017,Texas Rangers,@,4,4.0,N,24410
+"Friday, Jun 2",2017,Seattle Mariners,@,4,4.5,N,27933
+"Saturday, Jun 3",2017,Seattle Mariners,@,4,5.5,N,26995
+"Sunday, Jun 4",2017,Seattle Mariners,@,4,5.5,D,28579
+"Tuesday, Jun 6",2017,Chicago White Sox,,4,5.5,N,14590
+"Wednesday, Jun 7",2017,Chicago White Sox,,4,5.5,N,9313
+"Thursday, Jun 8",2017,Chicago White Sox,,4,5.5,N,8971
+"Friday, Jun 9",2017,Oakland Athletics,,4,5.5,N,13153
+"Saturday, Jun 10 (1)",2017,Oakland Athletics,,4,6.0,D,
+"Saturday, Jun 10 (2)",2017,Oakland Athletics,,4,6.0,N,17775
+"Sunday, Jun 11",2017,Oakland Athletics,,3,6.0,D,13640
+"Tuesday, Jun 13",2017,Toronto Blue Jays,@,3,5.5,N,39404
+"Wednesday, Jun 14",2017,Toronto Blue Jays,@,3,5.5,N,37734
+"Thursday, Jun 15",2017,Detroit Tigers,@,3,5.5,N,24056
+"Friday, Jun 16",2017,Detroit Tigers,@,3,5.5,N,29674
+"Saturday, Jun 17",2017,Detroit Tigers,@,3,4.5,D,33478
+"Sunday, Jun 18",2017,Detroit Tigers,@,3,3.5,D,36442
+"Monday, Jun 19",2017,Cincinnati Reds,,3,4.0,N,17117
+"Tuesday, Jun 20",2017,Cincinnati Reds,,3,3.5,N,13375
+"Wednesday, Jun 21",2017,Cincinnati Reds,,3,3.0,D,19619
+"Friday, Jun 23",2017,Baltimore Orioles,,3,2.5,N,18929
+"Saturday, Jun 24",2017,Baltimore Orioles,,3,2.5,D,23902
+"Sunday, Jun 25",2017,Baltimore Orioles,,3,2.5,D,15943
+"Tuesday, Jun 27",2017,Pittsburg Pirates,@,3,3.0,N,20424
+"Wednesday, Jun 28",2017,Pittsburg Pirates,@,3,3.0,N,21582
+"Thursday, Jun 29",2017,Pittsburg Pirates,@,3,4.0,N,22595
+"Friday, Jun 30",2017,Baltimore Orioles,@,3,4.0,N,24398
+"Saturday, Jul 1",2017,Baltimore Orioles,@,3,4.0,N,28346
+"Sunday, Jul 2",2017,Baltimore Orioles,@,3,5.0,D,26489
+"Tuesday, Jul 4",2017,Chicago Cubs,@,3,5.5,D,42046
+"Wednesday, Jul 5",2017,Chicago Cubs,@,3,5.5,D,39855
+"Thursday, Jul 6",2017,Boston Red Sox,,3,4.5,N,23375
+"Friday, Jul 7",2017,Boston Red Sox,,3,5.5,N,24842
+"Saturday, Jul 8",2017,Boston Red Sox,,3,4.5,D,23419
+"Sunday, Jul 9",2017,Boston Red Sox,,2,3.5,D,20812
+"Friday, Jul 14",2017,Los Angeles Angels,@,2,3.5,N,38119
+"Saturday, Jul 15",2017,Los Angeles Angels,@,2,2.5,N,38515
+"Sunday, Jul 16",2017,Los Angeles Angels,@,2,3.0,D,36178
+"Monday, Jul 17",2017,Oakland Athletics,@,2,2.0,N,9736
+"Tuesday, Jul 18",2017,Oakland Athletics,@,2,2.0,N,15231
+"Wednesday, Jul 19",2017,Oakland Athletics,@,2,3.0,D,17019
+"Friday, Jul 21",2017,Texas Rangers,,2,3.5,N,24461
+"Saturday, Jul 22",2017,Texas Rangers,,2,3.5,N,20568
+"Sunday, Jul 23",2017,Texas Rangers,,3,3.5,D,16954
+"Monday, Jul 24",2017,Baltimore Orioles,,3,3.5,N,15187
+"Tuesday, Jul 25",2017,Baltimore Orioles,,3,2.5,N,12471
+"Wednesday, Jul 26",2017,Baltimore Orioles,,3,2.5,D,18430
+"Thursday, Jul 27",2017,New York Yankees,@,3,3.0,N,44033
+"Friday, Jul 28",2017,New York Yankees,@,3,3.5,N,40470
+"Saturday, Jul 29",2017,New York Yankees,@,3,4.5,D,43015
+"Sunday, Jul 30",2017,New York Yankees,@,3,3.5,D,41547
+"Monday, Jul 31",2017,Houston Astros,@,3,4.5,N,24154
+"Tuesday, Aug 1",2017,Houston Astros,@,3,4.0,N,22985
+"Wednesday, Aug 2",2017,Houston Astros,@,3,3.5,N,26722
+"Thursday, Aug 3",2017,Houston Astros,@,3,3.5,N,23404
+"Friday, Aug 4",2017,Milwaukee Brewers,,3,4.5,N,21164
+"Saturday, Aug 5",2017,Milwaukee Brewers,,3,5.5,N,15849
+"Sunday, Aug 6",2017,Milwaukee Brewers,,3,5.5,D,12129
+"Tuesday, Aug 8",2017,Boston Red Sox,,3,6.5,N,22328
+"Wednesday, Aug 9",2017,Boston Red Sox,,3,7.5,N,11853
+"Thursday, Aug 10",2017,Cleveland Guardians,,3,7.0,N,9533
+"Friday, Aug 11",2017,Cleveland Guardians,,3,7.0,N,16794
+"Saturday, Aug 12",2017,Cleveland Guardians,,3,8.0,N,22024
+"Sunday, Aug 13",2017,Cleveland Guardians,,3,9.0,D,17775
+"Monday, Aug 14",2017,Toronto Blue Jays,@,4,9.0,N,32151
+"Tuesday, Aug 15",2017,Toronto Blue Jays,@,3,9.0,N,33718
+"Wednesday, Aug 16",2017,Toronto Blue Jays,@,3,10.0,N,36784
+"Thursday, Aug 17",2017,Toronto Blue Jays,@,3,10.5,D,46855
+"Friday, Aug 18",2017,Seattle Mariners,,4,11.5,N,11501
+"Saturday, Aug 19",2017,Seattle Mariners,,4,11.5,N,12218
+"Sunday, Aug 20",2017,Seattle Mariners,,3,11.5,D,13354
+"Tuesday, Aug 22",2017,Toronto Blue Jays,,3,11.0,N,11948
+"Wednesday, Aug 23",2017,Toronto Blue Jays,,4,12.0,N,8264
+"Thursday, Aug 24",2017,Toronto Blue Jays,,3,11.0,D,10133
+"Friday, Aug 25",2017,St. Louis Cardinals,@,3,10.0,N,40050
+"Saturday, Aug 26",2017,St. Louis Cardinals,@,4,10.0,N,41295
+"Sunday, Aug 27",2017,St. Louis Cardinals,@,4,9.0,D,44469
+"Monday, Aug 28",2017,Kansas City Royals,@,4,9.0,N,21866
+"Tuesday, Aug 29",2017,Kansas City Royals,@,4,10.0,N,25204
+"Wednesday, Aug 30",2017,Kansas City Royals,@,4,10.0,N,25916
+"Friday, Sep 1",2017,Chicago White Sox,@,4,9.5,N,13585
+"Saturday, Sep 2",2017,Chicago White Sox,@,4,9.5,N,17700
+"Sunday, Sep 3",2017,Chicago White Sox,@,4,9.5,D,17633
+"Monday, Sep 4",2017,Minnesota Twins,,4,8.5,N,12108
+"Tuesday, Sep 5",2017,Minnesota Twins,,4,8.5,N,6509
+"Wednesday, Sep 6",2017,Minnesota Twins,,4,9.5,D,7185
+"Friday, Sep 8",2017,Boston Red Sox,@,4,10.5,N,34781
+"Saturday, Sep 9",2017,Boston Red Sox,@,4,11.5,N,36734
+"Sunday, Sep 10",2017,Boston Red Sox,@,4,10.5,D,35859
+"Monday, Sep 11",2017,New York Yankees,,4,11.0,N,15327
+"Tuesday, Sep 12",2017,New York Yankees,,3,11.0,N,21024
+"Wednesday, Sep 13",2017,New York Yankees,,4,11.0,D,13159
+"Friday, Sep 15",2017,Boston Red Sox,,3,12.5,N,16006
+"Saturday, Sep 16",2017,Boston Red Sox,,3,13.5,N,14942
+"Sunday, Sep 17",2017,Boston Red Sox,,3,12.5,D,14936
+"Tuesday, Sep 19",2017,Chicago Cubs,,3,14.0,N,25046
+"Wednesday, Sep 20",2017,Chicago Cubs,,3,14.0,N,24238
+"Thursday, Sep 21",2017,Baltimore Orioles,@,3,14.5,N,14967
+"Friday, Sep 22",2017,Baltimore Orioles,@,3,14.5,N,28835
+"Saturday, Sep 23",2017,Baltimore Orioles,@,3,14.5,N,42802
+"Sunday, Sep 24",2017,Baltimore Orioles,@,3,15.5,D,23424
+"Tuesday, Sep 26",2017,New York Yankees,@,3,15.0,N,30434
+"Wednesday, Sep 27",2017,New York Yankees,@,3,16.0,N,30549
+"Thursday, Sep 28",2017,New York Yankees,@,3,15.0,N,32933
+"Friday, Sep 29",2017,Baltimore Orioles,,3,14.0,N,21142
+"Saturday, Sep 30",2017,Baltimore Orioles,,3,14.0,N,15416
+"Sunday, Oct 1",2017,Baltimore Orioles,,3,13.0,D,16018
+"Thursday, Mar 29",2018,Boston Red Sox,,1,0.0,D,31042
+"Friday, Mar 30",2018,Boston Red Sox,,3,1.0,N,19203
+"Saturday, Mar 31",2018,Boston Red Sox,,4,1.0,N,17838
+"Sunday, Apr 1",2018,Boston Red Sox,,5,2.0,D,14256
+"Tuesday, Apr 3",2018,New York Yankees,@,4,3.5,D,46776
+"Wednesday, Apr 4",2018,New York Yankees,@,4,4.0,D,40028
+"Thursday, Apr 5",2018,Boston Red Sox,@,5,5.0,D,36134
+"Saturday, Apr 7",2018,Boston Red Sox,@,5,6.0,D,31821
+"Sunday, Apr 8",2018,Boston Red Sox,@,5,7.0,D,31979
+"Monday, Apr 9",2018,Chicago White Sox,@,5,6.5,D,10377
+"Tuesday, Apr 10",2018,Chicago White Sox,@,5,6.5,D,10069
+"Wednesday, Apr 11",2018,Chicago White Sox,@,5,6.5,D,10431
+"Friday, Apr 13",2018,Phildelphia Phillies,,5,8.0,N,13372
+"Saturday, Apr 14",2018,Phildelphia Phillies,,5,9.0,N,20934
+"Sunday, Apr 15",2018,Phildelphia Phillies,,5,10.0,D,19841
+"Monday, Apr 16",2018,Texas Rangers,,5,9.5,N,9363
+"Tuesday, Apr 17",2018,Texas Rangers,,5,10.5,N,8972
+"Wednesday, Apr 18",2018,Texas Rangers,,4,10.5,D,8657
+"Friday, Apr 20",2018,Minnesota Twins,,4,11.0,N,9786
+"Saturday, Apr 21",2018,Minnesota Twins,,4,10.0,N,10106
+"Sunday, Apr 22",2018,Minnesota Twins,,4,9.0,D,12515
+"Wednesday, Apr 25",2018,Baltimore Orioles,@,4,8.5,N,8730
+"Thursday, Apr 26",2018,Baltimore Orioles,@,4,8.5,N,9596
+"Friday, Apr 27",2018,Boston Red Sox,@,4,7.5,N,32620
+"Saturday, Apr 28",2018,Boston Red Sox,@,4,6.5,D,35795
+"Sunday, Apr 29",2018,Boston Red Sox,@,4,7.5,D,32888
+"Monday, Apr 30",2018,Detroit Tigers,@,4,7.5,N,19398
+"Tuesday, May 1",2018,Detroit Tigers,@,4,7.5,N,17255
+"Wednesday, May 2",2018,Detroit Tigers,@,4,8.5,D,20866
+"Friday, May 4",2018,Toronto Blue Jays,,4,8.0,N,11117
+"Saturday, May 5",2018,Toronto Blue Jays,,4,8.0,N,16297
+"Sunday, May 6",2018,Toronto Blue Jays,,4,9.0,D,14032
+"Tuesday, May 8",2018,Atlanta Braves,,4,9.0,N,15382
+"Wednesday, May 9",2018,Atlanta Braves,,4,10.0,N,12082
+"Friday, May 11",2018,Baltimore Orioles,@,4,9.5,N,28170
+"Saturday, May 12 (1)",2018,Baltimore Orioles,@,4,10.0,D,
+"Saturday, May 12 (2)",2018,Baltimore Orioles,@,4,10.0,N,24534
+"Sunday, May 13",2018,Baltimore Orioles,@,4,11.0,D,25257
+"Monday, May 14",2018,Kansas City Royals,@,4,10.5,N,14174
+"Tuesday, May 15",2018,Kansas City Royals,@,4,9.5,N,21500
+"Wednesday, May 16",2018,Kansas City Royals,@,4,9.0,D,19611
+"Thursday, May 17",2018,Los Angeles Angels,@,4,9.0,N,30487
+"Friday, May 18",2018,Los Angeles Angels,@,3,8.0,N,40067
+"Saturday, May 19",2018,Los Angeles Angels,@,3,8.0,N,37232
+"Sunday, May 20",2018,Los Angeles Angels,@,3,9.0,D,38560
+"Tuesday, May 22",2018,Boston Red Sox,,3,10.0,N,10642
+"Wednesday, May 23",2018,Boston Red Sox,,3,11.0,N,10194
+"Thursday, May 24",2018,Boston Red Sox,,3,10.0,N,12468
+"Friday, May 25",2018,Baltimore Orioles,,3,11.0,N,11354
+"Saturday, May 26",2018,Baltimore Orioles,,3,11.0,D,14744
+"Sunday, May 27",2018,Baltimore Orioles,,3,10.0,D,13311
+"Monday, May 28",2018,Oakland Athletics,@,3,10.0,D,10881
+"Tuesday, May 29",2018,Oakland Athletics,@,3,10.0,N,7521
+"Wednesday, May 30",2018,Oakland Athletics,@,3,10.0,N,6705
+"Thursday, May 31",2018,Oakland Athletics,@,3,10.0,D,12070
+"Friday, Jun 1",2018,Seattle Mariners,@,3,10.0,N,22636
+"Saturday, Jun 2",2018,Seattle Mariners,@,3,11.0,N,28599
+"Sunday, Jun 3",2018,Seattle Mariners,@,3,12.0,D,26567
+"Tuesday, Jun 5",2018,Washington Nationals,@,3,13.0,N,32165
+"Wednesday, Jun 6",2018,Washington Nationals,@,3,14.0,D,33106
+"Thursday, Jun 7",2018,Seattle Mariners,,3,14.0,N,10342
+"Friday, Jun 8",2018,Seattle Mariners,,3,14.0,N,12435
+"Saturday, Jun 9",2018,Seattle Mariners,,3,14.0,D,12258
+"Sunday, Jun 10",2018,Seattle Mariners,,4,14.0,D,10512
+"Monday, Jun 11",2018,Toronto Blue Jays,,3,14.0,N,10769
+"Tuesday, Jun 12",2018,Toronto Blue Jays,,3,14.0,N,11162
+"Wednesday, Jun 13",2018,Toronto Blue Jays,,3,14.0,D,10847
+"Thursday, Jun 14",2018,New York Yankees,@,3,15.0,N,45066
+"Friday, Jun 15",2018,New York Yankees,@,3,15.0,N,45112
+"Saturday, Jun 16",2018,New York Yankees,@,3,15.5,D,46249
+"Sunday, Jun 17",2018,New York Yankees,@,3,15.0,D,46400
+"Monday, Jun 18",2018,Houston Astros,@,4,15.5,N,34151
+"Tuesday, Jun 19",2018,Houston Astros,@,3,15.5,N,37414
+"Wednesday, Jun 20",2018,Houston Astros,@,4,16.5,N,43409
+"Friday, Jun 22",2018,New York Yankees,,3,16.0,N,27252
+"Saturday, Jun 23",2018,New York Yankees,,3,15.0,D,29831
+"Sunday, Jun 24",2018,New York Yankees,,3,14.0,D,23667
+"Monday, Jun 25",2018,Washington Nationals,,3,14.0,N,13624
+"Tuesday, Jun 26",2018,Washington Nationals,,3,14.0,D,14289
+"Thursday, Jun 28",2018,Houston Astros,,3,15.0,N,12305
+"Friday, Jun 29",2018,Houston Astros,,3,14.0,N,15797
+"Saturday, Jun 30",2018,Houston Astros,,3,14.0,D,18378
+"Sunday, Jul 1",2018,Houston Astros,,3,13.0,D,19334
+"Monday, Jul 2",2018,Miami Marlins,@,3,14.0,N,6004
+"Tuesday, Jul 3",2018,Miami Marlins,@,3,14.0,N,6259
+"Wednesday, Jul 4",2018,Miami Marlins,@,3,15.0,D,7572
+"Friday, Jul 6",2018,New York Mets,@,3,16.0,N,24236
+"Saturday, Jul 7",2018,New York Mets,@,3,16.0,D,32986
+"Sunday, Jul 8",2018,New York Mets,@,3,16.0,D,24653
+"Monday, Jul 9",2018,Detroit Tigers,,3,16.0,N,14229
+"Tuesday, Jul 10",2018,Detroit Tigers,,3,16.0,N,13478
+"Wednesday, Jul 11",2018,Detroit Tigers,,3,16.0,D,13922
+"Thursday, Jul 12",2018,Minnesota Twins,@,3,17.0,N,25281
+"Friday, Jul 13",2018,Minnesota Twins,@,3,17.0,N,28756
+"Saturday, Jul 14",2018,Minnesota Twins,@,3,17.0,D,25094
+"Sunday, Jul 15",2018,Minnesota Twins,@,3,18.0,D,25561
+"Friday, Jul 20",2018,Miami Marlins,,3,19.0,N,13248
+"Saturday, Jul 21",2018,Miami Marlins,,3,19.0,N,13808
+"Sunday, Jul 22",2018,Miami Marlins,,3,19.0,D,11828
+"Monday, Jul 23",2018,New York Yankees,,3,19.0,N,14670
+"Tuesday, Jul 24",2018,New York Yankees,,3,19.0,N,19579
+"Wednesday, Jul 25",2018,New York Yankees,,3,18.5,D,27372
+"Thursday, Jul 26",2018,Baltimore Orioles,@,3,17.5,N,19025
+"Friday, Jul 27",2018,Baltimore Orioles,@,3,18.5,N,15649
+"Saturday, Jul 28",2018,Baltimore Orioles,@,3,19.5,N,21526
+"Sunday, Jul 29",2018,Baltimore Orioles,@,3,20.5,D,22454
+"Tuesday, Jul 31",2018,Los Angeles Angels,,3,20.0,N,15858
+"Wednesday, Aug 1",2018,Los Angeles Angels,,3,19.5,N,9132
+"Thursday, Aug 2",2018,Los Angeles Angels,,3,19.5,D,10988
+"Friday, Aug 3",2018,Chicago White Sox,,3,20.5,N,16144
+"Saturday, Aug 4",2018,Chicago White Sox,,3,21.5,N,21214
+"Sunday, Aug 5",2018,Chicago White Sox,,3,22.5,D,14379
+"Tuesday, Aug 7",2018,Baltimore Orioles,,3,22.5,N,11734
+"Wednesday, Aug 8",2018,Baltimore Orioles,,3,23.5,N,9474
+"Thursday, Aug 9",2018,Baltimore Orioles,,3,22.5,N,10254
+"Friday, Aug 10",2018,Toronto Blue Jays,@,3,22.5,N,23082
+"Saturday, Aug 11",2018,Toronto Blue Jays,@,3,23.0,D,38797
+"Sunday, Aug 12",2018,Toronto Blue Jays,@,3,24.0,D,33746
+"Tuesday, Aug 14",2018,New York Yankees,@,3,25.0,N,40393
+"Wednesday, Aug 15",2018,New York Yankees,@,3,24.0,N,42716
+"Thursday, Aug 16",2018,New York Yankees,@,3,23.5,D,41033
+"Friday, Aug 17",2018,Boston Red Sox,@,3,24.5,N,37012
+"Saturday, Aug 18",2018,Boston Red Sox,@,3,25.5,N,36654
+"Sunday, Aug 19",2018,Boston Red Sox,@,3,24.5,D,37242
+"Monday, Aug 20",2018,Kansas City Royals,,3,23.5,N,10036
+"Tuesday, Aug 21",2018,Kansas City Royals,,3,22.5,N,9402
+"Wednesday, Aug 22",2018,Kansas City Royals,,3,22.5,N,8686
+"Thursday, Aug 23",2018,Kansas City Royals,,3,22.5,N,9088
+"Friday, Aug 24",2018,Boston Red Sox,,3,21.5,N,19723
+"Saturday, Aug 25",2018,Boston Red Sox,,3,20.5,N,25695
+"Sunday, Aug 26",2018,Boston Red Sox,,3,19.5,D,23448
+"Tuesday, Aug 28",2018,Atlanta Braves,@,3,20.5,N,21216
+"Wednesday, Aug 29",2018,Atlanta Braves,@,3,20.5,N,20876
+"Friday, Aug 31",2018,Cleveland Guardians,@,3,21.0,N,25639
+"Saturday, Sep 1",2018,Cleveland Guardians,@,3,21.0,N,31816
+"Sunday, Sep 2",2018,Cleveland Guardians,@,3,20.0,D,26535
+"Monday, Sep 3",2018,Toronto Blue Jays,@,3,20.0,N,18034
+"Tuesday, Sep 4",2018,Toronto Blue Jays,@,3,20.0,N,17594
+"Wednesday, Sep 5",2018,Toronto Blue Jays,@,3,21.0,N,17872
+"Friday, Sep 7",2018,Baltimore Orioles,,3,20.0,N,12436
+"Saturday, Sep 8",2018,Baltimore Orioles,,3,19.0,N,10275
+"Sunday, Sep 9",2018,Baltimore Orioles,,3,19.0,D,13632
+"Monday, Sep 10",2018,Cleveland Guardians,,3,18.5,N,12724
+"Tuesday, Sep 11",2018,Cleveland Guardians,,3,19.5,N,10599
+"Wednesday, Sep 12",2018,Cleveland Guardians,,3,19.5,D,10654
+"Friday, Sep 14",2018,Oakland Athletics,,3,20.0,N,11549
+"Saturday, Sep 15",2018,Oakland Athletics,,3,20.0,N,15154
+"Sunday, Sep 16",2018,Oakland Athletics,,3,20.0,D,13197
+"Monday, Sep 17",2018,Texas Rangers,@,3,19.5,N,21840
+"Tuesday, Sep 18",2018,Texas Rangers,@,3,18.5,N,23523
+"Wednesday, Sep 19",2018,Texas Rangers,@,3,17.5,D,25168
+"Thursday, Sep 20",2018,Toronto Blue Jays,@,3,18.5,N,19478
+"Friday, Sep 21",2018,Toronto Blue Jays,@,3,18.5,N,21167
+"Saturday, Sep 22",2018,Toronto Blue Jays,@,3,18.5,D,27648
+"Sunday, Sep 23",2018,Toronto Blue Jays,@,3,17.5,D,23944
+"Monday, Sep 24",2018,New York Yankees,,3,18.5,N,13832
+"Tuesday, Sep 25",2018,New York Yankees,,3,19.0,N,10953
+"Wednesday, Sep 26",2018,New York Yankees,,3,18.5,N,11325
+"Thursday, Sep 27",2018,New York Yankees,,3,19.0,D,12349
+"Friday, Sep 28",2018,Toronto Blue Jays,,3,19.0,N,12061
+"Saturday, Sep 29",2018,Toronto Blue Jays,,3,18.0,N,13221
+"Sunday, Sep 30",2018,Toronto Blue Jays,,3,18.0,D,13313
+"Thursday, Mar 28",2019,Houston Astros,,2,1.0,D,25025
+"Friday, Mar 29",2019,Houston Astros,,2,0.5,N,13059
+"Saturday, Mar 30",2019,Houston Astros,,1,0.0,N,16010
+"Sunday, Mar 31",2019,Houston Astros,,1,0.5,D,18473
+"Monday, Apr 1",2019,Colorado Rockies,,1,0.5,N,10860
+"Tuesday, Apr 2",2019,Colorado Rockies,,1,0.5,N,10933
+"Wednesday, Apr 3",2019,Colorado Rockies,,1,0.5,D,11093
+"Friday, Apr 5",2019,San Francisco Giants,@,1,1.5,D,41067
+"Saturday, Apr 6",2019,San Francisco Giants,@,1,1.5,D,31828
+"Sunday, Apr 7",2019,San Francisco Giants,@,1,1.5,D,31574
+"Monday, Apr 8",2019,Chicago White Sox,@,1,2.5,D,11734
+"Tuesday, Apr 9",2019,Chicago White Sox,@,1,3.5,D,10799
+"Wednesday, Apr 10",2019,Chicago White Sox,@,1,4.5,D,11107
+"Friday, Apr 12",2019,Toronto Blue Jays,@,1,5.5,N,17326
+"Saturday, Apr 13",2019,Toronto Blue Jays,@,1,4.5,D,20771
+"Sunday, Apr 14",2019,Toronto Blue Jays,@,1,5.5,D,20512
+"Tuesday, Apr 16",2019,Baltimore Orioles,,1,5.5,N,9842
+"Wednesday, Apr 17",2019,Baltimore Orioles,,1,5.5,N,9028
+"Thursday, Apr 18",2019,Baltimore Orioles,,1,5.5,N,9081
+"Friday, Apr 19",2019,Boston Red Sox,,1,4.5,N,21343
+"Saturday, Apr 20",2019,Boston Red Sox,,1,3.5,N,22940
+"Sunday, Apr 21",2019,Boston Red Sox,,1,2.5,D,18740
+"Monday, Apr 22",2019,Kansas City Royals,,1,2.5,N,9914
+"Tuesday, Apr 23",2019,Kansas City Royals,,1,2.5,N,8298
+"Wednesday, Apr 24",2019,Kansas City Royals,,1,1.5,D,9502
+"Saturday, Apr 27",2019,Boston Red Sox,@,1,1.5,D,34773
+"Sunday, Apr 28",2019,Boston Red Sox,@,1,1.5,D,33823
+"Monday, Apr 29",2019,Kansas City Royals,@,1,2.0,N,11744
+"Wednesday, May 1 (1)",2019,Kansas City Royals,@,1,2.0,D,
+"Wednesday, May 1 (2)",2019,Kansas City Royals,@,1,2.0,D,11411
+"Thursday, May 2",2019,Kansas City Royals,@,1,2.5,D,23343
+"Friday, May 3",2019,Baltimore Orioles,@,1,2.5,N,10034
+"Saturday, May 4",2019,Baltimore Orioles,@,1,2.5,N,15241
+"Monday, May 6",2019,Arizona Diamondbacks,,1,2.0,N,8124
+"Tuesday, May 7",2019,Arizona Diamondbacks,,1,2.0,N,8059
+"Wednesday, May 8",2019,Arizona Diamondbacks,,1,2.0,D,8663
+"Friday, May 10",2019,New York Yankees,,1,0.5,N,20846
+"Saturday, May 11",2019,New York Yankees,,1,1.5,N,25025
+"Sunday, May 12",2019,New York Yankees,,1,0.5,D,25025
+"Tuesday, May 14",2019,Miami Marlins,@,1,1.0,N,6306
+"Wednesday, May 15",2019,Miami Marlins,@,1,0.5,N,5947
+"Friday, May 17",2019,New York Yankees,@,2,0.5,N,41281
+"Saturday, May 18",2019,New York Yankees,@,1,0.5,D,43079
+"Sunday, May 19",2019,New York Yankees,@,2,0.5,D,43032
+"Tuesday, May 21",2019,Los Angeles Dodgers,,2,2.0,N,15862
+"Wednesday, May 22",2019,Los Angeles Dodgers,,2,2.0,N,12826
+"Thursday, May 23",2019,Cleveland Guardians,@,2,2.0,N,18884
+"Friday, May 24",2019,Cleveland Guardians,@,2,2.5,N,24084
+"Saturday, May 25",2019,Cleveland Guardians,@,2,3.0,N,25882
+"Sunday, May 26",2019,Cleveland Guardians,@,2,2.0,D,20288
+"Monday, May 27",2019,Toronto Blue Jays,,2,2.0,D,15883
+"Tuesday, May 28",2019,Toronto Blue Jays,,2,1.0,N,5786
+"Wednesday, May 29",2019,Toronto Blue Jays,,2,1.0,N,6166
+"Thursday, May 30",2019,Minnesota Twins,,2,0.5,N,8076
+"Friday, May 31",2019,Minnesota Twins,,2,1.5,N,14375
+"Saturday, Jun 1",2019,Minnesota Twins,,2,2.5,D,14381
+"Sunday, Jun 2",2019,Minnesota Twins,,2,2.5,D,14616
+"Tuesday, Jun 4",2019,Detroit Tigers,@,2,2.5,N,15420
+"Wednesday, Jun 5",2019,Detroit Tigers,@,2,1.5,N,14272
+"Thursday, Jun 6",2019,Detroit Tigers,@,2,1.5,D,21442
+"Friday, Jun 7",2019,Boston Red Sox,@,2,0.5,N,36803
+"Saturday, Jun 8 (1)",2019,Boston Red Sox,@,1,0.0,D,35564
+"Saturday, Jun 8 (2)",2019,Boston Red Sox,@,1,0.0,N,37048
+"Sunday, Jun 9",2019,Boston Red Sox,@,1,0.0,D,34643
+"Monday, Jun 10",2019,Oakland Athletics,,1,0.5,N,16091
+"Tuesday, Jun 11",2019,Oakland Athletics,,1,0.0,N,11132
+"Wednesday, Jun 12",2019,Oakland Athletics,,2,0.5,D,17946
+"Thursday, Jun 13",2019,Los Angeles Angels,,2,0.5,N,15291
+"Friday, Jun 14",2019,Los Angeles Angels,,1,0.5,N,21598
+"Saturday, Jun 15",2019,Los Angeles Angels,,2,0.5,D,22320
+"Sunday, Jun 16",2019,Los Angeles Angels,,2,0.5,D,20508
+"Monday, Jun 17",2019,New York Yankees,@,2,1.5,N,39042
+"Tuesday, Jun 18",2019,New York Yankees,@,2,2.5,N,40479
+"Wednesday, Jun 19",2019,New York Yankees,@,2,3.5,D,41144
+"Thursday, Jun 20",2019,Oakland Athletics,@,2,4.5,N,12351
+"Friday, Jun 21",2019,Oakland Athletics,@,2,4.5,N,16126
+"Saturday, Jun 22",2019,Oakland Athletics,@,2,5.5,D,26623
+"Sunday, Jun 23",2019,Oakland Athletics,@,2,4.5,D,17006
+"Tuesday, Jun 25",2019,Minnesota Twins,@,2,6.0,N,31963
+"Wednesday, Jun 26",2019,Minnesota Twins,@,2,7.0,N,31650
+"Thursday, Jun 27",2019,Minnesota Twins,@,2,6.5,D,31317
+"Friday, Jun 28",2019,Texas Rangers,,2,7.0,N,13955
+"Saturday, Jun 29",2019,Texas Rangers,,2,7.0,D,16655
+"Sunday, Jun 30",2019,Texas Rangers,,2,7.0,D,11234
+"Monday, Jul 1",2019,Baltimore Orioles,,2,6.5,N,20441
+"Tuesday, Jul 2",2019,Baltimore Orioles,,2,5.5,N,20925
+"Wednesday, Jul 3",2019,Baltimore Orioles,,2,6.5,N,21545
+"Thursday, Jul 4",2019,New York Yankees,,2,7.5,N,21974
+"Friday, Jul 5",2019,New York Yankees,,2,8.5,N,22182
+"Saturday, Jul 6",2019,New York Yankees,,2,7.5,D,21477
+"Sunday, Jul 7",2019,New York Yankees,,2,6.5,D,20091
+"Friday, Jul 12",2019,Baltimore Orioles,@,2,6.5,N,22422
+"Saturday, Jul 13 (1)",2019,Baltimore Orioles,@,2,6.0,D,22596
+"Saturday, Jul 13 (2)",2019,Baltimore Orioles,@,2,6.0,N,24810
+"Sunday, Jul 14",2019,Baltimore Orioles,@,2,6.0,D,14082
+"Monday, Jul 15",2019,New York Yankees,@,2,5.0,N,43173
+"Tuesday, Jul 16",2019,New York Yankees,@,2,6.0,N,40401
+"Thursday, Jul 18 (1)",2019,New York Yankees,@,2,8.0,D,
+"Thursday, Jul 18 (2)",2019,New York Yankees,@,2,8.0,N,40504
+"Friday, Jul 19",2019,Chicago White Sox,,2,9.0,N,16971
+"Saturday, Jul 20",2019,Chicago White Sox,,2,10.0,N,16338
+"Sunday, Jul 21",2019,Chicago White Sox,,2,9.0,D,14987
+"Monday, Jul 22",2019,Boston Red Sox,,2,9.0,N,10966
+"Tuesday, Jul 23",2019,Boston Red Sox,,2,10.0,N,15876
+"Wednesday, Jul 24",2019,Boston Red Sox,,2,10.0,D,24161
+"Friday, Jul 26",2019,Toronto Blue Jays,@,2,8.5,N,22767
+"Saturday, Jul 27",2019,Toronto Blue Jays,@,3,8.5,D,28204
+"Sunday, Jul 28",2019,Toronto Blue Jays,@,2,8.5,D,24542
+"Tuesday, Jul 30",2019,Boston Red Sox,@,2,7.5,N,36412
+"Wednesday, Jul 31",2019,Boston Red Sox,@,2,7.5,N,33046
+"Thursday, Aug 1",2019,Boston Red Sox,@,2,7.0,N,37225
+"Saturday, Aug 3",2019,Miami Marlins,,2,8.0,N,14092
+"Sunday, Aug 4",2019,Miami Marlins,,2,8.0,D,14819
+"Monday, Aug 5",2019,Toronto Blue Jays,,2,9.0,N,11948
+"Tuesday, Aug 6",2019,Toronto Blue Jays,,2,9.0,N,9434
+"Wednesday, Aug 7",2019,Toronto Blue Jays,,2,10.0,D,10299
+"Friday, Aug 9",2019,Seattle Mariners,@,2,9.5,N,26774
+"Saturday, Aug 10",2019,Seattle Mariners,@,2,8.5,N,33895
+"Sunday, Aug 11",2019,Seattle Mariners,@,2,8.5,D,24219
+"Monday, Aug 12",2019,San Diego Padres,@,2,9.0,N,21301
+"Tuesday, Aug 13",2019,San Diego Padres,@,2,9.0,N,25261
+"Wednesday, Aug 14",2019,San Diego Padres,@,2,10.0,D,22886
+"Friday, Aug 16",2019,Detroit Tigers,,2,10.5,N,13717
+"Saturday, Aug 17",2019,Detroit Tigers,,2,10.5,N,17228
+"Sunday, Aug 18",2019,Detroit Tigers,,2,9.5,D,16634
+"Monday, Aug 19",2019,Seattle Mariners,,2,10.0,N,9152
+"Tuesday, Aug 20",2019,Seattle Mariners,,2,10.0,N,7455
+"Wednesday, Aug 21",2019,Seattle Mariners,,2,9.0,D,7827
+"Thursday, Aug 22",2019,Baltimore Orioles,@,2,8.0,N,8153
+"Friday, Aug 23",2019,Baltimore Orioles,@,2,8.0,N,14762
+"Saturday, Aug 24",2019,Baltimore Orioles,@,2,8.0,N,11409
+"Sunday, Aug 25",2019,Baltimore Orioles,@,2,9.0,D,13287
+"Tuesday, Aug 27",2019,Houston Astros,@,2,10.5,N,28454
+"Wednesday, Aug 28",2019,Houston Astros,@,2,11.5,N,25539
+"Thursday, Aug 29",2019,Houston Astros,@,2,11.0,D,33051
+"Friday, Aug 30",2019,Cleveland Guardians,,2,10.0,N,15294
+"Saturday, Aug 31",2019,Cleveland Guardians,,2,10.0,N,13327
+"Sunday, Sep 1",2019,Cleveland Guardians,,2,10.0,D,14922
+"Monday, Sep 2",2019,Baltimore Orioles,,2,9.0,D,10566
+"Tuesday, Sep 3 (1)",2019,Baltimore Orioles,,2,9.5,D,
+"Tuesday, Sep 3 (2)",2019,Baltimore Orioles,,2,9.5,N,6844
+"Thursday, Sep 5",2019,Toronto Blue Jays,,2,9.5,N,5962
+"Friday, Sep 6",2019,Toronto Blue Jays,,2,8.5,N,10853
+"Saturday, Sep 7",2019,Toronto Blue Jays,,2,8.5,N,12663
+"Sunday, Sep 8",2019,Toronto Blue Jays,,2,8.5,D,14071
+"Tuesday, Sep 10",2019,Texas Rangers,@,2,8.0,N,18467
+"Wednesday, Sep 11",2019,Texas Rangers,@,2,8.5,N,19746
+"Thursday, Sep 12",2019,Texas Rangers,@,2,10.0,N,18222
+"Friday, Sep 13",2019,Los Angeles Angels,@,2,9.0,N,39914
+"Saturday, Sep 14",2019,Los Angeles Angels,@,2,9.0,N,39056
+"Sunday, Sep 15",2019,Los Angeles Angels,@,2,9.0,D,36709
+"Tuesday, Sep 17",2019,Los Angeles Dodgers,@,2,10.0,N,48663
+"Wednesday, Sep 18",2019,Los Angeles Dodgers,@,2,9.0,N,48253
+"Friday, Sep 20",2019,Boston Red Sox,,2,8.5,N,17117
+"Saturday, Sep 21",2019,Boston Red Sox,,2,8.5,N,18179
+"Sunday, Sep 22",2019,Boston Red Sox,,2,9.5,D,17946
+"Monday, Sep 23",2019,Boston Red Sox,,2,9.0,N,8779
+"Tuesday, Sep 24",2019,New York Yankees,,2,8.0,N,16699
+"Wednesday, Sep 25",2019,New York Yankees,,2,7.0,N,20390
+"Friday, Sep 27",2019,Toronto Blue Jays,@,2,7.0,N,16348
+"Saturday, Sep 28",2019,Toronto Blue Jays,@,2,7.0,D,20293
+"Sunday, Sep 29",2019,Toronto Blue Jays,@,2,7.0,D,25738
+"Thursday, Apr 1",2021,Miami Marlins,@,1,0.0,D,7062
+"Friday, Apr 2",2021,Miami Marlins,@,1,0.5,N,6115
+"Saturday, Apr 3",2021,Miami Marlins,@,2,0.5,N,6179
+"Monday, Apr 5",2021,Boston Red Sox,@,3,1.0,N,4577
+"Tuesday, Apr 6",2021,Boston Red Sox,@,4,1.0,N,4682
+"Wednesday, Apr 7",2021,Boston Red Sox,@,5,2.0,D,4751
+"Friday, Apr 9",2021,New York Yankees,,3,1.0,D,9021
+"Saturday, Apr 10",2021,New York Yankees,,2,1.0,D,6270
+"Sunday, Apr 11",2021,New York Yankees,,2,2.0,D,6965
+"Monday, Apr 12",2021,Texas Rangers,,2,1.5,N,3627
+"Tuesday, Apr 13",2021,Texas Rangers,,2,2.5,N,4753
+"Wednesday, Apr 14",2021,Texas Rangers,,4,4.0,N,3021
+"Thursday, Apr 15",2021,Texas Rangers,,4,4.0,N,4217
+"Friday, Apr 16",2021,New York Yankees,@,3,3.5,N,10202
+"Saturday, Apr 17",2021,New York Yankees,@,2,3.5,D,10583
+"Sunday, Apr 18",2021,New York Yankees,@,2,2.0,D,10606
+"Monday, Apr 19",2021,Kansas City Royals,@,2,2.0,N,5589
+"Tuesday, Apr 20",2021,Kansas City Royals,@,2,2.0,N,4481
+"Wednesday, Apr 21",2021,Kansas City Royals,@,2,2.0,N,5053
+"Friday, Apr 23",2021,Toronto Blue Jays,,2,2.5,N,5564
+"Saturday, Apr 24",2021,Toronto Blue Jays,,2,1.5,N,6688
+"Sunday, Apr 25",2021,Toronto Blue Jays,,2,2.5,D,6372
+"Monday, Apr 26",2021,Oakland Athletics,,2,3.0,N,2981
+"Tuesday, Apr 27",2021,Oakland Athletics,,2,3.0,N,2924
+"Wednesday, Apr 28",2021,Oakland Athletics,,2,3.0,N,3374
+"Thursday, Apr 29",2021,Oakland Athletics,,2,3.0,D,3737
+"Friday, Apr 30",2021,Houston Astros,,3,4.0,N,6169
+"Saturday, May 1",2021,Houston Astros,,5,4.0,D,7335
+"Sunday, May 2",2021,Houston Astros,,4,3.0,D,6933
+"Monday, May 3",2021,Los Angeles Angels,@,3,2.5,N,10641
+"Tuesday, May 4",2021,Los Angeles Angels,@,2,2.5,N,8152
+"Wednesday, May 5",2021,Los Angeles Angels,@,2,1.5,N,9169
+"Thursday, May 6",2021,Los Angeles Angels,@,2,1.5,N,8840
+"Friday, May 7",2021,Oakland Athletics,@,2,2.5,N,5058
+"Saturday, May 8",2021,Oakland Athletics,@,3,3.5,D,7707
+"Sunday, May 9",2021,Oakland Athletics,@,2,3.5,D,6911
+"Tuesday, May 11",2021,New York Yankees,,4,3.0,N,5441
+"Wednesday, May 12",2021,New York Yankees,,4,3.0,N,5668
+"Thursday, May 13",2021,New York Yankees,,4,3.0,N,6229
+"Friday, May 14",2021,New York Mets,,4,3.0,N,7123
+"Saturday, May 15",2021,New York Mets,,4,3.0,D,7536
+"Sunday, May 16",2021,New York Mets,,3,2.0,D,7355
+"Tuesday, May 18",2021,Baltimore Orioles,@,3,1.0,N,5429
+"Wednesday, May 19",2021,Baltimore Orioles,@,2,1.0,N,6581
+"Thursday, May 20",2021,Baltimore Orioles,@,2,1.0,D,6916
+"Friday, May 21",2021,Toronto Blue Jays,@,2,1.0,N,1437
+"Saturday, May 22",2021,Toronto Blue Jays,@,2,1.0,N,1514
+"Sunday, May 23",2021,Toronto Blue Jays,@,1,0.0,D,1496
+"Monday, May 24",2021,Toronto Blue Jays,@,1,0.5,D,1641
+"Tuesday, May 25",2021,Kansas City Royals,,1,0.5,N,4946
+"Wednesday, May 26",2021,Kansas City Royals,,1,0.5,N,4973
+"Thursday, May 27",2021,Kansas City Royals,,1,1.0,D,5519
+"Saturday, May 29",2021,Phildelphia Phillies,,1,0.5,D,7316
+"Sunday, May 30",2021,Phildelphia Phillies,,1,1.0,D,7479
+"Monday, May 31",2021,New York Yankees,@,1,2.0,D,17008
+"Tuesday, Jun 1",2021,New York Yankees,@,1,2.0,N,12537
+"Wednesday, Jun 2",2021,New York Yankees,@,1,2.0,N,13824
+"Thursday, Jun 3",2021,New York Yankees,@,1,2.0,D,12614
+"Friday, Jun 4",2021,Texas Rangers,@,1,1.0,N,30635
+"Saturday, Jun 5",2021,Texas Rangers,@,1,1.0,D,27237
+"Sunday, Jun 6",2021,Texas Rangers,@,1,1.0,D,26442
+"Tuesday, Jun 8",2021,Washington Nationals,,1,1.5,N,7173
+"Wednesday, Jun 9",2021,Washington Nationals,,1,1.5,N,7616
+"Friday, Jun 11",2021,Baltimore Orioles,,1,1.0,N,6211
+"Saturday, Jun 12",2021,Baltimore Orioles,,1,2.0,D,9225
+"Sunday, Jun 13",2021,Baltimore Orioles,,1,3.0,D,9101
+"Monday, Jun 14",2021,Chicago White Sox,@,1,3.0,N,18024
+"Tuesday, Jun 15",2021,Chicago White Sox,@,1,2.0,N,19259
+"Wednesday, Jun 16",2021,Chicago White Sox,@,1,1.0,D,20098
+"Thursday, Jun 17",2021,Seattle Mariners,@,1,0.5,N,9092
+"Friday, Jun 18",2021,Seattle Mariners,@,1,0.5,N,12654
+"Saturday, Jun 19",2021,Seattle Mariners,@,2,0.5,N,14772
+"Sunday, Jun 20",2021,Seattle Mariners,@,2,0.5,D,18172
+"Tuesday, Jun 22",2021,Boston Red Sox,,2,1.5,N,12994
+"Wednesday, Jun 23",2021,Boston Red Sox,,2,0.5,N,9088
+"Thursday, Jun 24",2021,Boston Red Sox,,1,0.5,N,10961
+"Friday, Jun 25",2021,Los Angeles Angels,,1,0.5,N,7909
+"Saturday, Jun 26",2021,Los Angeles Angels,,1,0.5,D,16699
+"Sunday, Jun 27",2021,Los Angeles Angels,,2,0.5,D,12764
+"Tuesday, Jun 29",2021,Washington Nationals,@,2,2.0,N,17117
+"Wednesday, Jun 30",2021,Washington Nationals,@,2,3.0,D,15552
+"Friday, Jul 2",2021,Toronto Blue Jays,@,2,4.5,N,10011
+"Saturday, Jul 3",2021,Toronto Blue Jays,@,2,4.5,D,9189
+"Sunday, Jul 4",2021,Toronto Blue Jays,@,2,4.5,D,7537
+"Monday, Jul 5",2021,Cleveland Guardians,,2,4.5,N,8832
+"Wednesday, Jul 7 (1)",2021,Cleveland Guardians,,2,2.5,D,
+"Wednesday, Jul 7 (2)",2021,Cleveland Guardians,,2,2.5,D,10905
+"Friday, Jul 9",2021,Toronto Blue Jays,,2,2.5,N,8551
+"Saturday, Jul 10",2021,Toronto Blue Jays,,2,1.5,D,9954
+"Sunday, Jul 11",2021,Toronto Blue Jays,,2,1.5,D,11233
+"Friday, Jul 16",2021,Atlanta Braves,@,2,1.5,N,40485
+"Saturday, Jul 17",2021,Atlanta Braves,@,2,1.5,N,40868
+"Sunday, Jul 18",2021,Atlanta Braves,@,2,0.5,D,34544
+"Monday, Jul 19",2021,Baltimore Orioles,,2,1.5,N,9922
+"Tuesday, Jul 20",2021,Baltimore Orioles,,2,1.0,N,10399
+"Wednesday, Jul 21",2021,Baltimore Orioles,,2,1.0,D,8968
+"Thursday, Jul 22",2021,Cleveland Guardians,@,2,1.0,N,19338
+"Friday, Jul 23",2021,Cleveland Guardians,@,2,1.0,N,23180
+"Saturday, Jul 24",2021,Cleveland Guardians,@,1,0.0,N,23324
+"Sunday, Jul 25",2021,Cleveland Guardians,@,2,1.0,D,18614
+"Tuesday, Jul 27",2021,New York Yankees,,2,2.0,N,12678
+"Wednesday, Jul 28",2021,New York Yankees,,2,2.5,N,11525
+"Thursday, Jul 29",2021,New York Yankees,,2,1.5,D,14134
+"Friday, Jul 30",2021,Boston Red Sox,,2,0.5,N,11109
+"Saturday, Jul 31",2021,Boston Red Sox,,1,0.5,N,20521
+"Sunday, Aug 1",2021,Boston Red Sox,,1,1.5,N,17816
+"Monday, Aug 2",2021,Seattle Mariners,,1,1.0,N,5855
+"Tuesday, Aug 3",2021,Seattle Mariners,,1,1.0,N,10071
+"Wednesday, Aug 4",2021,Seattle Mariners,,1,1.0,D,9701
+"Friday, Aug 6",2021,Baltimore Orioles,@,1,2.5,N,11320
+"Saturday, Aug 7",2021,Baltimore Orioles,@,1,3.0,N,18545
+"Sunday, Aug 8",2021,Baltimore Orioles,@,1,4.0,D,10576
+"Tuesday, Aug 10",2021,Boston Red Sox,@,1,5.0,N,28356
+"Wednesday, Aug 11",2021,Boston Red Sox,@,1,4.0,N,30286
+"Thursday, Aug 12",2021,Boston Red Sox,@,1,5.0,D,26803
+"Friday, Aug 13",2021,Minnesota Twins,@,1,5.0,N,23125
+"Saturday, Aug 14",2021,Minnesota Twins,@,1,4.0,N,21034
+"Sunday, Aug 15",2021,Minnesota Twins,@,1,3.0,D,22467
+"Monday, Aug 16",2021,Baltimore Orioles,,1,3.5,N,5460
+"Tuesday, Aug 17",2021,Baltimore Orioles,,1,5.0,N,4795
+"Wednesday, Aug 18",2021,Baltimore Orioles,,1,5.0,N,6673
+"Thursday, Aug 19",2021,Baltimore Orioles,,1,5.0,D,5826
+"Friday, Aug 20",2021,Chicago White Sox,,1,4.0,N,13178
+"Saturday, Aug 21",2021,Chicago White Sox,,1,4.0,D,22275
+"Sunday, Aug 22",2021,Chicago White Sox,,1,4.5,D,16696
+"Tuesday, Aug 24",2021,Phildelphia Phillies,@,1,4.0,N,23402
+"Wednesday, Aug 25",2021,Phildelphia Phillies,@,1,4.5,N,25552
+"Friday, Aug 27",2021,Baltimore Orioles,@,1,4.0,N,7155
+"Saturday, Aug 28",2021,Baltimore Orioles,@,1,5.0,N,11110
+"Sunday, Aug 29",2021,Baltimore Orioles,@,1,6.0,D,8353
+"Monday, Aug 30",2021,Boston Red Sox,,1,7.0,N,6753
+"Tuesday, Aug 31",2021,Boston Red Sox,,1,8.0,N,6868
+"Wednesday, Sep 1",2021,Boston Red Sox,,1,7.0,N,7808
+"Thursday, Sep 2",2021,Boston Red Sox,,1,6.5,N,7923
+"Friday, Sep 3",2021,Minnesota Twins,,1,6.5,N,8864
+"Saturday, Sep 4",2021,Minnesota Twins,,1,7.5,D,13861
+"Sunday, Sep 5",2021,Minnesota Twins,,1,7.5,D,14165
+"Monday, Sep 6",2021,Boston Red Sox,@,1,8.5,D,26512
+"Tuesday, Sep 7",2021,Boston Red Sox,@,1,9.5,N,25065
+"Wednesday, Sep 8",2021,Boston Red Sox,@,1,9.0,N,26649
+"Friday, Sep 10",2021,Detroit Tigers,@,1,9.0,N,18321
+"Saturday, Sep 11",2021,Detroit Tigers,@,1,9.0,N,18842
+"Sunday, Sep 12",2021,Detroit Tigers,@,1,9.0,D,13396
+"Monday, Sep 13",2021,Toronto Blue Jays,@,1,8.0,N,12119
+"Tuesday, Sep 14",2021,Toronto Blue Jays,@,1,9.0,N,13103
+"Wednesday, Sep 15",2021,Toronto Blue Jays,@,1,8.0,D,12153
+"Thursday, Sep 16",2021,Detroit Tigers,,1,8.5,N,10206
+"Friday, Sep 17",2021,Detroit Tigers,,1,8.5,N,16451
+"Saturday, Sep 18",2021,Detroit Tigers,,1,7.5,D,22921
+"Sunday, Sep 19",2021,Detroit Tigers,,1,6.5,D,17948
+"Monday, Sep 20",2021,Toronto Blue Jays,,1,7.0,N,10119
+"Tuesday, Sep 21",2021,Toronto Blue Jays,,1,6.0,N,9888
+"Wednesday, Sep 22",2021,Toronto Blue Jays,,1,6.0,D,10994
+"Friday, Sep 24",2021,Miami Marlins,,1,7.0,N,15340
+"Saturday, Sep 25",2021,Miami Marlins,,1,8.0,N,23783
+"Sunday, Sep 26",2021,Miami Marlins,,1,8.0,D,20826
+"Tuesday, Sep 28",2021,Houston Astros,@,1,7.0,N,32297
+"Wednesday, Sep 29",2021,Houston Astros,@,1,8.0,N,28321
+"Thursday, Sep 30",2021,Houston Astros,@,1,7.0,N,31608
+"Friday, Oct 1",2021,New York Yankees,@,1,8.0,N,41469
+"Saturday, Oct 2",2021,New York Yankees,@,1,9.0,D,41648
+"Sunday, Oct 3",2021,New York Yankees,@,1,8.0,D,40409
+"Friday, Apr 8",2022,Baltimore Orioles,,1,0.0,D,25025
+"Saturday, Apr 9",2022,Baltimore Orioles,,1,0.0,D,15615
+"Sunday, Apr 10",2022,Baltimore Orioles,,1,1.0,D,14100
+"Monday, Apr 11",2022,Oakland Athletics,,1,0.0,N,9139
+"Tuesday, Apr 12",2022,Oakland Athletics,,1,1.0,N,7588
+"Wednesday, Apr 13",2022,Oakland Athletics,,1,0.0,N,8954
+"Thursday, Apr 14",2022,Oakland Athletics,,1,0.0,D,8287
+"Friday, Apr 15",2022,Chicago White Sox,@,2,1.0,N,19009
+"Saturday, Apr 16",2022,Chicago White Sox,@,4,1.0,D,27113
+"Sunday, Apr 17",2022,Chicago White Sox,@,3,1.0,D,17798
+"Monday, Apr 18",2022,Chicago Cubs,@,4,1.5,N,26615
+"Tuesday, Apr 19",2022,Chicago Cubs,@,4,0.5,N,26568
+"Wednesday, Apr 20",2022,Chicago Cubs,@,3,0.5,N,26167
+"Friday, Apr 22",2022,Boston Red Sox,,3,2.0,N,16902
+"Saturday, Apr 23",2022,Boston Red Sox,,3,2.0,N,19137
+"Sunday, Apr 24",2022,Boston Red Sox,,3,1.0,D,20993
+"Tuesday, Apr 26",2022,Seattle Mariners,,3,2.5,N,9257
+"Wednesday, Apr 27",2022,Seattle Mariners,,3,2.0,N,7290
+"Thursday, Apr 28",2022,Seattle Mariners,,3,2.0,D,6749
+"Friday, Apr 29",2022,Minnesota Twins,,3,2.0,N,9928
+"Saturday, Apr 30",2022,Minnesota Twins,,3,3.0,D,18846
+"Sunday, May 1",2022,Minnesota Twins,,3,4.0,D,14830
+"Monday, May 2",2022,Oakland Athletics,@,3,4.0,N,2488
+"Tuesday, May 3",2022,Oakland Athletics,@,3,4.0,N,2815
+"Wednesday, May 4",2022,Oakland Athletics,@,3,3.0,D,4838
+"Thursday, May 5",2022,Seattle Mariners,@,2,2.5,N,17027
+"Friday, May 6",2022,Seattle Mariners,@,2,2.0,N,26154
+"Saturday, May 7",2022,Seattle Mariners,@,2,1.5,N,31589
+"Sunday, May 8",2022,Seattle Mariners,@,2,2.0,D,32501
+"Monday, May 9",2022,Los Angeles Angels,@,2,3.0,N,19537
+"Tuesday, May 10",2022,Los Angeles Angels,@,2,4.0,N,39313
+"Wednesday, May 11",2022,Los Angeles Angels,@,2,4.0,D,21045
+"Friday, May 13",2022,Toronto Blue Jays,,2,4.5,N,10169
+"Saturday, May 14",2022,Toronto Blue Jays,,2,4.5,N,15195
+"Sunday, May 15",2022,Toronto Blue Jays,,2,4.5,D,20986
+"Monday, May 16",2022,Detroit Tigers,,2,5.5,N,11532
+"Tuesday, May 17",2022,Detroit Tigers,,2,5.5,N,8475
+"Wednesday, May 18",2022,Detroit Tigers,,2,5.5,D,9706
+"Friday, May 20",2022,Baltimore Orioles,@,2,5.5,N,15127
+"Saturday, May 21",2022,Baltimore Orioles,@,2,5.5,N,17573
+"Sunday, May 22",2022,Baltimore Orioles,@,2,5.0,D,23778
+"Tuesday, May 24",2022,Miami Marlins,,2,4.5,N,9006
+"Wednesday, May 25",2022,Miami Marlins,,2,4.5,N,7520
+"Thursday, May 26",2022,New York Yankees,,2,5.5,N,14610
+"Friday, May 27",2022,New York Yankees,,2,6.5,N,19018
+"Saturday, May 28",2022,New York Yankees,,2,5.5,D,25025
+"Sunday, May 29",2022,New York Yankees,,2,4.5,D,25025
+"Monday, May 30",2022,Texas Rangers,@,2,5.0,N,25605
+"Tuesday, May 31",2022,Texas Rangers,@,3,6.0,N,16317
+"Wednesday, Jun 1",2022,Texas Rangers,@,3,5.5,N,20634
+"Thursday, Jun 2",2022,Texas Rangers,@,3,6.0,D,17097
+"Friday, Jun 3",2022,Chicago White Sox,,2,6.0,N,8930
+"Saturday, Jun 4",2022,Chicago White Sox,,3,7.0,D,19452
+"Sunday, Jun 5",2022,Chicago White Sox,,3,8.0,D,11162
+"Tuesday, Jun 7",2022,St. Louis Cardinals,,3,8.0,N,10905
+"Wednesday, Jun 8",2022,St. Louis Cardinals,,2,7.0,N,12906
+"Thursday, Jun 9",2022,St. Louis Cardinals,,2,7.0,D,14892
+"Friday, Jun 10",2022,Minnesota Twins,@,3,8.0,N,23761
+"Saturday, Jun 11",2022,Minnesota Twins,@,3,9.0,D,22741
+"Sunday, Jun 12",2022,Minnesota Twins,@,3,9.0,D,25350
+"Tuesday, Jun 14",2022,New York Yankees,@,3,10.0,N,35692
+"Wednesday, Jun 15",2022,New York Yankees,@,3,11.0,N,35104
+"Thursday, Jun 16",2022,New York Yankees,@,3,12.0,N,39469
+"Friday, Jun 17",2022,Baltimore Orioles,@,3,13.0,N,13140
+"Saturday, Jun 18",2022,Baltimore Orioles,@,3,13.0,D,15426
+"Sunday, Jun 19",2022,Baltimore Orioles,@,3,13.0,D,23004
+"Monday, Jun 20",2022,New York Yankees,,4,14.0,N,16504
+"Tuesday, Jun 21",2022,New York Yankees,,4,13.0,N,20688
+"Wednesday, Jun 22",2022,New York Yankees,,4,14.0,N,12264
+"Friday, Jun 24",2022,Pittsburg Pirates,,4,13.5,N,10542
+"Saturday, Jun 25",2022,Pittsburg Pirates,,4,12.5,D,15203
+"Sunday, Jun 26",2022,Pittsburg Pirates,,3,12.5,D,13364
+"Tuesday, Jun 28",2022,Milwaukee Brewers,,4,14.0,N,13742
+"Wednesday, Jun 29",2022,Milwaukee Brewers,,4,15.0,D,15481
+"Thursday, Jun 30",2022,Toronto Blue Jays,@,4,15.0,N,22987
+"Friday, Jul 1",2022,Toronto Blue Jays,@,4,15.5,D,44445
+"Saturday, Jul 2 (1)",2022,Toronto Blue Jays,@,4,15.5,D,39426
+"Saturday, Jul 2 (2)",2022,Toronto Blue Jays,@,4,15.5,N,24180
+"Sunday, Jul 3",2022,Toronto Blue Jays,@,4,14.5,D,35757
+"Monday, Jul 4",2022,Boston Red Sox,@,4,15.0,D,36473
+"Tuesday, Jul 5",2022,Boston Red Sox,@,3,14.0,N,31113
+"Wednesday, Jul 6",2022,Boston Red Sox,@,2,14.0,N,33735
+"Friday, Jul 8",2022,Cincinnati Reds,@,2,15.5,N,26529
+"Saturday, Jul 9",2022,Cincinnati Reds,@,3,15.5,D,33927
+"Sunday, Jul 10",2022,Cincinnati Reds,@,3,15.5,D,21748
+"Monday, Jul 11",2022,Boston Red Sox,,3,15.0,N,10629
+"Tuesday, Jul 12",2022,Boston Red Sox,,2,14.0,N,10653
+"Wednesday, Jul 13",2022,Boston Red Sox,,2,14.0,N,10458
+"Thursday, Jul 14",2022,Boston Red Sox,,2,13.0,N,11998
+"Friday, Jul 15",2022,Baltimore Orioles,,2,12.0,N,13917
+"Saturday, Jul 16",2022,Baltimore Orioles,,2,13.0,D,19886
+"Sunday, Jul 17",2022,Baltimore Orioles,,2,13.0,D,13813
+"Friday, Jul 22",2022,Kansas City Royals,@,2,12.0,N,22119
+"Saturday, Jul 23",2022,Kansas City Royals,@,2,12.0,N,20668
+"Sunday, Jul 24",2022,Kansas City Royals,@,3,13.0,D,12336
+"Monday, Jul 25",2022,Baltimore Orioles,@,3,13.5,N,9606
+"Tuesday, Jul 26",2022,Baltimore Orioles,@,3,13.5,N,11307
+"Wednesday, Jul 27",2022,Baltimore Orioles,@,3,12.5,N,13592
+"Thursday, Jul 28",2022,Baltimore Orioles,@,3,13.5,D,16784
+"Friday, Jul 29",2022,Cleveland Guardians,,3,14.5,N,14671
+"Saturday, Jul 30",2022,Cleveland Guardians,,3,14.5,D,22756
+"Sunday, Jul 31",2022,Cleveland Guardians,,3,14.5,D,18023
+"Tuesday, Aug 2",2022,Toronto Blue Jays,,3,15.0,N,16433
+"Wednesday, Aug 3",2022,Toronto Blue Jays,,3,14.0,D,14253
+"Thursday, Aug 4",2022,Detroit Tigers,@,3,13.5,N,16595
+"Friday, Aug 5",2022,Detroit Tigers,@,3,12.5,N,21547
+"Saturday, Aug 6",2022,Detroit Tigers,@,3,12.5,N,40101
+"Sunday, Aug 7",2022,Detroit Tigers,@,3,11.5,D,18395
+"Tuesday, Aug 9",2022,Milwaukee Brewers,@,3,12.0,N,30030
+"Wednesday, Aug 10",2022,Milwaukee Brewers,@,3,12.0,D,30644
+"Friday, Aug 12",2022,Baltimore Orioles,,4,12.0,N,12380
+"Saturday, Aug 13",2022,Baltimore Orioles,,3,12.0,D,16823
+"Sunday, Aug 14",2022,Baltimore Orioles,,3,11.0,D,18093
+"Monday, Aug 15",2022,New York Yankees,@,2,10.0,N,42192
+"Tuesday, Aug 16",2022,New York Yankees,@,2,9.0,N,41083
+"Wednesday, Aug 17",2022,New York Yankees,@,2,10.0,N,42512
+"Thursday, Aug 18",2022,Kansas City Royals,,2,9.0,N,8168
+"Friday, Aug 19",2022,Kansas City Royals,,3,9.0,N,10049
+"Saturday, Aug 20",2022,Kansas City Royals,,3,8.0,D,19800
+"Sunday, Aug 21",2022,Kansas City Royals,,2,8.0,D,12940
+"Monday, Aug 22",2022,Los Angeles Angels,,2,8.0,N,9942
+"Tuesday, Aug 23",2022,Los Angeles Angels,,2,8.0,N,8810
+"Wednesday, Aug 24",2022,Los Angeles Angels,,2,7.5,N,9763
+"Thursday, Aug 25",2022,Los Angeles Angels,,2,7.5,D,10733
+"Friday, Aug 26",2022,Boston Red Sox,@,2,8.5,N,30095
+"Saturday, Aug 27",2022,Boston Red Sox,@,2,8.5,D,34036
+"Sunday, Aug 28",2022,Boston Red Sox,@,2,7.5,D,29116
+"Tuesday, Aug 30",2022,Miami Marlins,@,2,7.0,N,7386
+"Wednesday, Aug 31",2022,Miami Marlins,@,2,6.0,N,7420
+"Friday, Sep 2",2022,New York Yankees,,2,5.0,N,17886
+"Saturday, Sep 3",2022,New York Yankees,,2,4.0,N,21754
+"Sunday, Sep 4",2022,New York Yankees,,2,5.0,D,25025
+"Monday, Sep 5",2022,Boston Red Sox,,2,5.0,D,12264
+"Tuesday, Sep 6",2022,Boston Red Sox,,2,4.5,N,8069
+"Wednesday, Sep 7",2022,Boston Red Sox,,2,5.0,N,8696
+"Friday, Sep 9",2022,New York Yankees,@,2,3.5,N,46160
+"Saturday, Sep 10",2022,New York Yankees,@,2,4.5,D,43088
+"Sunday, Sep 11",2022,New York Yankees,@,2,5.5,D,36402
+"Monday, Sep 12",2022,Toronto Blue Jays,@,3,6.0,N,23002
+"Tuesday, Sep 13 (1)",2022,Toronto Blue Jays,@,3,6.5,D,23497
+"Tuesday, Sep 13 (2)",2022,Toronto Blue Jays,@,3,6.5,N,25103
+"Wednesday, Sep 14",2022,Toronto Blue Jays,@,3,7.5,N,24282
+"Thursday, Sep 15",2022,Toronto Blue Jays,@,3,7.0,D,23820
+"Friday, Sep 16",2022,Texas Rangers,,3,7.0,N,14127
+"Saturday, Sep 17",2022,Texas Rangers,,3,6.0,N,14094
+"Sunday, Sep 18",2022,Texas Rangers,,3,6.0,D,12835
+"Monday, Sep 19",2022,Houston Astros,,3,6.5,N,10390
+"Tuesday, Sep 20",2022,Houston Astros,,3,7.5,N,8992
+"Wednesday, Sep 21",2022,Houston Astros,,3,8.5,N,9293
+"Thursday, Sep 22",2022,Toronto Blue Jays,,3,8.5,N,8799
+"Friday, Sep 23",2022,Toronto Blue Jays,,2,8.5,N,17407
+"Saturday, Sep 24",2022,Toronto Blue Jays,,3,9.5,N,22169
+"Sunday, Sep 25",2022,Toronto Blue Jays,,3,10.5,D,16394
+"Tuesday, Sep 27",2022,Cleveland Guardians,@,3,10.0,N,10775
+"Wednesday, Sep 28",2022,Cleveland Guardians,@,3,11.0,N,10674
+"Thursday, Sep 29",2022,Cleveland Guardians,@,3,11.5,N,11783
+"Friday, Sep 30",2022,Houston Astros,@,3,10.5,N,37349
+"Saturday, Oct 1",2022,Houston Astros,@,3,11.5,N,37406
+"Sunday, Oct 2",2022,Houston Astros,@,3,11.5,D,35809
+"Monday, Oct 3",2022,Boston Red Sox,@,3,12.5,N,26633
+"Tuesday, Oct 4",2022,Boston Red Sox,@,3,13.0,N,26477
+"Wednesday, Oct 5",2022,Boston Red Sox,@,3,13.0,D,26695
+"Thursday, Mar 30",2023,Detroit Tigers,,1,0.0,D,25025
+"Saturday, Apr 1",2023,Detroit Tigers,,1,1.0,D,20204
+"Sunday, Apr 2",2023,Detroit Tigers,,1,1.0,D,19425
+"Monday, Apr 3",2023,Washington Nationals,@,1,1.0,N,10754
+"Tuesday, Apr 4",2023,Washington Nationals,@,1,2.0,N,15272
+"Wednesday, Apr 5",2023,Washington Nationals,@,1,2.0,D,13836
+"Friday, Apr 7",2023,Oakland Athletics,,1,2.5,N,15980
+"Saturday, Apr 8",2023,Oakland Athletics,,1,3.0,D,15880
+"Sunday, Apr 9",2023,Oakland Athletics,,1,3.0,D,11159
+"Monday, Apr 10",2023,Boston Red Sox,,1,4.0,N,13470
+"Tuesday, Apr 11",2023,Boston Red Sox,,1,4.0,N,12649
+"Wednesday, Apr 12",2023,Boston Red Sox,,1,4.0,N,17136
+"Thursday, Apr 13",2023,Boston Red Sox,,1,5.0,D,21175
+"Friday, Apr 14",2023,Toronto Blue Jays,@,1,4.0,N,34822
+"Saturday, Apr 15",2023,Toronto Blue Jays,@,1,3.0,D,41679
+"Sunday, Apr 16",2023,Toronto Blue Jays,@,1,4.0,D,39179
+"Monday, Apr 17",2023,Cincinnati Reds,@,1,3.5,N,7375
+"Tuesday, Apr 18",2023,Cincinnati Reds,@,1,4.0,N,11304
+"Wednesday, Apr 19",2023,Cincinnati Reds,@,1,4.5,D,10205
+"Friday, Apr 21",2023,Chicago White Sox,,1,4.5,N,17973
+"Saturday, Apr 22",2023,Chicago White Sox,,1,4.5,D,22333
+"Sunday, Apr 23",2023,Chicago White Sox,,1,4.5,D,22702
+"Monday, Apr 24",2023,Houston Astros,,1,4.5,N,10611
+"Tuesday, Apr 25",2023,Houston Astros,,1,4.5,N,9916
+"Wednesday, Apr 26",2023,Houston Astros,,1,3.5,N,14168
+"Thursday, Apr 27",2023,Chicago White Sox,@,1,3.5,N,11060
+"Friday, Apr 28",2023,Chicago White Sox,@,1,4.0,N,16681
+"Saturday, Apr 29",2023,Chicago White Sox,@,1,4.5,N,28462
+"Sunday, Apr 30",2023,Chicago White Sox,@,1,3.5,D,17049
+"Tuesday, May 2",2023,Pittsburg Pirates,,1,3.5,N,10325
+"Wednesday, May 3",2023,Pittsburg Pirates,,1,4.5,N,15247
+"Thursday, May 4",2023,Pittsburg Pirates,,1,4.5,D,12418
+"Friday, May 5",2023,New York Yankees,,1,4.5,N,25007
+"Saturday, May 6",2023,New York Yankees,,1,4.5,D,27078
+"Sunday, May 7",2023,New York Yankees,,1,5.5,D,32142
+"Monday, May 8",2023,Baltimore Orioles,@,1,6.5,N,12669
+"Tuesday, May 9",2023,Baltimore Orioles,@,1,5.5,N,10017
+"Wednesday, May 10",2023,Baltimore Orioles,@,1,4.5,N,14395
+"Thursday, May 11",2023,New York Yankees,@,1,5.0,N,37686
+"Friday, May 12",2023,New York Yankees,@,1,4.0,N,46130
+"Saturday, May 13",2023,New York Yankees,@,1,3.0,D,44714
+"Sunday, May 14",2023,New York Yankees,@,1,4.0,D,42116
+"Tuesday, May 16",2023,New York Mets,@,1,4.5,N,28296
+"Wednesday, May 17",2023,New York Mets,@,1,3.5,N,29695
+"Thursday, May 18",2023,New York Mets,@,1,3.5,D,29946
+"Friday, May 19",2023,Milwaukee Brewers,,1,3.5,N,18961
+"Saturday, May 20",2023,Milwaukee Brewers,,1,3.5,D,19954
+"Sunday, May 21",2023,Milwaukee Brewers,,1,2.5,D,20193
+"Monday, May 22",2023,Toronto Blue Jays,,1,3.0,N,8857
+"Tuesday, May 23",2023,Toronto Blue Jays,,1,3.0,N,11906
+"Wednesday, May 24",2023,Toronto Blue Jays,,1,3.0,N,8699
+"Thursday, May 25",2023,Toronto Blue Jays,,1,3.0,D,10736
+"Friday, May 26",2023,Los Angeles Dodgers,,1,4.0,N,19715
+"Saturday, May 27",2023,Los Angeles Dodgers,,1,4.0,D,23443
+"Sunday, May 28",2023,Los Angeles Dodgers,,1,4.0,D,21043
+"Monday, May 29",2023,Chicago Cubs,@,1,4.0,D,38163
+"Tuesday, May 30",2023,Chicago Cubs,@,1,3.0,N,31762
+"Wednesday, May 31",2023,Chicago Cubs,@,1,4.0,D,29360
+"Saturday, Jun 3 (1)",2023,Boston Red Sox,@,1,4.0,D,31303
+"Saturday, Jun 3 (2)",2023,Boston Red Sox,@,1,4.0,N,30784
+"Sunday, Jun 4",2023,Boston Red Sox,@,1,4.0,D,34192
+"Monday, Jun 5",2023,Boston Red Sox,@,1,4.5,D,30860
+"Tuesday, Jun 6",2023,Minnesota Twins,,1,5.5,N,14689
+"Wednesday, Jun 7",2023,Minnesota Twins,,1,6.5,N,10846
+"Thursday, Jun 8",2023,Minnesota Twins,,1,6.5,D,12584
+"Friday, Jun 9",2023,Texas Rangers,,1,6.5,N,17447
+"Saturday, Jun 10",2023,Texas Rangers,,1,5.5,D,18932
+"Sunday, Jun 11",2023,Texas Rangers,,1,5.5,D,23069
+"Monday, Jun 12",2023,Oakland Athletics,@,1,5.0,N,4848
+"Tuesday, Jun 13",2023,Oakland Athletics,@,1,4.0,N,27759
+"Wednesday, Jun 14",2023,Oakland Athletics,@,1,5.0,N,7055
+"Thursday, Jun 15",2023,Oakland Athletics,@,1,5.0,D,7133
+"Friday, Jun 16",2023,San Diego Padres,@,1,6.0,N,42367
+"Saturday, Jun 17",2023,San Diego Padres,@,1,6.0,D,43180
+"Sunday, Jun 18",2023,San Diego Padres,@,1,5.0,D,44404
+"Tuesday, Jun 20",2023,Baltimore Orioles,,1,4.0,N,20906
+"Wednesday, Jun 21",2023,Baltimore Orioles,,1,5.0,D,19493
+"Thursday, Jun 22",2023,Kansas City Royals,,1,4.5,N,10436
+"Friday, Jun 23",2023,Kansas City Royals,,1,5.5,N,16189
+"Saturday, Jun 24",2023,Kansas City Royals,,1,4.5,D,20884
+"Sunday, Jun 25",2023,Kansas City Royals,,1,4.5,D,18442
+"Tuesday, Jun 27",2023,Arizona Diamondbacks,@,1,4.0,N,23351
+"Wednesday, Jun 28",2023,Arizona Diamondbacks,@,1,5.0,N,20858
+"Thursday, Jun 29",2023,Arizona Diamondbacks,@,1,5.5,D,22127
+"Friday, Jun 30",2023,Seattle Mariners,@,1,6.5,N,37063
+"Saturday, Jul 1",2023,Seattle Mariners,@,1,6.5,D,35546
+"Sunday, Jul 2",2023,Seattle Mariners,@,1,5.5,D,36541
+"Tuesday, Jul 4",2023,Phildelphia Phillies,,1,6.0,D,22665
+"Wednesday, Jul 5",2023,Phildelphia Phillies,,1,5.0,N,18208
+"Thursday, Jul 6",2023,Phildelphia Phillies,,1,4.0,N,17060
+"Friday, Jul 7",2023,Atlanta Braves,,1,3.0,N,25025
+"Saturday, Jul 8",2023,Atlanta Braves,,1,2.0,N,25025
+"Sunday, Jul 9",2023,Atlanta Braves,,1,2.0,D,25025
+"Saturday, Jul 15 (1)",2023,Kansas City Royals,@,1,2.0,D,15428
+"Saturday, Jul 15 (2)",2023,Kansas City Royals,@,1,2.0,N,18052
+"Sunday, Jul 16",2023,Kansas City Royals,@,1,1.0,D,15632
+"Monday, Jul 17",2023,Texas Rangers,@,1,1.0,N,29901
+"Tuesday, Jul 18",2023,Texas Rangers,@,1,1.0,N,34677
+"Wednesday, Jul 19",2023,Texas Rangers,@,1,0.0,D,31591
+"Thursday, Jul 20",2023,Baltimore Orioles,,2,1.0,N,20203
+"Friday, Jul 21",2023,Baltimore Orioles,,1,0.0,N,19703
+"Saturday, Jul 22",2023,Baltimore Orioles,,2,1.0,D,25025
+"Sunday, Jul 23",2023,Baltimore Orioles,,2,2.0,D,23440
+"Tuesday, Jul 25",2023,Miami Marlins,,2,1.5,N,20508
+"Wednesday, Jul 26",2023,Miami Marlins,,2,1.5,D,20971
+"Friday, Jul 28",2023,Houston Astros,@,2,1.5,N,38592
+"Saturday, Jul 29",2023,Houston Astros,@,2,1.5,N,40004
+"Sunday, Jul 30",2023,Houston Astros,@,2,1.5,D,40357
+"Monday, Jul 31",2023,New York Yankees,@,2,1.5,N,43613
+"Tuesday, Aug 1",2023,New York Yankees,@,2,1.5,N,38047
+"Wednesday, Aug 2",2023,New York Yankees,@,2,1.5,N,38740
+"Friday, Aug 4",2023,Detroit Tigers,@,2,2.0,N,26050
+"Saturday, Aug 5",2023,Detroit Tigers,@,2,3.0,D,30939
+"Sunday, Aug 6",2023,Detroit Tigers,@,2,3.0,D,21824
+"Tuesday, Aug 8",2023,St. Louis Cardinals,,2,2.0,N,15522
+"Wednesday, Aug 9",2023,St. Louis Cardinals,,2,2.0,N,11203
+"Thursday, Aug 10",2023,St. Louis Cardinals,,2,3.0,N,11990
+"Friday, Aug 11",2023,Cleveland Guardians,,2,2.0,N,19625
+"Saturday, Aug 12",2023,Cleveland Guardians,,2,2.0,D,25025
+"Sunday, Aug 13",2023,Cleveland Guardians,,2,3.0,D,22163
+"Monday, Aug 14",2023,San Francisco Giants,@,2,3.0,N,25748
+"Tuesday, Aug 15",2023,San Francisco Giants,@,2,3.0,N,26322
+"Wednesday, Aug 16",2023,San Francisco Giants,@,2,2.0,D,27510
+"Friday, Aug 18",2023,Los Angeles Angels,@,2,2.0,N,38297
+"Saturday, Aug 19 (1)",2023,Los Angeles Angels,@,2,2.5,D,27309
+"Saturday, Aug 19 (2)",2023,Los Angeles Angels,@,2,2.5,N,33803
+"Tuesday, Aug 22",2023,Colorado Rockies,,2,2.0,N,10235
+"Wednesday, Aug 23",2023,Colorado Rockies,,2,2.0,N,12001
+"Thursday, Aug 24",2023,Colorado Rockies,,2,2.0,D,9972
+"Friday, Aug 25",2023,New York Yankees,,2,3.0,N,22679
+"Saturday, Aug 26",2023,New York Yankees,,2,3.0,D,22943
+"Sunday, Aug 27",2023,New York Yankees,,2,2.0,D,22624
+"Tuesday, Aug 29",2023,Miami Marlins,@,2,2.5,N,10338
+"Wednesday, Aug 30",2023,Miami Marlins,@,2,1.5,N,9803
+"Friday, Sep 1",2023,Cleveland Guardians,@,2,1.5,N,25685
+"Saturday, Sep 2",2023,Cleveland Guardians,@,2,2.5,N,27788
+"Sunday, Sep 3",2023,Cleveland Guardians,@,2,2.5,D,25556
+"Monday, Sep 4",2023,Boston Red Sox,,2,3.5,D,18302
+"Tuesday, Sep 5",2023,Boston Red Sox,,2,3.5,N,9119
+"Wednesday, Sep 6",2023,Boston Red Sox,,2,3.5,N,10100
+"Thursday, Sep 7",2023,Seattle Mariners,,2,4.0,N,10060
+"Friday, Sep 8",2023,Seattle Mariners,,2,4.0,N,21243
+"Saturday, Sep 9",2023,Seattle Mariners,,2,4.0,D,18008
+"Sunday, Sep 10",2023,Seattle Mariners,,2,3.0,D,18230
+"Monday, Sep 11",2023,Minnesota Twins,@,2,3.0,N,18683
+"Tuesday, Sep 12",2023,Minnesota Twins,@,2,3.0,N,24390
+"Wednesday, Sep 13",2023,Minnesota Twins,@,2,2.0,D,18342
+"Thursday, Sep 14",2023,Baltimore Orioles,@,2,1.0,N,24835
+"Friday, Sep 15",2023,Baltimore Orioles,@,1,0.0,N,43359
+"Saturday, Sep 16",2023,Baltimore Orioles,@,2,1.0,N,38432
+"Sunday, Sep 17",2023,Baltimore Orioles,@,2,2.0,D,37297
+"Tuesday, Sep 19",2023,Los Angeles Angels,,2,2.5,N,15176
+"Wednesday, Sep 20",2023,Los Angeles Angels,,2,2.5,N,15145
+"Thursday, Sep 21",2023,Los Angeles Angels,,2,1.5,D,12966
+"Friday, Sep 22",2023,Toronto Blue Jays,,2,1.5,N,18538
+"Saturday, Sep 23",2023,Toronto Blue Jays,,2,1.5,D,22655
+"Sunday, Sep 24",2023,Toronto Blue Jays,,2,2.5,D,22472
+"Tuesday, Sep 26",2023,Boston Red Sox,@,2,2.5,N,34094
+"Wednesday, Sep 27",2023,Boston Red Sox,@,2,2.5,N,34559
+"Friday, Sep 29",2023,Toronto Blue Jays,@,2,3.0,N,42394
+"Saturday, Sep 30",2023,Toronto Blue Jays,@,2,3.0,D,42097
+"Sunday, Oct 1",2023,Toronto Blue Jays,@,2,2.0,D,42058

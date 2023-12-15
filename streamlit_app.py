@@ -55,6 +55,8 @@ def user_input_features():
 
 data, df = user_input_features()
 
+st.subheader('Machine Learning model based on 2018-2023 inclusive home games')
+
 st.subheader('User Input Parameters')
 st.write(data)
 
@@ -82,4 +84,4 @@ regr.fit(X_train, y_train)
 
 y_pred = regr.predict(X_test)
 
-st.write(y_pred, " +/- ", int(np.round(np.sqrt(mean_absolute_error(y_test, y_pred)),-2)))
+st.write(" +/- ", int(np.round(np.sqrt(mean_absolute_error(y_test, y_pred)),-2)))

@@ -20,10 +20,10 @@ st.sidebar.header('User Input Parameters')
 
 def user_input_features():
 
-  day = st.sidebar.toggle('Day Game')
+  daygame = st.sidebar.toggle('Day Game')
   opponent = st.sidebar.selectbox('Opponent', all)
 
-  data = {'day': day,
+  data = {'daygame': daygame,
           'opponent': opponent}
 
   features = pd.DataFrame(data, index=[0])
@@ -34,17 +34,17 @@ df = user_input_features()
 st.subheader('User Input Parameters')
 st.write(df)
 
-if df['opponent'].values in al_east_teams:
+if df['opponent'][0] in al_east_teams:
   al_east = True
 else:
   al_east = False
 
-if df['opponent'].values in al_other_teams:
+if df['opponent'][0] in al_other_teams:
   al_other = True
 else:
   al_other = False
 
-if df['opponent'].values in nl_teams:
+if df['opponent'][0] in nl_teams:
   nl = True
 else:
   nl = False

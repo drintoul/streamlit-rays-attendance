@@ -22,7 +22,6 @@ def user_input_features():
 #st.slider(label, min_value=None, max_value=None, value=None, step=None, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, *, disabled=False, label_visibility="visible")  
 
   daygame = st.sidebar.toggle('Day Game')
-  weekend = st.sidebar.toggle('Weekend Game')
   opponent = st.sidebar.selectbox('Opponent', all_teams, index=13) # default to LA Dodgers
   div_rank = st.sidebar.slider('Division Rank', min_value=1, max_value=5, value=1, step=1)
   gb = st.sidebar.slider('Games Behind', min_value=-5.0, max_value=5.0, value=0.0, step=0.50)
@@ -44,7 +43,6 @@ def user_input_features():
     nl = False
   
   data = {'daygame': daygame,
-          'weekend': weekend,
           'opponent': opponent,
           'div_rank': div_rank,
           'games_behind': gb,
@@ -64,7 +62,24 @@ st.write("""
 # Predicted Attendance
 """)
 
-prediction = 10000
-mae = 456
+history = pd.read_csv('rays_attendance.csv')
 
-st.write(prediction, ' +/- ', mae)
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error
+
+scaler = StandardScaler()
+scaler.fit_transform(hist)
+
+regr = LinearRegression()
+y = hist[['attendance']]
+X = hist.drop(columns=['attendance'], axis=1)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30)
+
+import numpy as np
+regr.fit(X_train, y_train)
+
+y_pred = regr.predict(X_test)
+
+st.write(y_pred, " +/- ", int(np.round(np.sqrt(mean_absolute_error(y_test, y_pred)),-2))

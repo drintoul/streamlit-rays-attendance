@@ -128,8 +128,9 @@ model = LinearRegression().fit(X, y)
 y_pred = model.predict(X)
 error = mean_absolute_error(y_pred, y)
 
-#X = scaler.transform(features)
-#prediction = model.predict(X)
+X1 = np.array(features).reshape(1,-1)
+scaler.transform(X1)
+prediction = model.predict(X1)
 
 st.write("""
 # Predicted Attendance

@@ -19,11 +19,12 @@ all_teams = sorted(al_east_teams[:-1] + al_other_teams + nl_teams)
 st.sidebar.header('User Input Parameters')
 
 def user_input_features():
+#st.slider(label, min_value=None, max_value=None, value=None, step=None, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, *, disabled=False, label_visibility="visible")  
 
   daygame = st.sidebar.toggle('Day Game')
   opponent = st.sidebar.selectbox('Opponent', all_teams)
-  div_rank = st.sidebar.slider('Division Rank', 1, 5, 1)
-  gb = st.sidebar.slider('Games Behind', -5, 5, 0.50)
+  div_rank = st.sidebar.slider('Division Rank', min_value=1, max_value=5, value=1, step=1)
+  gb = st.sidebar.slider('Games Behind', min_value=-5.0, max_value=5.0, value=0, step=0.50)
 
   if opponent in al_east_teams:
     al_east = True

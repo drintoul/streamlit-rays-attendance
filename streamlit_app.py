@@ -121,12 +121,13 @@ error = mean_absolute_error(y_pred, y)
 # Apply Model to User Input
 
 X1 = np.array(features).reshape(1,-1)
-scaler.transform(X1)
+#scaler.transform(X1)
 
-prediction = model.predict(X1)
+prediction = None
+#prediction = model.predict(X1)
 
 st.write("""
 # Predicted Attendance
 """)
 
-st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:,} +/- {error:,}</h3>', unsafe_allow_html=True)
+st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:,} +/- {error:3.0f,}</h3>', unsafe_allow_html=True)

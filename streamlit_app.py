@@ -34,7 +34,7 @@ def user_input_features():
 
   daygame = st.sidebar.toggle('Day Game')
   div_rank = st.sidebar.slider('Division Rank', min_value=1, max_value=5, value=1, step=1)
-  gb = st.sidebar.slider('Games Behind', min_value=-5.0, max_value=5.0, value=0.0, step=0.50)
+  gb = st.sidebar.slider('Games Behind Division Leader', min_value=-5.0, max_value=5.0, value=0.0, step=0.50)
   st.sidebar.write('Note that negative games behind equals positive games ahead')
   opponent = st.sidebar.selectbox('Opponent', all_teams, index=13) # default to LA Dodgers
 

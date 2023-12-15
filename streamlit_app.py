@@ -34,21 +34,21 @@ df = user_input_features()
 st.subheader('User Input Parameters')
 st.write(df)
 
-if df['opponent'][0] in al_east_teams:
-  al_east = True
-else:
-  al_east = False
+#if df['opponent'][0] in al_east_teams:
+#  al_east = True
+#else:
+#  al_east = False
 
-if df['opponent'][0] in al_other_teams:
-  al_other = True
-else:
-  al_other = False
+#if df['opponent'][0] in al_other_teams:
+#  al_other = True
+#else:
+#  al_other = False
 
-if df['opponent'][0] in nl_teams:
-  nl = True
-else:
-  nl = False
+#if df['opponent'][0] in nl_teams:
+#  nl = True
+#else:
+#  nl = False
 
-st.write(al_east)
-st.write(al_other)
-st.write(nl)
+#st.write(al_east)
+#st.write(al_other)
+#st.write(nl)

@@ -154,7 +154,6 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 158,"Saturday, Sep 20",2008,Minnesota Twins,,1,-2.5,D,36048
 159,"Sunday, Sep 21",2008,Minnesota Twins,,1,-1.5,D,36048
 160,"Monday, Sep 22",2008,Baltimore Orioles,@,1,-2.5,N,12489
-161,"Tuesday, Sep 23 (1)",2008,Baltimore Orioles,@,1,-3.0,N,
 162,"Tuesday, Sep 23 (2)",2008,Baltimore Orioles,@,1,-3.0,N,15215
 163,"Wednesday, Sep 24",2008,Baltimore Orioles,@,1,-3.0,N,13632
 164,"Thursday, Sep 25",2008,Detroit Tigers,@,1,-2.0,D,36259
@@ -1521,7 +1520,6 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 62,"Wednesday, Jun 7",2017,Chicago White Sox,,4,5.5,N,9313
 63,"Thursday, Jun 8",2017,Chicago White Sox,,4,5.5,N,8971
 64,"Friday, Jun 9",2017,Oakland Athletics,,4,5.5,N,13153
-65,"Saturday, Jun 10 (1)",2017,Oakland Athletics,,4,6.0,D,
 66,"Saturday, Jun 10 (2)",2017,Oakland Athletics,,4,6.0,N,17775
 67,"Sunday, Jun 11",2017,Oakland Athletics,,3,6.0,D,13640
 68,"Tuesday, Jun 13",2017,Toronto Blue Jays,@,3,5.5,N,39404
@@ -1655,7 +1653,6 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 34,"Tuesday, May 8",2018,Atlanta Braves,,4,9.0,N,15382
 35,"Wednesday, May 9",2018,Atlanta Braves,,4,10.0,N,12082
 36,"Friday, May 11",2018,Baltimore Orioles,@,4,9.5,N,28170
-37,"Saturday, May 12 (1)",2018,Baltimore Orioles,@,4,10.0,D,
 38,"Saturday, May 12 (2)",2018,Baltimore Orioles,@,4,10.0,N,24534
 39,"Sunday, May 13",2018,Baltimore Orioles,@,4,11.0,D,25257
 40,"Monday, May 14",2018,Kansas City Royals,@,4,10.5,N,14174
@@ -1810,7 +1807,6 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 26,"Saturday, Apr 27",2019,Boston Red Sox,@,1,-1.5,D,34773
 27,"Sunday, Apr 28",2019,Boston Red Sox,@,1,-1.5,D,33823
 28,"Monday, Apr 29",2019,Kansas City Royals,@,1,-2.0,N,11744
-30,"Wednesday, May 1 (1)",2019,Kansas City Royals,@,1,-2.0,D,
 31,"Wednesday, May 1 (2)",2019,Kansas City Royals,@,1,-2.0,D,11411
 32,"Thursday, May 2",2019,Kansas City Royals,@,1,-2.5,D,23343
 33,"Friday, May 3",2019,Baltimore Orioles,@,1,-2.5,N,10034
@@ -1879,7 +1875,6 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 98,"Sunday, Jul 14",2019,Baltimore Orioles,@,2,6.0,D,14082
 99,"Monday, Jul 15",2019,New York Yankees,@,2,5.0,N,43173
 100,"Tuesday, Jul 16",2019,New York Yankees,@,2,6.0,N,40401
-101,"Thursday, Jul 18 (1)",2019,New York Yankees,@,2,8.0,D,
 102,"Thursday, Jul 18 (2)",2019,New York Yankees,@,2,8.0,N,40504
 103,"Friday, Jul 19",2019,Chicago White Sox,,2,9.0,N,16971
 104,"Saturday, Jul 20",2019,Chicago White Sox,,2,10.0,N,16338
@@ -1921,7 +1916,6 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 141,"Saturday, Aug 31",2019,Cleveland Guardians,,2,10.0,N,13327
 143,"Sunday, Sep 1",2019,Cleveland Guardians,,2,10.0,D,14922
 144,"Monday, Sep 2",2019,Baltimore Orioles,,2,9.0,D,10566
-145,"Tuesday, Sep 3 (1)",2019,Baltimore Orioles,,2,9.5,D,
 146,"Tuesday, Sep 3 (2)",2019,Baltimore Orioles,,2,9.5,N,6844
 147,"Thursday, Sep 5",2019,Toronto Blue Jays,,2,9.5,N,5962
 148,"Friday, Sep 6",2019,Toronto Blue Jays,,2,8.5,N,10853
@@ -2029,7 +2023,6 @@ index,Date,Year,Opponent,H/A,Rank,GB,D/N,Attendance
 85,"Saturday, Jul 3",2021,Toronto Blue Jays,@,2,4.5,D,9189
 86,"Sunday, Jul 4",2021,Toronto Blue Jays,@,2,4.5,D,7537
 87,"Monday, Jul 5",2021,Cleveland Guardians,,2,4.5,N,8832
-88,"Wednesday, Jul 7 (1)",2021,Cleveland Guardians,,2,2.5,D,
 89,"Wednesday, Jul 7 (2)",2021,Cleveland Guardians,,2,2.5,D,10905
 90,"Friday, Jul 9",2021,Toronto Blue Jays,,2,2.5,N,8551
 91,"Saturday, Jul 10",2021,Toronto Blue Jays,,2,1.5,D,9954

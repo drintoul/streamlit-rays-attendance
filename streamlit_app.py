@@ -88,11 +88,10 @@ data, features = user_input_features()
 
 df = pd.read_csv('rays_attendance.csv')
 
-max = df['Attendance'].max()
 min = df['Attendance'].min()
+max = df['Attendance'].max()
 
-min_df = df[df['Attendance'] == min]
-max_df = df[df['Attendance'] == max]
+mm_df = df[(df['Attendance'] == min) or (df['Attendance'] == max)]
 
 df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)
 df['al_other'] = df['Opponent'].apply(lambda x: True if x in al_other_teams else False)
@@ -130,8 +129,7 @@ prediction = model.predict(X1)[0]
 
 st.write('Machine Learning model based on 2008-2023 inclusive regular season home games (not including 2020)')
 
-st.write(min_df)
-st.write(max_df)
+st.write(mm_df)
 
 st.write(f'With crowds as small as {min:,} and as large as {max:,}, it\'s important to be able to predict attendance to plan promotions and giveaways', unsafe_allow_html=True)
 st.write('Select input parameters using sidebar on the left')

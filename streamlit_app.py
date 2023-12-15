@@ -123,7 +123,6 @@ error = mean_absolute_error(y_pred, y)
 # Apply Model to User Input
 
 features = pd.DataFrame(data, index=[0])
-competitor = features['opponent'].values[0]
 features.drop(columns=['opponent'], inplace=True)
 X1 = np.array(features)
 scaler.transform(X1)
@@ -146,7 +145,7 @@ st.write("""
 # Predicted Attendance
 """)
 
-st.markdown(f"playing {data['competitor']} while ranked {data['div_rank']} and being {data['gb']} games behind leader.", unsafe_allow_html=True)
+st.markdown(f"playing {data['opponent']} while ranked {data['div_rank']} and being {data['gb']} games behind leader.", unsafe_allow_html=True)
 
 st.markdown(f"<h3 class='big-font' color='green' font-weight='bold'>{round(prediction,-2):,.0f} +/- {round(error,-3):,.0f}</h3>", unsafe_allow_html=True)
 

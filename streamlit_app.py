@@ -23,7 +23,6 @@ def user_input_features():
   day = st.sidebar.toggle('Day Game')
   opponent = st.sidebar.selectbox('Opponent', all)
 
-  if 
   data = {'day': day,
           'opponent': opponent}
 

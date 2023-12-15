@@ -64,5 +64,7 @@ st.write("""
 # Predicted Attendance
 """)
 
-st.write(10000)
-st.write('+/- ', 500)
+prediction = 10000
+mae = 456
+
+st.write(prediction, ' +/- ', mae)

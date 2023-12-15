@@ -21,9 +21,9 @@ nl_teams = ['Atlanta Braves', 'Miami Marlins', 'New York Mets', 'Philadelphia Ph
             'Chicago Cubs', 'Cincinnati Reds', 'Milwaukee Brewers', 'Pittsburgh Pirates', 'St. Louis Cardinals',
             'Arizona Diamond Backs', 'Coloroado Rockies', 'Los Angeles Dodgers', 'San Diego Padres', 'San Francisco Giants']
 
-champions = ['Texas Rangers', 'Houston Astros', 'Atlanta Braves', 'Los Angeles Dodgers', 'Washington Nationals',
-             'Chicago Cubs', 'Kansas City Royals', 'Boston Red Sox', 'Philadelphia Phillies', 'San Francisco Giants',
-             'St. Louis Cardinals', 'New York Yankees']
+wschampions = ['Texas Rangers', 'Houston Astros', 'Atlanta Braves', 'Los Angeles Dodgers', 'Washington Nationals',
+               'Chicago Cubs', 'Kansas City Royals', 'Boston Red Sox', 'Philadelphia Phillies', 'San Francisco Giants',
+               'St. Louis Cardinals', 'New York Yankees']
 
 # remember to take Tampa Bay Rays out of list of opponents
 all_teams = sorted(al_east_teams[:-1] + al_other_teams + nl_teams)
@@ -54,10 +54,10 @@ def user_input_features():
   else:
     nl = False
 
-  if opponent in champions:
-    champs = True
+  if opponent in wschampions:
+    wschamps = True
   else:
-    champs = False
+    wschamps = False
 
   if opponent == 'New York Yankees':
     yankees = True
@@ -99,14 +99,14 @@ df = pd.read_csv('rays_attendance.csv')
 df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)
 df['al_other'] = df['Opponent'].apply(lambda x: True if x in al_other_teams else False)
 df['nl'] = df['Opponent'].apply(lambda x: True if x in nl_teams else False)
-df['champs'] = df['Opponent'].apply(lambda x: True if x in champions else False)
+df['wschamps'] = df['Opponent'].apply(lambda x: True if x in wschampions else False)
 df['yankees'] = df['Opponent'].apply(lambda x: True if x == 'New York Yankees' else False)
 df['redsox'] = df['Opponent'].apply(lambda x: True if x == 'Boston Red Sox' else False)
 
 df = df[df['H/A'].isnull()]
 df = df.reindex()
-df = df[['Rank', 'GB', 'D/N', 'al_east', 'al_other', 'nl', 'champs', 'yankees', 'redsox', 'Attendance']]
-df.columns = ['div_rank', 'games_behind', 'daygame', 'al_east', 'al_other', 'nl', 'champs', 'yankees', 'redsox', 'attendance']
+df = df[['Rank', 'GB', 'D/N', 'al_east', 'al_other', 'nl', 'wschamps', 'yankees', 'redsox', 'Attendance']]
+df.columns = ['div_rank', 'games_behind', 'daygame', 'al_east', 'al_other', 'nl', 'wschamps', 'yankees', 'redsox', 'attendance']
 df['daygame'] = df['daygame'] == 'D'
 
 df = df.sample(frac=1)

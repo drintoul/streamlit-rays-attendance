@@ -129,8 +129,9 @@ y_pred = model.predict(X)
 error = mean_absolute_error(y_pred, y)
 
 X = features
-X = scaler.transform(X)
-prediction = model.predict(X)
+st.write(features)
+#X = scaler.transform(X)
+#prediction = model.predict(X)
 
 st.write("""
 # Predicted Attendance
@@ -138,4 +139,3 @@ st.write("""
 
 prediction = 74567
 st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:,} +/- {error:,}</h3>', unsafe_allow_html=True)
-st.write('just kidding - model still under development')

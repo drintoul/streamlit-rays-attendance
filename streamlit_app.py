@@ -62,14 +62,32 @@ def user_input_features():
     nl = True
   else:
     nl = False
-  
+
+  if opponent in champs:
+    champs = True
+  else:
+    champs = False
+
+  if opponent == 'New York Yankees':
+    yankees = True
+  else:
+    yankees = False
+
+  if opponent == 'Boston Redsox':
+    redsox = True
+  else:
+    redsox = False
+
   data = {'daygame': daygame,
           'div_rank': div_rank,
           'games_behind': gb,
           'opponent': opponent,
           'al_east': al_east,
           'al_other': al_other,
-          'nl': nl}
+          'nl': nl,
+          'champs': champs,
+          'yankees': yankees,
+          'redsox': redsox}
 
   features_df = pd.DataFrame(data, index=[0])
   return data, features_df
@@ -92,11 +110,12 @@ df['al_other'] = df['Opponent'].apply(lambda x: True if x in al_other_teams else
 df['nl'] = df['Opponent'].apply(lambda x: True if x in nl_teams else False)
 df['champs'] = df['Opponent'].apply(lambda x: True if x in champs else False)
 df['yankees'] = df['Opponent'].apply(lambda x: True if x == 'New York Yankees' else False)
+df['redsox'] = df['Opponent'].apply(lambda x: True if x == 'Boston Red Sox' else False)
 
 df = df[df['H/A'].isnull()]
 df = df.reindex()
-df = df[['Rank', 'GB', 'D/N', 'al_east', 'al_other', 'nl', 'champs', 'yankees', 'Attendance']]
-df.columns = ['div_rank', 'games_behind', 'daygame', 'al_east', 'al_other', 'nl', 'champs', 'yankees', 'attendance']
+df = df[['Rank', 'GB', 'D/N', 'al_east', 'al_other', 'nl', 'champs', 'yankees', 'redsox', 'Attendance']]
+df.columns = ['div_rank', 'games_behind', 'daygame', 'al_east', 'al_other', 'nl', 'champs', 'yankees', 'redsox', 'attendance']
 df['daygame'] = df['daygame'] == 'D'
 
 df = df.sample(frac=1)

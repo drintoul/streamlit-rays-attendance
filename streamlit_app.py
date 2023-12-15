@@ -14,7 +14,7 @@ nl_teams = ['Atlanta Braves', 'Miami Marlins', 'New York Mets', 'Philadelphia Ph
             'Chicago Cubs', 'Cincinnati Reds', 'Milwaukee Brewers', 'Pittsburgh Pirates', 'St. Louis Cardinals',
             'Arizona Diamond Backs', 'Coloroado Rockies', 'Los Angeles Dodgers', 'San Diego Padres', 'San Francisco Giants']
 
-distances = {}
+#distances = {}
 
 all_teams = sorted(al_east_teams[:-1] + al_other_teams + nl_teams)
 
@@ -26,7 +26,7 @@ def user_input_features():
   daygame = st.sidebar.toggle('Day Game')
   weekend = st.sidebar.toggle('Weekend Game')
   opponent = st.sidebar.selectbox('Opponent', all_teams)
-  #distance = distances.map(opponent)
+  distance = 999
   div_rank = st.sidebar.slider('Division Rank', min_value=1, max_value=5, value=1, step=1)
   gb = st.sidebar.slider('Games Behind', min_value=-5.0, max_value=5.0, value=0.0, step=0.50)
   st.sidebar.write('Note that negative games behind equals positive games ahead')
@@ -49,7 +49,7 @@ def user_input_features():
   data = {'daygame': daygame,
           'weekend': weekend,
           'opponent': opponent,
-          'distance': 999,
+          'distance': distance,
           'div_rank': div_rank,
           'games_behind': gb,
           'al_east': al_east,

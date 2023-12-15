@@ -78,7 +78,7 @@ st.subheader('User Input Parameters')
 st.write(data)
 
 st.write("""
-# Predicted Attendance
+# Data for ML Model Development
 """)
 
 df = pd.read_csv('rays_attendance.csv')
@@ -94,3 +94,7 @@ df.columns = ['div_rank', 'games_behind', 'daygame', 'al_east', 'al_other', 'nl'
 df['daygame'] = df['daygame'] == 'D'
 
 st.write(df.head())
+
+st.write("""
+# Predicted Attendance
+""")

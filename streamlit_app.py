@@ -121,23 +121,18 @@ from sklearn.metrics import mean_absolute_error
 
 X = df.iloc[:,:-1]
 y = df.iloc[:,-1]
-scaler = StandardScaler().fit_transform(X)
-X = scaler
+scaler = StandardScaler()
+X = scaler.fit_transform(X)
 
 model = LinearRegression().fit(X, y)
 y_pred = model.predict(X)
 error = mean_absolute_error(y_pred, y)
 
 X = scaler.transform(features)
-st.write(X)
-
-#prediction = model.predict(X)
-
-#st.write(prediction)
+prediction = model.predict(X)
 
 st.write("""
 # Predicted Attendance
 """)
 
-prediction = 74567
 st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:,} +/- {error:,}</h3>', unsafe_allow_html=True)

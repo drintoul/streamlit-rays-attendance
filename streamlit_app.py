@@ -49,7 +49,7 @@ def user_input_features():
   data = {'daygame': daygame,
           'weekend': weekend,
           'opponent': opponent,
-   #       'distance': distance,
+          'distance': 999,
           'div_rank': div_rank,
           'games_behind': gb,
           'al_east': al_east,

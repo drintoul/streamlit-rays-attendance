@@ -12,17 +12,6 @@ st.write("""
 
 capacity = 31042
 
-names = {'HOU': 'Houston Astros', 'COL': 'Colorado Rockies', 'SFG': 'San Francisco Giants', 
-         'CHW': 'Chicago White Sox', 'TOR': 'Toronto Blue Jays', 'BAL': 'Baltimore Orioles', 
-         'BOS': 'Boston Red Sox', 'KCR': 'Kansas City Royals', 'ARI': 'Arizona Diamondbacks',
-         'NYY': 'New York Yankees', 'MIA': 'Miami Marlins', 'LAD': 'Los Angeles Dodgers', 
-         'CLE': 'Cleveland Guardians', 'MIN': 'Minnesota Twins', 'DET': 'Detroit Tigers', 
-         'OAK': 'Oakland Athletics', 'LAA': 'Los Angeles Angels', 'TEX': 'Texas Rangers',
-         'SEA': 'Seattle Mariners', 'SDP': 'San Diego Padres', 'WSN': 'Washington Nationals',
-         'NYM': 'New York Mets', 'CHC': 'Chicago Cubs', 'ATL': 'Atlanta Braves',
-         'PHI': 'Phildelphia Phillies', 'CIN': 'Cincinnati Reds', 'STL': 'St. Louis Cardinals',
-         'MIL': 'Milwaukee Brewers', 'PIT': 'Pittsburg Pirates'}
-
 al_east_teams = ['Baltimore Orioles', 'Boston Red Sox', 'New York Yankees', 'Toronto Blue Jays', 'Tampa Bay Rays']
 al_other_teams = ['Chicago White Sox', 'Cleveland Guardians', 'Detroit Tigers', 'Kansas City Royals', 'Minnesota Twins',
                   'Houston Astros', 'Los Angeles Angels', 'Oakland Athletics', 'Seattle Mariners', 'Texas Rangers']

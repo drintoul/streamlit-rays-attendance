@@ -84,14 +84,12 @@ def user_input_features():
 
 data, features = user_input_features()
 
-st.subheader('Machine Learning model based on 2008-2023 inclusive home games (not including 2020)')
-
-st.subheader('User Input Parameters')
-st.write(data)
-
 # Train Model
 
 df = pd.read_csv('rays_attendance.csv')
+
+max = df['attendance'].max()
+min = df['attendance'].min()
 
 df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)
 df['al_other'] = df['Opponent'].apply(lambda x: True if x in al_other_teams else False)
@@ -126,6 +124,12 @@ X1 = np.array(features)
 scaler.transform(X1)
 
 prediction = model.predict(X1)[0]
+
+st.subheader('Machine Learning model based on 2008-2023 inclusive home games (not including 2020)')
+st.markdown(f'<h3 class="big-font">With a capacity of {capacity:,} and crowds as small as {min:,} and as large as {max:,}, it\'s important to be able to predict attendance'), unsafe_allow_html=True)
+
+st.subheader('User Input Parameters')
+st.write(data)
 
 st.write("""
 # Predicted Attendance

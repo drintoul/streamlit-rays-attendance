@@ -76,7 +76,7 @@ def user_input_features():
           'al_east': al_east,
           'al_other': al_other,
           'nl': nl,
-          'champs': champs,
+          'wschamps': wschamps,
           'yankees': yankees,
           'redsox': redsox}
 

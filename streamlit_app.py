@@ -145,7 +145,7 @@ st.write("""
 # Predicted Attendance
 """)
 
-st.markdown(f"playing {data['opponent']} while ranked {data['div_rank']} and being {data['games_behind']} games behind leader.", unsafe_allow_html=True)
+st.markdown(f"playing {data['opponent']} while ranked #{data['div_rank']} in the AL East and being {data['games_behind']} games behind the division leader.", unsafe_allow_html=True)
 
 st.markdown(f"<h3 class='big-font' color='green' font-weight='bold'>{round(prediction,-2):,.0f} +/- {round(error,-3):,.0f}</h3>", unsafe_allow_html=True)
 

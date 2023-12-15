@@ -88,8 +88,8 @@ data, features = user_input_features()
 
 df = pd.read_csv('rays_attendance.csv')
 
-minimum = df[df['H/A'].isnull()][['Attendance']].min().values
-maximum = df[df['H/A'].isnull()][['Attendance']].max().values
+minimum = df[df['H/A'].isnull()][['Attendance']].min().values[0]
+maximum = df[df['H/A'].isnull()][['Attendance']].max().values[0]
 
 mm_df = df[df['H/A'].isnull()]
 mm_df = mm_df[(mm_df['Attendance'] == minimum) | (mm_df['Attendance'] == maximum)]

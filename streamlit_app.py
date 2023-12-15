@@ -91,6 +91,8 @@ df = pd.read_csv('rays_attendance.csv')
 max = df['Attendance'].max()
 min = df['Attendance'].min()
 
+st.write(df.head())
+
 df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)
 df['al_other'] = df['Opponent'].apply(lambda x: True if x in al_other_teams else False)
 df['nl'] = df['Opponent'].apply(lambda x: True if x in nl_teams else False)

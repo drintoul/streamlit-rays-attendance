@@ -123,11 +123,11 @@ error = mean_absolute_error(y_pred, y)
 X1 = np.array(features).reshape(1,-1)
 #scaler.transform(X1)
 
-prediction = 123456
+prediction = 123456.78833
 #prediction = model.predict(X1)
 
 st.write("""
 # Predicted Attendance
 """)
 
-st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:,} +/- {round(error,-3):,}</h3>', unsafe_allow_html=True)
+st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:.0f,} +/- {round(error,-3):.0f,}</h3>', unsafe_allow_html=True)

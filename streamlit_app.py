@@ -82,4 +82,4 @@ regr.fit(X_train, y_train)
 
 y_pred = regr.predict(X_test)
 
-st.write(y_pred, " +/- ", int(np.round(np.sqrt(mean_absolute_error(y_test, y_pred)),-2))
+st.write(y_pred, " +/- ", int(np.round(np.sqrt(mean_absolute_error(y_test, y_pred)),-2)))

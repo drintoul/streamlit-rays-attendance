@@ -121,3 +121,4 @@ st.write("""
 
 prediction = 74567
 st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:,}</h3>', unsafe_allow_html=True)
+st.write('just kidding - model still under development')

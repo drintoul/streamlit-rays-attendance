@@ -1,5 +1,10 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_absolute_error
 
 st.write("""
 # Rays Home Attendance Predictor
@@ -66,11 +71,6 @@ st.write("""
 
 history = pd.read_csv('rays_attendance.csv')
 
-from sklearn.linear_model import LinearRegression
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_absolute_error
-
 scaler = StandardScaler()
 scaler.fit_transform(history)
 
@@ -79,9 +79,11 @@ y = history[['attendance']]
 X = history.drop(columns=['attendance'], axis=1)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30)
 
-import numpy as np
 regr.fit(X_train, y_train)
 
 y_pred = regr.predict(X_test)
 
 st.write(" +/- ", int(np.round(np.sqrt(mean_absolute_error(y_test, y_pred)),-2)))
+
+prediction = regr.predict(features_df)
+st.write('Prediction:', prediction

@@ -22,8 +22,8 @@ def user_input_features():
 
   daygame = st.sidebar.toggle('Day Game')
   opponent = st.sidebar.selectbox('Opponent', all_teams)
-  div_rank = st.slider(1,5,1)
-  gb = st.slider(-5,+5,0.5)
+  div_rank = st.sidebar.slider('Division Rank', 1, 5, 1)
+  gb = st.sidebar.slider('Games Behind', -5, +5, 0.5)
 
   if opponent in al_east_teams:
     al_east = True

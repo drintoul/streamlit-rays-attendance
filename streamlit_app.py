@@ -86,5 +86,6 @@ y_pred = regr.predict(X_test)
 prediction = regr.predict(df.values)
 st.write('Prediction:', prediction)
 
-st.write("Estimated Error: +/- ", int(np.round(np.sqrt(mean_absolute_error(y_test, y_pred)),-2)))
+#st.write("Estimated Error: +/- ", int(np.round(np.sqrt(mean_absolute_error(y_test, y_pred)),-2)))
 
+st.write('Uh oh, it\'s $100M', size=10)

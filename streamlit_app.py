@@ -125,7 +125,7 @@ features.drop(columns=['opponent'], inplace=True)
 X1 = np.array(features)
 scaler.transform(X1)
 
-prediction = model.predict(X1)
+prediction = model.predict(X1)[0]
 
 st.write("""
 # Predicted Attendance

@@ -83,7 +83,8 @@ regr.fit(X_train, y_train)
 
 y_pred = regr.predict(X_test)
 
-st.write("Estimated Error: +/- ", int(np.round(np.sqrt(mean_absolute_error(y_test, y_pred)),-2)))
-
 prediction = regr.predict(features_df.values)
 st.write('Prediction:', prediction)
+
+st.write("Estimated Error: +/- ", int(np.round(np.sqrt(mean_absolute_error(y_test, y_pred)),-2)))
+

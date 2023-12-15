@@ -149,4 +149,4 @@ st.markdown(f"playing {data['opponent']} while ranked #{data['div_rank']} in AL 
 
 st.markdown(f"<h3 class='big-font' color='green' font-weight='bold'>{round(prediction,-2):,.0f} +/- {round(error,-3):,.0f}</h3>", unsafe_allow_html=True)
 
-st.warn('Some combinations don\'t make \'sense\' - the Rays can\'t be in first place but 10 games behind. This happens when a model is used outside of its regular context.')
+st.warning('Some combinations don\'t make \'sense\' - the Rays can\'t be in first place but 10 games behind. This happens when a model is used outside of its regular context.')

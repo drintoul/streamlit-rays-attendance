@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
-#from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error
 
 st.write("""
@@ -90,6 +89,8 @@ st.subheader('Machine Learning model based on 2008-2023 inclusive home games (no
 st.subheader('User Input Parameters')
 st.write(data)
 
+# Train Model
+
 df = pd.read_csv('rays_attendance.csv')
 
 df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)
@@ -108,33 +109,24 @@ df['daygame'] = df['daygame'] == 'D'
 df = df.sample(frac=1)
 df = df.reset_index(drop=True)
 
-#st.write("""
-# Data for ML Model Development
-#""")
-
-#st.dataframe(df.head(), hide_index=True, use_container_width=True)
-#st.write(df.describe())
-
-from sklearn.linear_model import LinearRegression
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import mean_absolute_error
-
 X = df.iloc[:,:-1]
 y = df.iloc[:,-1]
-scaler = StandardScaler()
-X = scaler.fit_transform(X)
+scaler = StandardScaler().fit(X)
+X = scaler.transform(X)
 
 model = LinearRegression().fit(X, y)
 y_pred = model.predict(X)
 error = mean_absolute_error(y_pred, y)
 
+# Apply Model to User Input
+
 X1 = np.array(features).reshape(1,-1)
 scaler.transform(X1)
+
 prediction = model.predict(X1)
 
 st.write("""
 # Predicted Attendance
 """)
 
-prediction = None
 st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:,} +/- {error:,}</h3>', unsafe_allow_html=True)

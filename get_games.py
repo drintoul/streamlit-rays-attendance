@@ -36,6 +36,7 @@ def get_games(**kwargs):
     df = df.rename(columns={'Unnamed: 4': 'H/A', 'Opp': 'Opponent'})
     
     df = df[['Date', 'Year', 'Opponent', 'H/A', 'Rank', 'GB', 'D/N', 'Attendance']]
+    df = df[~df['Attendance'].isnull()]
     
     return df
 

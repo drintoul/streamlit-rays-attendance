@@ -88,12 +88,11 @@ data, features = user_input_features()
 
 df = pd.read_csv('rays_attendance.csv')
 
-min = df[df['H/A'].isnull()][['Attendance']].min()
-max = df[df['H/A'].isnull()][['Attendance']].max()
+minimum = df[df['H/A'].isnull()][['Attendance']].min().values
+maximum = df[df['H/A'].isnull()][['Attendance']].max().values
 
-mm_df = df
-#mm_df = df[df['H/A'].isnull()].loc[df['Attendance'].agg(['idxmin','idxmax'])]
-#mm_df = mm_df.drop(columns=['H/A'])
+mm_df[(mm_df['Attendance'] == minimum) | (mm_df['Attendance'] == maximum)]
+mm_df = mm_df.drop(columns=['H/A'])
 
 df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)
 df['al_other'] = df['Opponent'].apply(lambda x: True if x in al_other_teams else False)
@@ -133,7 +132,7 @@ st.write('Machine Learning model based on 2008-2023 inclusive regular season hom
 
 st.dataframe(mm_df, hide_index=True)
 
-st.write(f'With crowds as small as {min:,} and as large as {max:,}, it\'s important to be able to predict attendance to plan promotions and giveaways', unsafe_allow_html=True)
+st.write(f'With crowds as small as {minimum:,} and as large as {maximum:,}, it\'s important to be able to predict attendance to plan promotions and giveaways', unsafe_allow_html=True)
 st.write('Select input parameters using sidebar on the left')
 
 st.subheader('User Input Parameters')

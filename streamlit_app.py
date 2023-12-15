@@ -90,10 +90,6 @@ st.subheader('Machine Learning model based on 2008-2023 inclusive home games (no
 st.subheader('User Input Parameters')
 st.write(data)
 
-st.write("""
-# Data for ML Model Development
-""")
-
 df = pd.read_csv('rays_attendance.csv')
 
 df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)
@@ -112,11 +108,15 @@ df['daygame'] = df['daygame'] == 'D'
 df = df.sample(frac=1)
 df = df.reset_index(drop=True)
 
+#st.write("""
+# Data for ML Model Development
+#""")
+
 #st.dataframe(df.head(), hide_index=True, use_container_width=True)
-st.write(df.describe())
+#st.write(df.describe())
 
 st.write("""
 # Predicted Attendance
 """)
 
-
+st.write(7)

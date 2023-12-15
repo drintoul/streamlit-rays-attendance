@@ -25,7 +25,7 @@ def user_input_features():
 
   daygame = st.sidebar.toggle('Day Game')
   weekend = st.sidebar.toggle('Weekend Game')
-  opponent = st.sidebar.selectbox('Opponent', all_teams, index=12) # default to LA Dodgers
+  opponent = st.sidebar.selectbox('Opponent', all_teams, index=13) # default to LA Dodgers
   distance = 999
   div_rank = st.sidebar.slider('Division Rank', min_value=1, max_value=5, value=1, step=1)
   gb = st.sidebar.slider('Games Behind', min_value=-5.0, max_value=5.0, value=0.0, step=0.50)

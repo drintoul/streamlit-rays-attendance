@@ -12,7 +12,8 @@ def get_games(**kwargs):
              'NYY': 'New York Yankees', 'MIA': 'Miami Marlins', 'LAD': 'Los Angeles Dodgers', 
              'CLE': 'Cleveland Guardians', 'MIN': 'Minnesota Twins', 'DET': 'Detroit Tigers', 
              'OAK': 'Oakland Athletics', 'LAA': 'Los Angeles Angels', 'TEX': 'Texas Rangers',
-             'SEA': 'Seattle Mariners', 'SDP': 'San Diego Padres', 'WSN': 'Washington Nationals',
+             'SEA': 'Seattle Mariners', 'SDP': 'San Diego Padres', 'WSN': 'Washington Nationals', 
+             'WAS': 'Washington Nationals', 'FLA': 'Miami Marlins',
              'NYM': 'New York Mets', 'CHC': 'Chicago Cubs', 'ATL': 'Atlanta Braves',
              'PHI': 'Phildelphia Phillies', 'CIN': 'Cincinnati Reds', 'STL': 'St. Louis Cardinals',
              'MIL': 'Milwaukee Brewers', 'PIT': 'Pittsburg Pirates'}
@@ -26,18 +27,16 @@ def get_games(**kwargs):
 
     # format
     df.drop(columns=['Gm#', 'Unnamed: 2', 'Tm', 'W/L', 'R', 'RA', 'Inn', 'W-L', 'Win', 'Loss', 'Save', 
-                     'Time', 'cLI', 'Streak', 'Orig. Scheduled'], inplace=True)
+                 'Time', 'cLI', 'Streak', 'Orig. Scheduled'], inplace=True)
     df = df[df['Rank'] != 'Rank']
-    df['GB'] = df['GB'].apply(lambda x: x.replace('Tied', '0.0').replace('up ', ''))
+    df['GB'] = df['GB'].apply(lambda x: x.replace('Tied', '0.0').replace('up ', '-'))
+    df['GB'] = df['GB'].astype(float)
     df['Opp'] = df['Opp'].map(names)
     df['Year'] = year
     df = df.rename(columns={'Unnamed: 4': 'H/A', 'Opp': 'Opponent'})
     
     df = df[['Date', 'Year', 'Opponent', 'H/A', 'Rank', 'GB', 'D/N', 'Attendance']]
-    df['Rank'] = df['Rank'].shift(1)
-    df['GB'] = df['GB'].shift(1)
-    df = df[1:]
-
+    
     return df
 
 
@@ -46,7 +45,7 @@ import time
 
 df = pd.DataFrame()
 
-for year in range(2013, 2024):
+for year in range(2008, 2024):
     
     if year == 2020:
         continue
@@ -56,4 +55,5 @@ for year in range(2013, 2024):
     
     time.sleep(10)
     
+df = df.reset_index()
 df.to_csv('rays_attendance.csv', index=False)

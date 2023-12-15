@@ -129,11 +129,12 @@ scaler.transform(X1)
 prediction = model.predict(X1)[0]
 
 st.write('Machine Learning model based on 2008-2023 inclusive regular season home games (not including 2020)')
-st.write(f'With crowds as small as {min:,} and as large as {max:,}, it\'s important to be able to predict attendance to plan promotions and giveaways', unsafe_allow_html=True)
-st.write('Select input parameters using sidebar on the left')
 
 st.write(min_df)
 st.write(max_df)
+
+st.write(f'With crowds as small as {min:,} and as large as {max:,}, it\'s important to be able to predict attendance to plan promotions and giveaways', unsafe_allow_html=True)
+st.write('Select input parameters using sidebar on the left')
 
 st.subheader('User Input Parameters')
 st.write(data)

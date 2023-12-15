@@ -63,7 +63,6 @@ data, df = user_input_features()
 
 st.subheader('User Input Parameters')
 st.write(data)
-st.write(df)
 
 st.write("""
 # Predicted Attendance

@@ -141,4 +141,4 @@ st.write("""
 # Predicted Attendance
 """)
 
-st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{prediction:,.0f} +/- {round(error,-3):,.0f}</h3>', unsafe_allow_html=True)
+st.markdown(f'<h3 class="big-font" color="green" font-weight="bold">{round(prediction,-2):,.0f} +/- {round(error,-3):,.0f}</h3>', unsafe_allow_html=True)

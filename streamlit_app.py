@@ -7,6 +7,7 @@ from sklearn.metrics import mean_absolute_error
 
 st.header("""Rays Home Attendance Predictor""")
 
+# League Info
 capacity = 31042
 
 al_east_teams = ['Baltimore Orioles', 'Boston Red Sox', 'New York Yankees', 'Toronto Blue Jays', 'Tampa Bay Rays']
@@ -22,13 +23,13 @@ wschampions = ['Texas Rangers', 'Houston Astros', 'Atlanta Braves', 'Los Angeles
                'Chicago Cubs', 'Kansas City Royals', 'Boston Red Sox', 'Philadelphia Phillies', 'San Francisco Giants',
                'St. Louis Cardinals', 'New York Yankees']
 
-# remember to take Tampa Bay Rays out of list of opponents
+# Sort teams for drop down & Remember to take Tampa Bay Rays out of list of opponents
 all_teams = sorted(al_east_teams[:-1] + al_other_teams + nl_teams)
 
 st.sidebar.header('User Input Parameters')
 
+# Function to collect input from sidebar
 def user_input_features():
-#st.slider(label, min_value=None, max_value=None, value=None, step=None, format=None, key=None, help=None, on_change=None, args=None, kwargs=None, *, disabled=False, label_visibility="visible")  
 
   daygame = st.sidebar.toggle('Day Game')
   div_rank = st.sidebar.slider('Ray\'s AL East Division Rank before game', min_value=1, max_value=5, value=2, step=1)
@@ -36,6 +37,7 @@ def user_input_features():
   st.sidebar.info('negative games behind = games ahead', icon='ℹ️')
   opponent = st.sidebar.selectbox('Opponent', all_teams, index=13) # default to LA Dodgers
 
+  # Build features
   if opponent in al_east_teams:
     al_east = True
   else:
@@ -83,7 +85,6 @@ def user_input_features():
 data, features = user_input_features()
 
 # Train Model
-
 df = pd.read_csv('rays_attendance.csv', dtype={'Year': str})
 
 minimum = df[df['H/A'].isnull()][['Attendance']].min().values[0]
@@ -111,6 +112,8 @@ df = df.reset_index(drop=True)
 
 X = df.iloc[:,:-1]
 y = df.iloc[:,-1]
+
+# Scale input
 scaler = StandardScaler().fit(X)
 X = scaler.transform(X)
 

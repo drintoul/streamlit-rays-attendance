@@ -83,72 +83,77 @@ def user_input_features():
   features = pd.DataFrame(data, index=[0])
   return data, features
 
-data, features = user_input_features()
+def main():
 
-# Train Model
-df = pd.read_csv('rays_attendance.csv', dtype={'Year': str})
+  data, features = user_input_features()
 
-minimum = df[df['H/A'].isnull()][['Attendance']].min().values[0]
-maximum = df[df['H/A'].isnull()][['Attendance']].max().values[0]
+  # Train Model
+  df = pd.read_csv('rays_attendance.csv', dtype={'Year': str})
 
-mm_df = df[df['H/A'].isnull()]
-mm_df = mm_df[(mm_df['Attendance'] == minimum) | (mm_df['Attendance'] == maximum)]
-mm_df = mm_df.drop(columns=['H/A'])
+  minimum = df[df['H/A'].isnull()][['Attendance']].min().values[0]
+  maximum = df[df['H/A'].isnull()][['Attendance']].max().values[0]
 
-df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)
-df['al_other'] = df['Opponent'].apply(lambda x: True if x in al_other_teams else False)
-df['nl'] = df['Opponent'].apply(lambda x: True if x in nl_teams else False)
-df['wschamps'] = df['Opponent'].apply(lambda x: True if x in wschampions else False)
-df['yankees'] = df['Opponent'].apply(lambda x: True if x == 'New York Yankees' else False)
-df['redsox'] = df['Opponent'].apply(lambda x: True if x == 'Boston Red Sox' else False)
+  mm_df = df[df['H/A'].isnull()]
+  mm_df = mm_df[(mm_df['Attendance'] == minimum) | (mm_df['Attendance'] == maximum)]
+  mm_df = mm_df.drop(columns=['H/A'])
 
-df = df[df['H/A'].isnull()]
-df = df.reindex()
-df = df[['Rank', 'GB', 'D/N', 'al_east', 'al_other', 'nl', 'wschamps', 'yankees', 'redsox', 'Attendance']]
-df.columns = ['div_rank', 'games_behind', 'daygame', 'al_east', 'al_other', 'nl', 'wschamps', 'yankees', 'redsox', 'attendance']
-df['daygame'] = df['daygame'] == 'D'
+  df['al_east'] = df['Opponent'].apply(lambda x: True if x in al_east_teams else False)
+  df['al_other'] = df['Opponent'].apply(lambda x: True if x in al_other_teams else False)
+  df['nl'] = df['Opponent'].apply(lambda x: True if x in nl_teams else False)
+  df['wschamps'] = df['Opponent'].apply(lambda x: True if x in wschampions else False)
+  df['yankees'] = df['Opponent'].apply(lambda x: True if x == 'New York Yankees' else False)
+  df['redsox'] = df['Opponent'].apply(lambda x: True if x == 'Boston Red Sox' else False)
 
-df = df.sample(frac=1)
-df = df.reset_index(drop=True)
+  df = df[df['H/A'].isnull()]
+  df = df.reindex()
+  df = df[['Rank', 'GB', 'D/N', 'al_east', 'al_other', 'nl', 'wschamps', 'yankees', 'redsox', 'Attendance']]
+  df.columns = ['div_rank', 'games_behind', 'daygame', 'al_east', 'al_other', 'nl', 'wschamps', 'yankees', 'redsox', 'attendance']
+  df['daygame'] = df['daygame'] == 'D'
 
-X = df.iloc[:,:-1]
-y = df.iloc[:,-1]
+  df = df.sample(frac=1)
+  df = df.reset_index(drop=True)
 
-# Scale input
-scaler = StandardScaler().fit(X)
-X = scaler.transform(X)
+  X = df.iloc[:,:-1]
+  y = df.iloc[:,-1]
 
-model = LinearRegression().fit(X, y)
-y_pred = model.predict(X)
-error = mean_absolute_error(y_pred, y)
+  # Scale input
+  scaler = StandardScaler().fit(X)
+  X = scaler.transform(X)
 
-# Apply Model to User Input
+  model = LinearRegression().fit(X, y)
+  y_pred = model.predict(X)
+  error = mean_absolute_error(y_pred, y)
 
-features = pd.DataFrame(data, index=[0])
-features.drop(columns=['opponent'], inplace=True)
-X1 = np.array(features)
-scaler.transform(X1)
+  # Apply Model to User Input
 
-prediction = model.predict(X1)[0]
+  features = pd.DataFrame(data, index=[0])
+  features.drop(columns=['opponent'], inplace=True)
+  X1 = np.array(features)
+  scaler.transform(X1)
 
-st.dataframe(mm_df, hide_index=True)
+  prediction = model.predict(X1)[0]
 
-st.write(f"""
-With crowds as small as {minimum:,} and as large as {maximum:,}, it\'s important to be able to predict attendance to plan promotions and giveaways. 
-Machine Learning model based on 2008-2023 inclusive regular season home games (not including Pandemic year of 2020 when games were played without fans in attendance).
-""", unsafe_allow_html=True)
+  st.dataframe(mm_df, hide_index=True)
 
-st.info('Select input parameters using sidebar to activate prediction', icon='ℹ️')
+  st.write(f"""
+  With crowds as small as {minimum:,} and as large as {maximum:,}, it\'s important to be able to predict attendance to plan promotions and giveaways. 
+  Machine Learning model based on 2008-2023 inclusive regular season home games (not including Pandemic year of 2020 when games were played without fans in attendance).
+  """, unsafe_allow_html=True)
 
-st.subheader('User Input Parameters')
-st.write(data)
+  st.info('Select input parameters using sidebar to activate prediction', icon='ℹ️')
 
-st.write("""
-# Predicted Attendance
-""")
+  st.subheader('User Input Parameters')
+  st.write(data)
 
-st.markdown(f"hosting {data['opponent']} while ranked #{data['div_rank']} in AL East & being {data['games_behind']} games behind division lead.", unsafe_allow_html=True)
+  st.write("""
+  # Predicted Attendance
+  """)
 
-st.markdown(f"<h3 class='big-font' color='green' font-weight='bold'>{round(prediction,-2):,.0f} +/- {round(error,-3):,.0f}</h3>", unsafe_allow_html=True)
+  st.markdown(f"hosting {data['opponent']} while ranked #{data['div_rank']} in AL East & being {data['games_behind']} games behind division lead.", unsafe_allow_html=True)
 
-st.warning('Some combinations don\'t make \'sense\' - the Rays can\'t be in first place but 10 games behind. This happens when the model is used outside of its regular context.', icon='⚠️')
+  st.markdown(f"<h3 class='big-font' color='green' font-weight='bold'>{round(prediction,-2):,.0f} +/- {round(error,-3):,.0f}</h3>", unsafe_allow_html=True)
+
+  st.warning('Some combinations don\'t make \'sense\' - the Rays can\'t be in first place but 10 games behind. This happens when the model is used outside of its regular context.', icon='⚠️')
+
+if __name__ == '__main__':
+    main()

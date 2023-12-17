@@ -5,7 +5,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error
 
-st.header("""Rays Home Attendance Predictor""")
+st.set_page_config(page_title="Rays Home Attendance Predictor")
+st.title("""Rays Home Attendance Predictor""")
 
 # League Info
 capacity = 31042
